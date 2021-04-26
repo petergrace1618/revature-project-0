@@ -1,0 +1,603 @@
+Hello logger
+ShivaCorp Banking App
+ShivaCorp Banking App
+Main menu
+0..Login
+1..Register
+2..Quit
+Enter choice: 
+Invalid choice: ''
+ShivaCorp Banking App
+Main menu
+1..Register
+2..Quit
+ShivaCorp Banking App
+Main menu
+1..Register
+2..Quit
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+login
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+register
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Goodbye
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+Searching for fuck/shit
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+Searching for username: fuck
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Goodbye
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+Confirm password:
+Passwords do not match. Try again.
+Username:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Username:
+Password:
+Confirm password:
+Creating user account for username: fuck
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Invalid choice
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Invalid choice
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Invalid choice
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Goodbye
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Goodbye
+ShivaCorp Banking App
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice: 
+Apply for new account
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice: 
+View account balance
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice: 
+Withdraw funds
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice: 
+Deposity funds
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice: 
+Transfer funds
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice: 
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice: 
+Thanks for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+ShivaCorp Banking App
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdrawal funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+ShivaCorp Banking App
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Apply for new account
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+View account balance
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Withdraw funds
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thanks for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Approve/reject account
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+View customer accounts
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+View log of all transactions
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Logout
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Invalid choice: ''
+ShivaCorp Banking App
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thanks for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Approve/reject account
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+View customer accounts
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+View log of all transactions
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thanks for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+before readPassword
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+before readPassword
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+before readPassword
+after readPassword
+Searching for username: 1
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Apply for new account
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thanks for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+Searching for username: 1
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Approve/reject account
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+Searching for username: e
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Enter choice
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+Searching for username: 1
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Customer menu > Apply for new account
+Apply for new account
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logout
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Login
+Username:
+Password:
+Searching for username: 1
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Customer menu > Apply for new account
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Customer menu > View account balance
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logging out
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for username: 1
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
