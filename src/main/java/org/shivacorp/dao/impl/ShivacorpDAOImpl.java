@@ -109,7 +109,7 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
         try(Connection connection = PostgreSQLConnection.getConnection()) {
             String sql =
                     "SELECT u.id as user_id, u.username, u.password, u.usertype, u.accountid, "+
-                        "a.id, a.userid, a.balance, a.status "+
+                        "a.id, a.userid, a.balance::money::numeric::float8, a.status "+
                     "FROM shivacorp_schema.accounts as a "+
                     "LEFT JOIN shivacorp_schema.users as u ON u.id = a.userid "+
                     "WHERE a.status = CAST(? AS shivacorp_schema.status_type);";
@@ -197,7 +197,7 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
         try(Connection connection = PostgreSQLConnection.getConnection()) {
             String sql =
                     "SELECT u.id, u.username, u.usertype, u.accountid, "+
-                        "a.id, a.userid, a.balance, a.status "+
+                        "a.id, a.userid, a.balance::money::numeric::float8, a.status "+
                     "FROM shivacorp_schema.users as u "+
                     "JOIN shivacorp_schema.accounts as a ON u.accountid = a.id;";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
