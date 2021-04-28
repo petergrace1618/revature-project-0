@@ -2,14 +2,22 @@ package org.shivacorp.model;
 
 public class User {
     int id;
-    String fullname;
-    String address;
-    String phone;
-    Usertype usertype;
     String username;
-    String pwd;
+    String password;
+    Usertype usertype;
+    int accountId;
+    Account account;
 
-    public static enum Usertype {
+    public User() { }
+
+    public User(String username, String password, Usertype usertype, Account account) {
+        this.username = username;
+        this.password = password;
+        this.usertype = usertype;
+        this.account = account;
+    }
+
+    public enum Usertype {
         CUSTOMER, EMPLOYEE;
     }
 
@@ -17,33 +25,7 @@ public class User {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getFullname() {
-        return fullname;
-    }
-
-    public void setFullname(String fullname) {
-        this.fullname = fullname;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
+    public void setId(int id) { this.id = id; }
 
     public Usertype getUsertype() {
         return usertype;
@@ -61,11 +43,29 @@ public class User {
         this.username = username;
     }
 
-    public String getPwd() {
-        return pwd;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getAccountId() { return accountId; }
+
+    public void setAccountId(int accountId) { this.accountId = accountId; }
+
+    public Account getAccount() { return account; }
+
+    public void setAccount(Account account) { this.account = account; }
+
+    @Override
+    public String toString() {
+        return "User {" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", usertype=" + usertype +
+                ", account=" + account +
+                '}';
     }
 }

@@ -1,84 +1,109 @@
 package org.shivacorp.ui;
 
-import org.apache.log4j.Logger;
+import org.shivacorp.exception.BusinessException;
 import org.shivacorp.model.User;
 
-import java.util.Locale;
-
 public class MainMenu extends Menu {
+    User currentUser;
     public MainMenu() {
-        super.title = "\nMain menu";
-        super.menuItems = new String[] {
+        title = "Main menu";
+        menuItems = new String[] {
                 "Login",
                 "Register",
                 "Quit"
         };
-        super.log = Logger.getLogger(MainMenu.class);
+        numMenuItems = menuItems.length;
+        currentUser = null;
     }
 
     @Override
-    public Menu processInput() {
+    public Menu getSelection() {
+        display();
+        displayPrompt();
         Menu nextMenu = this;
-        log.info("Enter choice:");
-        menuChoice = Stdin.nextInt();
-        switch (menuChoice) {
+        selection = Stdin.getInt(1, numMenuItems);
+        switch (selection) {
             case 1:
-                User.Usertype usertype = login();
-                if (usertype == User.Usertype.CUSTOMER) {
-                    nextMenu = new CustomerMenu();
-                } else if (usertype == User.Usertype.EMPLOYEE) {
-                    nextMenu = new EmployeeMenu();
-                } else {
-                    log.info("Unknown usertype");
-                    nextMenu = null;
+                login();
+                if (currentUser != null) {
+                    if (currentUser.getUsertype() == User.Usertype.EMPLOYEE) {
+                        nextMenu = new EmployeeMenu(currentUser);
+                    } else {
+                        nextMenu = new CustomerMenu(currentUser);
+                    }
                 }
                 break;
             case 2:
                 register();
+                if (currentUser != null)
+                    nextMenu = new CustomerMenu(currentUser);
                 break;
             case 3:
                 quit();
                 nextMenu = null;
                 break;
             default:
-                log.info("Invalid choice");
                 break;
         }
         return nextMenu;
     }
 
-    private User.Usertype login() {
+    private void login() {
         displaySubmenu();
         log.info("Username:");
-        String username = Stdin.nextString();
+        String username = Stdin.getString();
         log.info("Password:");
         String password = Stdin.getPassword();
-        log.info("Searching for username: "+username);
-        if (username.toLowerCase().charAt(0) == 'e') {
-            return User.Usertype.EMPLOYEE;
-        } else {
-            return User.Usertype.CUSTOMER;
+        log.info("Looking up "+username);
+        User user = null;
+        try {
+            user = shivacorpService.getUserByUsername(username);
+            if (user != null) {
+                log.info("Found "+user.getUsername());
+                if (password.equals(user.getPassword())) {
+                    log.info(user.getUsername()+" authenticated");
+                } else {
+                    log.info("Authentication failed");
+                    user = null;
+                }
+            } else {
+                log.info("Username '"+username+"' does not exist");
+            }
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
         }
+        currentUser = user;
     }
 
     private void register() {
+        displaySubmenu();
         String username;
         String password1;
         String password2;
-        displaySubmenu();
-        do {
-            log.info("Username:");
-            username = Stdin.nextString();
-            log.info("Password:");
-            password1 = Stdin.getPassword();
-            log.info("Confirm password:");
-            password2 = Stdin.getPassword();
+        User user = null;
+        log.info("Username:");
+        username = Stdin.getString();
+        log.info("Password:");
+        password1 = Stdin.getPassword();
+        log.info("Confirm password:");
+        password2 = Stdin.getPassword();
 
-            if (!password1.equals(password2)) {
-                log.info("Passwords do not match. Try again.");
-            }
-        } while (!password1.equals(password2));
-        log.info("New user account created for username: "+username);
+        if (username.isEmpty() || password1.isEmpty()) {
+            log.info("username and password cannot be empty. Please try again.");
+            return;
+        } else if (!password1.equals(password2)) {
+            log.info("Passwords do not match. Please try again.");
+            return;
+        }
+        user = new User(username, password1, User.Usertype.CUSTOMER, null);
+        try {
+            user = shivacorpService.addUser(user);
+            log.info("New user account created for "+username);
+        } catch (BusinessException e) {
+            user = null;
+            log.info(e.getMessage());
+        }
+        currentUser = user;
     }
 
     private void quit() {

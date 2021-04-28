@@ -1,11 +1,11 @@
 package org.shivacorp;
 
-import org.shivacorp.ui.ShivacorpApp;
+import org.shivacorp.ui.ShivacorpUI;
 
 public class ShivacorpMain {
     public static void main(String[] args) {
-        ShivacorpApp app = new ShivacorpApp();
-        app.main();
+        ShivacorpUI app = new ShivacorpUI();
+        app.start();
     }
 }
 

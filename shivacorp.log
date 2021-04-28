@@ -601,3 +601,4886 @@ Main menu
 Enter choice:
 Thank you for using ShivaCorp Banking app
 Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: buford.clampett
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: buford.clampett
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: buford.clampett
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: buford.clampett
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: buford.clampett
+Found: User{id=2, fullname='null', address='null', phone='null', usertype=CUSTOMER, username='buford.clampett', pwd='derp'}
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: buford.clampett
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: a
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: 1
+org.shivacorp.exception.BusinessException: Username: '1' not found.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for username: buford.clampett
+Found: User{id=2, fullname='null', address='null', phone='null', usertype=CUSTOMER, username='buford.clampett', pwd='derp'}
+Login successful
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Logging in buford.clampett
+Found buford.clampett
+Login successful
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for buford.clampett
+Found buford.clampett
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+
+Customer menu > Apply for new account
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice
+
+Main menu > Login
+Username:
+Password:
+Searching for buford.clampett
+Found buford.clampett
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[buford.clampett] Enter choice
+Enter choice
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for shitbrains
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice
+
+Main menu > Login
+Username:
+Password:
+Searching for shitbrains
+org.shivacorp.exception.BusinessException: Username: 'shitbrains' not found.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Enter choice
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice
+
+Main menu > Login
+Username:
+Password:
+Searching for shit
+org.shivacorp.exception.BusinessException: Username: 'shit' not found.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice
+Enter choice
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for buford.clampett
+Found buford.clampett
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[buford.clampett] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+Passwords do not match. Try again.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+org.shivacorp.exception.BusinessException: Internal error: ERROR: column "usertype" is of type user_type but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 78
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+Passwords do not match. Try again.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for shitbrains
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for shitbrains
+Found shitbrains
+Authentication failed
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for shitbrains
+Found shitbrains
+Authentication failed
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for shitbrains
+Found shitbrains
+Authentication failed
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for shitbrains
+Found shitbrains
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for 1
+org.shivacorp.exception.BusinessException: Username: '1' not found.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for shitbrains
+Found shitbrains
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Searching for shitbrains
+Found shitbrains
+Authentication failed
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for goo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View customer accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View log of all transactions
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up goo
+Found goo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Requires a starting balance of $500 or more.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account{acctno=0, userid=4, balance=1000.0, status=null}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > View account balance
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up goo
+Found goo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Internal error: ERROR: column "balance" is of type money but expression is of type double precision
+  Hint: You will need to rewrite or cast the expression.
+  Position: 77
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up goo
+Found goo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account{acctno=100002, userid=4, balance=666.0, status=null}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up shitbrains
+Found shitbrains
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Requires a starting balance of $500 or more.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account{acctno=100003, userid=3, balance=500.0, status=null}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up shitbrains
+Found shitbrains
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account{acctno=100004, userid=3, balance=501.0, status=PENDING}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[shitbrains] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Internal error: ERROR: column "fullname" does not exist
+  Position: 12
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account {accountId=100002, userId=2, balance=500.0, status=PENDING}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Internal error: ERROR: duplicate key value violates unique constraint "accounts_userid_key"
+  Detail: Key (userid)=(2) already exists.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Internal error: ERROR: duplicate key value violates unique constraint "accounts_userid_key"
+  Detail: Key (userid)=(2) already exists.
+Error code: 0
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Internal error: ERROR: duplicate key value violates unique constraint "accounts_userid_key"
+  Detail: Key (userid)=(2) already exists.
+Error code: 0
+class org.postgresql.util.PSQLException
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Internal error: ERROR: relation "accounts" does not exist
+  Position: 142
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up POO
+Username: 'POO' not found.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Internal error: ERROR: duplicate key value violates unique constraint "accounts_userid_key"
+  Detail: Key (userid)=(2) already exists.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Requires a starting balance of $500 or more.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Internal error: ERROR: type "status_type" does not exist
+  Position: 92
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Authentication failed
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Authentication failed
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Internal error: ERROR: duplicate key value violates unique constraint "accounts_userid_key"
+  Detail: Key (userid)=(2) already exists.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+org.shivacorp.exception.BusinessException: Internal error: ERROR: type "user_type" does not exist
+  Position: 94
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up 
+Username: '' not found.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for goo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Requires a starting balance of $500 or more.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account {id=111113, user=User {id=3, username='goo', password='goo', usertype=CUSTOMER, account=null}, balance=501.0, status=PENDING}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up 2
+Username: '2' not found.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for foo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[foo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account {id=111114, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}, balance=500.0, status=PENDING}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[foo] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Internal error: The column name password was not found in this ResultSet.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+Internal error: ERROR: operator does not exist: shivacorp_schema.status_type = character varying
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 206
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+Internal error: ERROR: operator does not exist: shivacorp_schema.status_type = character varying
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 206
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View customer accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+Internal error: ERROR: operator does not exist: shivacorp_schema.status_type = character varying
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 206
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+ShivacorpDAOImpl.getAccountsByStatusERROR: operator does not exist: shivacorp_schema.status_type = character varying
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 206
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+ShivacorpDAOImpl.getAccountsByStatusERROR: operator does not exist: shivacorp_schema.status_type = character varying
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 206
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, user=null, balance=501.00, status=PENDING}
+2..Account {id=111114, user=null, balance=500.00, status=PENDING}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=null}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=null}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admi
+Username: 'admi' not found.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=null}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=null}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up 2
+Username '2' not found.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for poo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+No accounts with status PENDING
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+No pending accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+0 account(s) pending: 
+No pending accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+No pending accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Update status:
+1..PENDING
+2..APPROVED
+3..DENIED
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Update status:
+1..PENDING
+2..APPROVED
+3..DENIED
+PENDING
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Update status:
+1..PENDING
+2..APPROVED
+3..DENIED
+DENIED
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+Login successful
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Invalid choice: ''
+Invalid choice: ''
+Invalid choice: ''
+Invalid choice: ''
+Invalid choice: 'a'
+Invalid choice: '_'
+Invalid choice: ''
+Invalid choice: '      '
+Thank you for using ShivaCorp Banking app
+Goodbye
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Update status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Account status updated
+
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Update status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Account status updated
+
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Update status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Account status updated
+
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+ShivaCorp Banking App
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Choose status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Updating account: Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+...with status APPROVED
+EmployeeMain: Failed: update account status
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Choose status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Updating account: Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+...with status APPROVED
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending: 
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Choose status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Updating account: Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+...with status DENIED
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+No pending accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending: 
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Choose status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Updating account: Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+...with status APPROVED
+Account status updated
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending: 
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+Login successful
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending: 
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Choose status:
+1..PENDING
+2..APPROVED
+3..DENIED
+Updating account: Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+...with status DENIED
+Account status updated
+Account {id=111114, userId=4, balance=500.00, status=DENIED, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+No pending accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+No pending accounts
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice::
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Invalid choice
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Invalid choice
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+poo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Requires a starting balance of $500 or more.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[poo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+Invalid input: '1'
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Invalid input: '1'
+Invalid input: '1'
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+1..PENDING
+2..APPROVED
+3..DENIED
+Choose status:
+Account status not changed
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending:
+0..Cancel
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Invalid input: '3'
+Cancelled
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending:
+0..Cancel
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+1..PENDING
+2..APPROVED
+3..DENIED
+Choose status:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Invalid choice
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Must be between 1 and 3
+Must be between 1 and 3
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Must be between 1 and 4
+Must be between 1 and 4
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending:
+0..Cancel
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Please enter a number between 1 and 3
+Please enter a number between 1 and 3
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Please enter a number between 1 and 4
+Please enter a number between 1 and 4
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending:
+0..Cancel
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Please enter a number between 0 and 2
+Cancelled
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending:
+0..Cancel
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+1..PENDING
+2..APPROVED
+3..DENIED
+Choose status:
+Account status not changed
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending:
+0..Cancel
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Cancelled
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+2 account(s) pending:
+0..Cancel
+1..Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+2..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111113, userId=3, balance=501.00, status=PENDING, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+0..Cancel
+1..PENDING
+2..APPROVED
+3..DENIED
+Choose status:
+Account status updated
+Account {id=111113, userId=3, balance=501.00, status=APPROVED, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Please enter a number between 1 and 4
+
+Employee Menu > View customer accounts
+Not implemented
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > View customer accounts
+I'm sorry this service is unavailable right now.
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+I'm sorry this service is unavailable right now.
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+I'm sorry this service is unavailable right now.
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Choose account:
+Account {id=111114, userId=4, balance=500.00, status=PENDING, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+0..Cancel
+1..PENDING
+2..APPROVED
+3..DENIED
+Choose status:
+Account status updated
+Account {id=111114, userId=4, balance=500.00, status=DENIED, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for boo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+I'm sorry, this service is unavailable at the moment.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up poo
+Found poo
+poo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Requires a starting balance of $500 or more.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Invalid input: '1000asdf'
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for poo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up asdfasdf
+Username 'asdfasdf' not found.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up 
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for admin
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Username 'admin; already exists.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up asdf
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up asdf
+Username 'asdf' does not exist
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+org.shivacorp.dao.impl.ShivacorpDAOImplShivacorpDAOImpl.getUserByUsername: Bad value for type BigDecimal : 1,000.00
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+ShivacorpDAOImpl.getUserByUsername: Bad value for type BigDecimal : 1,000.00
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+ShivacorpDAOImpl.getUserByUsername: Bad value for type double : 1,000.00
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+ShivacorpDAOImpl.addAccount: ERROR: column "balance" is of type money but expression is of type double precision
+  Hint: You will need to rewrite or cast the expression.
+  Position: 77
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+ShivacorpDAOImpl.addAccount: ERROR: type "double" does not exist
+  Position: 88
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+ShivacorpDAOImpl.addAccount: ERROR: column "balance" is of type money but expression is of type double precision
+  Hint: You will need to rewrite or cast the expression.
+  Position: 77
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+ShivacorpDAOImpl.addAccount: ERROR: column "balance" is of type money but expression is of type double precision
+  Hint: You will need to rewrite or cast the expression.
+  Position: 82
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+ShivacorpDAOImpl.addAccount: ERROR: cannot cast type double precision to money
+  Position: 77
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up boo
+Found boo
+boo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+ShivacorpDAOImpl.addAccount: ERROR: duplicate key value violates unique constraint "accounts_userid_key"
+  Detail: Key (userid)=(6) already exists.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for moo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up moo
+Found moo
+moo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[moo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for moo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[moo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+Your new account: Account {id=111119, userId=0, balance=500.0, status=PENDING, user=User {id=10, username='moo', usertype=CUSTOMER, account=null}}
+is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[moo] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Username 'goo; already exists.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Username 'moo; already exists.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up goo
+Found goo
+goo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Starting balance:
+ShivacorpDAOImpl.addAccount: ERROR: duplicate key value violates unique constraint "accounts_userid_key"
+  Detail: Key (userid)=(3) already exists.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+org.shivacorp.exception.BusinessException: ShivacorpDAOImpl.addUser: ERROR: new row for relation "users" violates check constraint "non_empty_password"
+  Detail: Failing row contains (11, , , CUSTOMER, null).
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+org.shivacorp.exception.BusinessException: ShivacorpDAOImpl.getUserByUsername: Bad value for type double : 1,000.00
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+org.shivacorp.exception.BusinessException: Username 'poo' already exists.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+Username 'moo' already exists.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up moo
+Found moo
+moo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[moo] Enter choice:
+
+Customer menu > Apply for new account
+Account already exists for username moo
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up moo
+Found moo
+moo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[moo] Enter choice:
+
+Customer menu > Apply for new account
+Account already exists for username moo
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+New user account created for woo
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[woo] Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Register
+Username:
+Password:
+Confirm password:
+Username 'moo' already exists.
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up goo
+Found goo
+goo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+Customer menu > Apply for new account
+Please enter a starting balance:
+Account for goo already exists
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[goo] Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View customer accounts
+The column name password was not found in this ResultSet.
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View customer accounts
+Account {id=0, userId=0, balance=0.0, status=null, user=User {id=1, username='admin', usertype=EMPLOYEE, account=null}}
+Account {id=111113, userId=0, balance=501.0, status=APPROVED, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Account {id=111116, userId=0, balance=500.0, status=PENDING, user=User {id=6, username='boo', usertype=CUSTOMER, account=null}}
+Account {id=0, userId=0, balance=0.0, status=null, user=User {id=12, username='woo', usertype=CUSTOMER, account=null}}
+Account {id=0, userId=0, balance=0.0, status=null, user=User {id=4, username='foo', usertype=CUSTOMER, account=null}}
+Account {id=0, userId=0, balance=0.0, status=null, user=User {id=5, username='poo', usertype=CUSTOMER, account=null}}
+Account {id=0, userId=0, balance=0.0, status=null, user=User {id=10, username='moo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up admin
+Found admin
+admin authenticated
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View customer accounts
+Account {id=111113, userId=0, balance=501.0, status=APPROVED, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Account {id=111116, userId=0, balance=500.0, status=PENDING, user=User {id=6, username='boo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111116, userId=6, balance=500.0, status=PENDING, user=User {id=6, username='boo', usertype=CUSTOMER, account=null}}
+Choose account:
+Cancelled
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+I'm sorry, this service is unavailable at the moment.
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View customer accounts
+Account {id=111113, userId=0, balance=501.0, status=APPROVED, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Account {id=111116, userId=0, balance=500.0, status=PENDING, user=User {id=6, username='boo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > Approve/reject account
+
+1 account(s) pending:
+0..Cancel
+1..Account {id=111116, userId=6, balance=500.0, status=PENDING, user=User {id=6, username='boo', usertype=CUSTOMER, account=null}}
+Choose account:
+0..Cancel
+1..PENDING
+2..APPROVED
+3..DENIED
+Choose status:
+Account status updated
+Account {id=111116, userId=6, balance=500.0, status=APPROVED, user=User {id=6, username='boo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+
+Employee Menu > View customer accounts
+Account {id=111113, userId=0, balance=501.0, status=APPROVED, user=User {id=3, username='goo', usertype=CUSTOMER, account=null}}
+Account {id=111116, userId=0, balance=500.0, status=APPROVED, user=User {id=6, username='boo', usertype=CUSTOMER, account=null}}
+
+Employee Menu
+1..Approve/reject account
+2..View customer accounts
+3..View log of all transactions
+4..Logout
+[admin] Enter choice:
+Logging out
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+
+Main menu > Login
+Username:
+Password:
+Looking up foo
+Found foo
+foo authenticated
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[foo] Enter choice:
+
+Customer menu > Apply for new account
+Please enter a starting balance:
+Your new account is pending approval.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[foo] Enter choice:
+I'm sorry, this service is unavailable at the moment.
+
+Customer menu
+1..Apply for new account
+2..View account balance
+3..Withdraw funds
+4..Deposit funds
+5..Transfer funds
+6..Logout
+[foo] Enter choice:
+
+### Welcome to ShivaCorp Banking App ###
+
+Main menu
+1..Login
+2..Register
+3..Quit
+Enter choice:
+Thank you for using ShivaCorp Banking app
+Goodbye

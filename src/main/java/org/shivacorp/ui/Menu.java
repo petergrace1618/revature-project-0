@@ -1,26 +1,39 @@
 package org.shivacorp.ui;
 
 import org.apache.log4j.Logger;
+import org.shivacorp.service.ShivacorpService;
+import org.shivacorp.service.impl.ShivacorpServiceImpl;
 
 abstract class Menu {
-    protected Logger log;
     protected String title;
+    protected int selection;
     protected String[] menuItems;
-    protected int menuChoice;
-    protected static final String MENU_ITEM_SEPERATOR = "..";
-    protected static final String MENU_PROMPT = "Enter choice";
+    protected int numMenuItems;
+    protected boolean showCancelOption = false;
+    protected String menuPrompt = "Enter choice:";
+    protected static final Logger log = Logger.getLogger(Menu.class);
+    protected static final String MENU_ITEM_SEPARATOR = "..";
     protected static final String INVALID_MENU_CHOICE = "Invalid choice";
+    protected static final ShivacorpService shivacorpService = new ShivacorpServiceImpl();
 
-    public void displayMenu() {
-        log.info(title);
-        for(int i = 1; i <= menuItems.length; i++) {
-            log.info(i + MENU_ITEM_SEPERATOR + menuItems[i-1]);
+    public abstract Object getSelection();
+
+    public void display() {
+        if (title != null) log.info("\n"+title);
+        if (showCancelOption) log.info("0" +MENU_ITEM_SEPARATOR+ "Cancel");
+        int i = 1;
+        for(String item: menuItems) {
+            log.info(i++ +MENU_ITEM_SEPARATOR+ item);
         }
     }
 
-    protected void displaySubmenu() {
-        log.info(title+" > "+menuItems[menuChoice - 1]);
+    public void displayPrompt() {
+        log.info(menuPrompt);
     }
 
-    public abstract Menu processInput();
+    protected void displaySubmenu() {
+        log.info("\n"+title+" > "+menuItems[selection - 1]);
+    }
+
+    protected void serviceUnavailable() { log.info("I'm sorry, this service is unavailable at the moment."); }
 }

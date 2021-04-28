@@ -1,6 +1,4 @@
 
-X
-java:S2696"6Make the enclosing method "static" or remove this set.(ä¢ôŞüÿÿÿÿ8Ÿê»È/
 {
 java:S1450
 "YRemove the "connection" field and declare it as a local variable in the relevant methods.(’çù†ûÿÿÿÿ8õ›ÀÈ/

@@ -1,10 +1,13 @@
 package org.shivacorp.ui;
 
-import org.apache.log4j.Logger;
+import org.shivacorp.exception.BusinessException;
+import org.shivacorp.model.Account;
+import org.shivacorp.model.User;
 
 public class CustomerMenu extends Menu {
-    public CustomerMenu() {
-        title = "\nCustomer menu";
+    User currentUser;
+    public CustomerMenu(User user) {
+        title = "Customer menu";
         menuItems = new String[] {
                 "Apply for new account",
                 "View account balance",
@@ -13,15 +16,17 @@ public class CustomerMenu extends Menu {
                 "Transfer funds",
                 "Logout"
         };
-        log = Logger.getLogger(CustomerMenu.class);
+        numMenuItems = menuItems.length;
+        currentUser = user;
     }
 
     @Override
-    public Menu processInput() {
+    public Menu getSelection() {
+        display();
+        displayPrompt();
         Menu nextMenu = this;
-        log.info(MENU_PROMPT);
-        menuChoice = Stdin.nextInt();
-        switch (menuChoice) {
+        selection = Stdin.getInt(1, numMenuItems);
+        switch (selection) {
             case 1:
                 applyForNewAccount();
                 break;
@@ -42,30 +47,49 @@ public class CustomerMenu extends Menu {
                 nextMenu = new MainMenu();
                 break;
             default:
-                log.info(INVALID_MENU_CHOICE);
                 break;
         }
         return nextMenu;
     }
 
+    public void displayPrompt() {
+        if (currentUser != null) {
+            log.info("[" + currentUser.getUsername() + "] " + menuPrompt);
+        } else {
+            super.displayPrompt();
+        }
+    }
+
     private void applyForNewAccount() {
         displaySubmenu();
+        log.info("Please enter a starting balance:");
+        Account account = new Account(currentUser, Stdin.getDouble(), Account.StatusType.PENDING);
+        try {
+            shivacorpService.addAccount(account);
+            log.info("Your new account is pending approval.");
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
+        }
     }
 
     private void viewAccountBalance() {
-        displaySubmenu();
+//        displaySubmenu();
+        serviceUnavailable();
     }
 
     private void withdraw() {
-        displaySubmenu();
+//        displaySubmenu();
+        serviceUnavailable();
     }
 
     private void deposit() {
-        displaySubmenu();
+//        displaySubmenu();
+        serviceUnavailable();
     }
 
     private void transfer() {
-        displaySubmenu();
+//        displaySubmenu();
+        serviceUnavailable();
     }
 
     private void logout() {
