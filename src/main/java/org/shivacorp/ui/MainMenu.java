@@ -78,6 +78,7 @@ public class MainMenu extends Menu {
     private void register() {
         displaySubmenu();
         String username;
+        String fullname;
         String password1;
         String password2;
         User user = null;
@@ -87,15 +88,14 @@ public class MainMenu extends Menu {
         password1 = Stdin.getPassword();
         log.info("Confirm password:");
         password2 = Stdin.getPassword();
+        log.info("Full name:");
+        fullname = Stdin.getString();
 
-        if (username.isEmpty() || password1.isEmpty()) {
-            log.info("username and password cannot be empty. Please try again.");
-            return;
-        } else if (!password1.equals(password2)) {
+        if (!password1.equals(password2)) {
             log.info("Passwords do not match. Please try again.");
             return;
         }
-        user = new User(username, password1, User.Usertype.CUSTOMER, null);
+        user = new User(username, password1, fullname, User.Usertype.CUSTOMER);
         try {
             user = shivacorpService.addUser(user);
             log.info("New user account created for "+username);

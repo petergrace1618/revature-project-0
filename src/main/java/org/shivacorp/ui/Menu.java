@@ -35,5 +35,5 @@ abstract class Menu {
         log.info("\n"+title+" > "+menuItems[selection - 1]);
     }
 
-    protected void serviceUnavailable() { log.info("I'm sorry, this service is unavailable at the moment."); }
+    protected void serviceUnavailable() { log.info("I'm sorry, this service is currently unavailable."); }
 }

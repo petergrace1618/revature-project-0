@@ -2,10 +2,9 @@ package org.shivacorp.model;
 
 public class Account {
     int id;
-    int userId;
+    User user;
     double balance;
     StatusType status;
-    User user;
 
     public enum StatusType {
         PENDING, APPROVED, DENIED
@@ -32,7 +31,7 @@ public class Account {
         return user.getId();
     }
 
-    public void setUserId(int userId) { this.userId = userId; }
+    public void setUserId(int userId) { user.setId(userId); }
 
     public User getUser() { return user; }
 
@@ -60,7 +59,6 @@ public class Account {
     public String toString() {
         return "Account {" +
                 "id=" + id +
-                ", userId=" + userId +
                 ", balance=" + balance +
                 ", status=" + status +
                 ", user=" + user +

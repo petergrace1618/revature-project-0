@@ -63,7 +63,8 @@ public class CustomerMenu extends Menu {
     private void applyForNewAccount() {
         displaySubmenu();
         log.info("Please enter a starting balance:");
-        Account account = new Account(currentUser, Stdin.getDouble(), Account.StatusType.PENDING);
+        double balance = Stdin.getDouble();
+        Account account = new Account(currentUser, balance, Account.StatusType.PENDING);
         try {
             shivacorpService.addAccount(account);
             log.info("Your new account is pending approval.");
@@ -73,23 +74,41 @@ public class CustomerMenu extends Menu {
     }
 
     private void viewAccountBalance() {
-//        displaySubmenu();
-        serviceUnavailable();
+        displaySubmenu();
+        try {
+            Account account = shivacorpService.getAccountByUser(currentUser);
+            log.info(account);
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
+        }
     }
 
     private void withdraw() {
-//        displaySubmenu();
-        serviceUnavailable();
+        displaySubmenu();
+        log.info("Enter withdrawal amount (0 to cancel):");
+        double amount = Stdin.getDouble();
+        if (amount == 0)
+            return;
+        try {
+            Account account = shivacorpService.withdraw(currentUser, amount);
+            log.info(account);
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
+        }
     }
 
     private void deposit() {
-//        displaySubmenu();
-        serviceUnavailable();
+        displaySubmenu();
+        log.info("Enter deposit amount (0 to cancel):");
+        double amount = Stdin.getDouble();
+        if (amount == 0)
+            return;
+//        Account account = shivacorpService;
     }
 
     private void transfer() {
-//        displaySubmenu();
         serviceUnavailable();
+//        displaySubmenu();
     }
 
     private void logout() {

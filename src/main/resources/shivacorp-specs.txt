@@ -23,12 +23,10 @@ TABLES
 Users
 -----
 id PK
-fullname
-address
-phone
-usertype
 username
 pwd
+fullname
+usertype
 
 Accounts
 ------

@@ -13,6 +13,7 @@ public class EmployeeMenu extends Menu {
         menuItems = new String[] {
                 "Approve/reject account",
                 "View customer accounts",
+                "View users",
                 "View log of all transactions",
                 "Logout"
         };
@@ -34,9 +35,12 @@ public class EmployeeMenu extends Menu {
                 viewAccounts();
                 break;
             case 3:
-                viewTransactions();
+                viewUsers();
                 break;
             case 4:
+                viewTransactions();
+                break;
+            case 5:
                 logout();
                 nextMenu = new MainMenu();
                 break;
@@ -58,25 +62,27 @@ public class EmployeeMenu extends Menu {
     public void approveOrRejectAccount() {
         displaySubmenu();
         try {
-            List<Account> accountList = shivacorpService.getAccountsByStatus(Account.StatusType.PENDING);
-            if (accountList.isEmpty()) {
-                log.info("No pending accounts");
-                return;
-            }
+            List<Account> accounts = shivacorpService.getAccountsByStatus(Account.StatusType.PENDING);
+
             // choose pending account
-            Menu pendingAccountsSubmenu = new PendingAccountsSubmenu(accountList);
-            Account accountToUpdate = (Account) pendingAccountsSubmenu.getSelection();
-            if (accountToUpdate == null) return;
+            Menu pendingAccountsSubmenu = new PendingAccountsSubmenu(accounts);
+            Account account = (Account) pendingAccountsSubmenu.getSelection();
+
+            // user cancelled
+            if (account == null)
+                return;
 
             // choose account status
             Menu accountStatusSubmenu = new AccountStatusSubmenu(Account.StatusType.values());
             Account.StatusType status = (Account.StatusType) accountStatusSubmenu.getSelection();
-            if (status == null || status == Account.StatusType.PENDING) return;
 
-            // Update account
-            accountToUpdate = shivacorpService.updateAccountStatus(accountToUpdate, status);
-            log.info("Account status updated");
-            log.info(accountToUpdate);
+            // user cancelled
+            if (status == null)
+                return;
+
+            // Update account and log the change
+            account = shivacorpService.updateAccountStatus(account, status);
+            log.info("Account "+account.getStatus());
         } catch (BusinessException e) {
             log.info(e.getMessage());
         }
@@ -86,10 +92,18 @@ public class EmployeeMenu extends Menu {
         displaySubmenu();
         try {
             List<Account> accounts = shivacorpService.getAccounts();
-            if (accounts.isEmpty()) {
-                log.info("No existing accounts");
-                return;
+            for (Account account: accounts) {
+                log.info(account);
             }
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
+        }
+    }
+
+    public void viewUsers() {
+        displaySubmenu();
+        try {
+            List<Account> accounts = shivacorpService.getUsers();
             for (Account account: accounts) {
                 log.info(account);
             }
@@ -99,12 +113,12 @@ public class EmployeeMenu extends Menu {
     }
 
     public void viewTransactions() {
-//        displaySubmenu();
         serviceUnavailable();
+//        displaySubmenu();
     }
 
     private void logout() {
-        log.info("Logging out");
+        log.info("Logging out "+currentUser.getUsername());
     }
 
     private class PendingAccountsSubmenu extends Menu {
@@ -156,7 +170,6 @@ public class EmployeeMenu extends Menu {
             super.displayPrompt();
             selection = Stdin.getInt(numMenuItems);
             if (selection == 0) {
-                log.info("Cancelled");
                 return null;
             }
             return statusTypes[selection-1];

@@ -4,17 +4,16 @@ public class User {
     int id;
     String username;
     String password;
+    String fullName;
     Usertype usertype;
-    int accountId;
-    Account account;
 
     public User() { }
 
-    public User(String username, String password, Usertype usertype, Account account) {
+    public User(String username, String password, String fullName, Usertype usertype) {
         this.username = username;
         this.password = password;
+        this.fullName = fullName;
         this.usertype = usertype;
-        this.account = account;
     }
 
     public enum Usertype {
@@ -26,14 +25,6 @@ public class User {
     }
 
     public void setId(int id) { this.id = id; }
-
-    public Usertype getUsertype() {
-        return usertype;
-    }
-
-    public void setUsertype(Usertype usertype) {
-        this.usertype = usertype;
-    }
 
     public String getUsername() {
         return username;
@@ -51,21 +42,25 @@ public class User {
         this.password = password;
     }
 
-    public int getAccountId() { return accountId; }
+    public String getFullName() { return fullName; }
 
-    public void setAccountId(int accountId) { this.accountId = accountId; }
+    public void setFullName(String fullName) { this.fullName = fullName; }
 
-    public Account getAccount() { return account; }
+    public Usertype getUsertype() {
+        return usertype;
+    }
 
-    public void setAccount(Account account) { this.account = account; }
+    public void setUsertype(Usertype usertype) {
+        this.usertype = usertype;
+    }
 
     @Override
     public String toString() {
         return "User {" +
                 "id=" + id +
                 ", username='" + username + '\'' +
+                ", fullname='" + fullName + '\'' +
                 ", usertype=" + usertype +
-                ", account=" + account +
                 '}';
     }
 }

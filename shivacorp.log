@@ -82,3 +82,3811 @@ Main menu
 [2021-04-28 08:30:37,516] 2..Register
 [2021-04-28 08:30:37,516] 3..Quit
 [2021-04-28 08:30:37,517] Enter choice:
+[2021-04-28 08:36:40,120] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 08:36:40,127] 
+Main menu
+[2021-04-28 08:36:40,128] 1..Login
+[2021-04-28 08:36:40,128] 2..Register
+[2021-04-28 08:36:40,128] 3..Quit
+[2021-04-28 08:36:40,128] Enter choice:
+[2021-04-28 08:36:45,803] 
+Main menu > Login
+[2021-04-28 08:36:45,804] Username:
+[2021-04-28 08:36:47,817] Password:
+[2021-04-28 08:36:49,832] Looking up admin
+[2021-04-28 08:36:50,158] Found admin
+[2021-04-28 08:36:50,158] admin authenticated
+[2021-04-28 08:36:50,160] 
+Employee Menu
+[2021-04-28 08:36:50,161] 1..Approve/reject account
+[2021-04-28 08:36:50,161] 2..View customer accounts
+[2021-04-28 08:36:50,161] 3..View log of all transactions
+[2021-04-28 08:36:50,161] 4..Logout
+[2021-04-28 08:36:50,161] [admin] Enter choice:
+[2021-04-28 08:36:53,860] 
+Employee Menu > Approve/reject account
+[2021-04-28 08:36:53,937] 
+1 account(s) pending:
+[2021-04-28 08:36:53,937] 0..Cancel
+[2021-04-28 08:36:53,937] 1..Account {id=111123, userId=14, balance=1000.0, status=PENDING, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 08:36:53,937] Choose account:
+[2021-04-28 08:37:31,191] Cancelled
+[2021-04-28 08:37:31,191] 
+Employee Menu
+[2021-04-28 08:37:31,191] 1..Approve/reject account
+[2021-04-28 08:37:31,191] 2..View customer accounts
+[2021-04-28 08:37:31,191] 3..View log of all transactions
+[2021-04-28 08:37:31,191] 4..Logout
+[2021-04-28 08:37:31,191] [admin] Enter choice:
+[2021-04-28 08:37:34,210] 
+Employee Menu > View customer accounts
+[2021-04-28 08:37:34,277] Account {id=111122, userId=0, balance=500.0, status=APPROVED, user=User {id=13, username='foo', usertype=CUSTOMER, account=null}}
+[2021-04-28 08:37:34,277] Account {id=111123, userId=0, balance=1000.0, status=PENDING, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 08:37:34,277] 
+Employee Menu
+[2021-04-28 08:37:34,277] 1..Approve/reject account
+[2021-04-28 08:37:34,277] 2..View customer accounts
+[2021-04-28 08:37:34,277] 3..View log of all transactions
+[2021-04-28 08:37:34,277] 4..Logout
+[2021-04-28 08:37:34,277] [admin] Enter choice:
+[2021-04-28 08:37:43,288] 
+Employee Menu > Approve/reject account
+[2021-04-28 08:37:43,348] 
+1 account(s) pending:
+[2021-04-28 08:37:43,348] 0..Cancel
+[2021-04-28 08:37:43,348] 1..Account {id=111123, userId=14, balance=1000.0, status=PENDING, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 08:37:43,348] Choose account:
+[2021-04-28 08:37:46,312] 0..Cancel
+[2021-04-28 08:37:46,313] 1..PENDING
+[2021-04-28 08:37:46,313] 2..APPROVED
+[2021-04-28 08:37:46,313] 3..DENIED
+[2021-04-28 08:37:46,313] Choose status:
+[2021-04-28 08:37:50,334] Cancelled
+[2021-04-28 08:37:50,335] 
+Employee Menu
+[2021-04-28 08:37:50,335] 1..Approve/reject account
+[2021-04-28 08:37:50,335] 2..View customer accounts
+[2021-04-28 08:37:50,335] 3..View log of all transactions
+[2021-04-28 08:37:50,335] 4..Logout
+[2021-04-28 08:37:50,335] [admin] Enter choice:
+[2021-04-28 08:37:59,413] Logging out
+[2021-04-28 08:37:59,414] 
+Main menu
+[2021-04-28 08:37:59,414] 1..Login
+[2021-04-28 08:37:59,414] 2..Register
+[2021-04-28 08:37:59,414] 3..Quit
+[2021-04-28 08:37:59,414] Enter choice:
+[2021-04-28 08:42:31,833] Thank you for using ShivaCorp Banking app
+[2021-04-28 08:42:31,833] Goodbye
+[2021-04-28 09:28:12,058] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 09:28:12,072] 
+Main menu
+[2021-04-28 09:28:12,072] 1..Login
+[2021-04-28 09:28:12,072] 2..Register
+[2021-04-28 09:28:12,072] 3..Quit
+[2021-04-28 09:28:12,072] Enter choice:
+[2021-04-28 09:28:22,530] 
+Main menu > Register
+[2021-04-28 09:28:22,531] Username:
+[2021-04-28 09:28:36,681] Password:
+[2021-04-28 09:28:38,699] Confirm password:
+[2021-04-28 09:28:41,376] New user account created for boo
+[2021-04-28 09:28:41,377] 
+Customer menu
+[2021-04-28 09:28:41,377] 1..Apply for new account
+[2021-04-28 09:28:41,377] 2..View account balance
+[2021-04-28 09:28:41,377] 3..Withdraw funds
+[2021-04-28 09:28:41,377] 4..Deposit funds
+[2021-04-28 09:28:41,378] 5..Transfer funds
+[2021-04-28 09:28:41,378] 6..Logout
+[2021-04-28 09:28:41,378] [boo] Enter choice:
+[2021-04-28 09:28:44,772] Logging out
+[2021-04-28 09:28:44,772] 
+Main menu
+[2021-04-28 09:28:44,772] 1..Login
+[2021-04-28 09:28:44,772] 2..Register
+[2021-04-28 09:28:44,772] 3..Quit
+[2021-04-28 09:28:44,772] Enter choice:
+[2021-04-28 09:49:22,210] Thank you for using ShivaCorp Banking app
+[2021-04-28 09:49:22,210] Goodbye
+[2021-04-28 09:49:27,249] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 09:49:27,263] 
+Main menu
+[2021-04-28 09:49:27,264] 1..Login
+[2021-04-28 09:49:27,265] 2..Register
+[2021-04-28 09:49:27,267] 3..Quit
+[2021-04-28 09:49:27,268] Enter choice:
+[2021-04-28 09:49:35,781] 
+Main menu > Login
+[2021-04-28 09:49:35,781] Username:
+[2021-04-28 09:49:39,820] Password:
+[2021-04-28 09:49:41,831] Looking up foo
+[2021-04-28 09:49:42,181] Found foo
+[2021-04-28 09:49:42,181] foo authenticated
+[2021-04-28 09:49:42,181] 
+Customer menu
+[2021-04-28 09:49:42,181] 1..Apply for new account
+[2021-04-28 09:49:42,181] 2..View account balance
+[2021-04-28 09:49:42,181] 3..Withdraw funds
+[2021-04-28 09:49:42,181] 4..Deposit funds
+[2021-04-28 09:49:42,181] 5..Transfer funds
+[2021-04-28 09:49:42,182] 6..Logout
+[2021-04-28 09:49:42,182] [foo] Enter choice:
+[2021-04-28 09:49:51,891] I'm sorry, this service is unavailable at the moment.
+[2021-04-28 09:49:51,891] 
+Customer menu
+[2021-04-28 09:49:51,891] 1..Apply for new account
+[2021-04-28 09:49:51,891] 2..View account balance
+[2021-04-28 09:49:51,891] 3..Withdraw funds
+[2021-04-28 09:49:51,891] 4..Deposit funds
+[2021-04-28 09:49:51,891] 5..Transfer funds
+[2021-04-28 09:49:51,891] 6..Logout
+[2021-04-28 09:49:51,891] [foo] Enter choice:
+[2021-04-28 09:49:56,922] I'm sorry, this service is unavailable at the moment.
+[2021-04-28 09:49:56,922] 
+Customer menu
+[2021-04-28 09:49:56,922] 1..Apply for new account
+[2021-04-28 09:49:56,922] 2..View account balance
+[2021-04-28 09:49:56,922] 3..Withdraw funds
+[2021-04-28 09:49:56,922] 4..Deposit funds
+[2021-04-28 09:49:56,922] 5..Transfer funds
+[2021-04-28 09:49:56,922] 6..Logout
+[2021-04-28 09:49:56,922] [foo] Enter choice:
+[2021-04-28 09:50:09,021] 
+Customer menu > Apply for new account
+[2021-04-28 09:50:09,021] Please enter a starting balance:
+[2021-04-28 09:50:13,114] Account for foo already exists
+[2021-04-28 09:50:13,114] 
+Customer menu
+[2021-04-28 09:50:13,114] 1..Apply for new account
+[2021-04-28 09:50:13,115] 2..View account balance
+[2021-04-28 09:50:13,115] 3..Withdraw funds
+[2021-04-28 09:50:13,115] 4..Deposit funds
+[2021-04-28 09:50:13,115] 5..Transfer funds
+[2021-04-28 09:50:13,115] 6..Logout
+[2021-04-28 09:50:13,115] [foo] Enter choice:
+[2021-04-28 09:50:20,139] Logging out
+[2021-04-28 09:50:20,139] 
+Main menu
+[2021-04-28 09:50:20,139] 1..Login
+[2021-04-28 09:50:20,139] 2..Register
+[2021-04-28 09:50:20,139] 3..Quit
+[2021-04-28 09:50:20,139] Enter choice:
+[2021-04-28 09:50:25,188] 
+Main menu > Login
+[2021-04-28 09:50:25,188] Username:
+[2021-04-28 09:50:27,202] Password:
+[2021-04-28 09:50:29,220] Looking up admin
+[2021-04-28 09:50:29,297] Found admin
+[2021-04-28 09:50:29,297] admin authenticated
+[2021-04-28 09:50:29,300] 
+Employee Menu
+[2021-04-28 09:50:29,300] 1..Approve/reject account
+[2021-04-28 09:50:29,300] 2..View customer accounts
+[2021-04-28 09:50:29,301] 3..View log of all transactions
+[2021-04-28 09:50:29,301] 4..Logout
+[2021-04-28 09:50:29,301] [admin] Enter choice:
+[2021-04-28 09:50:32,241] 
+Employee Menu > View customer accounts
+[2021-04-28 09:50:32,320] Account {id=111122, userId=0, balance=500.0, status=APPROVED, user=User {id=13, username='foo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:50:32,320] Account {id=111123, userId=0, balance=1000.0, status=PENDING, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:50:32,320] 
+Employee Menu
+[2021-04-28 09:50:32,321] 1..Approve/reject account
+[2021-04-28 09:50:32,321] 2..View customer accounts
+[2021-04-28 09:50:32,321] 3..View log of all transactions
+[2021-04-28 09:50:32,321] 4..Logout
+[2021-04-28 09:50:32,321] [admin] Enter choice:
+[2021-04-28 09:50:41,317] 
+Employee Menu > Approve/reject account
+[2021-04-28 09:50:41,383] 
+1 account(s) pending:
+[2021-04-28 09:50:41,383] 0..Cancel
+[2021-04-28 09:50:41,384] 1..Account {id=111123, userId=14, balance=1000.0, status=PENDING, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:50:41,384] Choose account:
+[2021-04-28 09:50:47,364] 0..Cancel
+[2021-04-28 09:50:47,364] 1..PENDING
+[2021-04-28 09:50:47,364] 2..APPROVED
+[2021-04-28 09:50:47,365] 3..DENIED
+[2021-04-28 09:50:47,365] Choose status:
+[2021-04-28 09:50:53,491] Account status updated
+[2021-04-28 09:50:53,492] Account {id=111123, userId=14, balance=1000.0, status=DENIED, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:50:53,492] 
+Employee Menu
+[2021-04-28 09:50:53,492] 1..Approve/reject account
+[2021-04-28 09:50:53,492] 2..View customer accounts
+[2021-04-28 09:50:53,492] 3..View log of all transactions
+[2021-04-28 09:50:53,492] 4..Logout
+[2021-04-28 09:50:53,492] [admin] Enter choice:
+[2021-04-28 09:50:57,460] 
+Employee Menu > Approve/reject account
+[2021-04-28 09:50:57,625] No pending accounts
+[2021-04-28 09:50:57,625] 
+Employee Menu
+[2021-04-28 09:50:57,626] 1..Approve/reject account
+[2021-04-28 09:50:57,626] 2..View customer accounts
+[2021-04-28 09:50:57,626] 3..View log of all transactions
+[2021-04-28 09:50:57,626] 4..Logout
+[2021-04-28 09:50:57,626] [admin] Enter choice:
+[2021-04-28 09:51:01,479] 
+Employee Menu > View customer accounts
+[2021-04-28 09:51:01,648] Account {id=111122, userId=0, balance=500.0, status=APPROVED, user=User {id=13, username='foo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:51:01,649] Account {id=111123, userId=0, balance=1000.0, status=DENIED, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:51:01,649] 
+Employee Menu
+[2021-04-28 09:51:01,649] 1..Approve/reject account
+[2021-04-28 09:51:01,649] 2..View customer accounts
+[2021-04-28 09:51:01,649] 3..View log of all transactions
+[2021-04-28 09:51:01,649] 4..Logout
+[2021-04-28 09:51:01,649] [admin] Enter choice:
+[2021-04-28 09:51:06,542] Logging out
+[2021-04-28 09:51:06,542] 
+Main menu
+[2021-04-28 09:51:06,542] 1..Login
+[2021-04-28 09:51:06,542] 2..Register
+[2021-04-28 09:51:06,542] 3..Quit
+[2021-04-28 09:51:06,542] Enter choice:
+[2021-04-28 09:51:10,598] 
+Main menu > Register
+[2021-04-28 09:51:10,598] Username:
+[2021-04-28 09:51:14,630] Password:
+[2021-04-28 09:51:16,643] Confirm password:
+[2021-04-28 09:51:18,888] New user account created for woo
+[2021-04-28 09:51:18,889] 
+Customer menu
+[2021-04-28 09:51:18,889] 1..Apply for new account
+[2021-04-28 09:51:18,889] 2..View account balance
+[2021-04-28 09:51:18,889] 3..Withdraw funds
+[2021-04-28 09:51:18,889] 4..Deposit funds
+[2021-04-28 09:51:18,889] 5..Transfer funds
+[2021-04-28 09:51:18,889] 6..Logout
+[2021-04-28 09:51:18,889] [woo] Enter choice:
+[2021-04-28 09:51:23,696] 
+Customer menu > Apply for new account
+[2021-04-28 09:51:23,697] Please enter a starting balance:
+[2021-04-28 09:51:26,789] Requires a starting balance of $500 or more.
+[2021-04-28 09:51:26,789] 
+Customer menu
+[2021-04-28 09:51:26,789] 1..Apply for new account
+[2021-04-28 09:51:26,789] 2..View account balance
+[2021-04-28 09:51:26,790] 3..Withdraw funds
+[2021-04-28 09:51:26,790] 4..Deposit funds
+[2021-04-28 09:51:26,790] 5..Transfer funds
+[2021-04-28 09:51:26,790] 6..Logout
+[2021-04-28 09:51:26,790] [woo] Enter choice:
+[2021-04-28 09:51:35,805] 
+Customer menu > Apply for new account
+[2021-04-28 09:51:35,805] Please enter a starting balance:
+[2021-04-28 09:51:39,104] Your new account is pending approval.
+[2021-04-28 09:51:39,104] 
+Customer menu
+[2021-04-28 09:51:39,104] 1..Apply for new account
+[2021-04-28 09:51:39,104] 2..View account balance
+[2021-04-28 09:51:39,104] 3..Withdraw funds
+[2021-04-28 09:51:39,104] 4..Deposit funds
+[2021-04-28 09:51:39,104] 5..Transfer funds
+[2021-04-28 09:51:39,104] 6..Logout
+[2021-04-28 09:51:39,104] [woo] Enter choice:
+[2021-04-28 09:51:43,900] Logging out
+[2021-04-28 09:51:43,901] 
+Main menu
+[2021-04-28 09:51:43,901] 1..Login
+[2021-04-28 09:51:43,901] 2..Register
+[2021-04-28 09:51:43,901] 3..Quit
+[2021-04-28 09:51:43,901] Enter choice:
+[2021-04-28 09:51:45,926] 
+Main menu > Login
+[2021-04-28 09:51:45,927] Username:
+[2021-04-28 09:51:47,953] Password:
+[2021-04-28 09:51:50,982] Looking up admin
+[2021-04-28 09:51:51,071] Found admin
+[2021-04-28 09:51:51,071] admin authenticated
+[2021-04-28 09:51:51,071] 
+Employee Menu
+[2021-04-28 09:51:51,071] 1..Approve/reject account
+[2021-04-28 09:51:51,071] 2..View customer accounts
+[2021-04-28 09:51:51,071] 3..View log of all transactions
+[2021-04-28 09:51:51,071] 4..Logout
+[2021-04-28 09:51:51,072] [admin] Enter choice:
+[2021-04-28 09:51:52,996] 
+Employee Menu > View customer accounts
+[2021-04-28 09:51:53,061] Account {id=111122, userId=0, balance=500.0, status=APPROVED, user=User {id=13, username='foo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:51:53,061] Account {id=111123, userId=0, balance=1000.0, status=DENIED, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:51:53,061] Account {id=111124, userId=0, balance=1000.0, status=PENDING, user=User {id=16, username='woo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:51:53,061] 
+Employee Menu
+[2021-04-28 09:51:53,061] 1..Approve/reject account
+[2021-04-28 09:51:53,061] 2..View customer accounts
+[2021-04-28 09:51:53,061] 3..View log of all transactions
+[2021-04-28 09:51:53,061] 4..Logout
+[2021-04-28 09:51:53,061] [admin] Enter choice:
+[2021-04-28 09:51:58,021] 
+Employee Menu > Approve/reject account
+[2021-04-28 09:51:58,098] 
+1 account(s) pending:
+[2021-04-28 09:51:58,098] 0..Cancel
+[2021-04-28 09:51:58,098] 1..Account {id=111124, userId=16, balance=1000.0, status=PENDING, user=User {id=16, username='woo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:51:58,099] Choose account:
+[2021-04-28 09:52:02,053] 0..Cancel
+[2021-04-28 09:52:02,053] 1..PENDING
+[2021-04-28 09:52:02,053] 2..APPROVED
+[2021-04-28 09:52:02,053] 3..DENIED
+[2021-04-28 09:52:02,053] Choose status:
+[2021-04-28 09:52:04,233] Account status updated
+[2021-04-28 09:52:04,233] Account {id=111124, userId=16, balance=1000.0, status=APPROVED, user=User {id=16, username='woo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:52:04,234] 
+Employee Menu
+[2021-04-28 09:52:04,234] 1..Approve/reject account
+[2021-04-28 09:52:04,234] 2..View customer accounts
+[2021-04-28 09:52:04,234] 3..View log of all transactions
+[2021-04-28 09:52:04,234] 4..Logout
+[2021-04-28 09:52:04,234] [admin] Enter choice:
+[2021-04-28 09:52:07,105] 
+Employee Menu > View customer accounts
+[2021-04-28 09:52:07,291] Account {id=111122, userId=0, balance=500.0, status=APPROVED, user=User {id=13, username='foo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:52:07,291] Account {id=111123, userId=0, balance=1000.0, status=DENIED, user=User {id=14, username='goo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:52:07,291] Account {id=111124, userId=0, balance=1000.0, status=APPROVED, user=User {id=16, username='woo', usertype=CUSTOMER, account=null}}
+[2021-04-28 09:52:07,291] 
+Employee Menu
+[2021-04-28 09:52:07,291] 1..Approve/reject account
+[2021-04-28 09:52:07,291] 2..View customer accounts
+[2021-04-28 09:52:07,291] 3..View log of all transactions
+[2021-04-28 09:52:07,291] 4..Logout
+[2021-04-28 09:52:07,291] [admin] Enter choice:
+[2021-04-28 09:52:12,138] Logging out
+[2021-04-28 09:52:12,138] 
+Main menu
+[2021-04-28 09:52:12,138] 1..Login
+[2021-04-28 09:52:12,138] 2..Register
+[2021-04-28 09:52:12,138] 3..Quit
+[2021-04-28 09:52:12,138] Enter choice:
+[2021-04-28 09:52:16,170] Please enter a number between 1 and 3
+[2021-04-28 09:52:20,210] Please enter a number between 1 and 3
+[2021-04-28 09:52:28,275] Thank you for using ShivaCorp Banking app
+[2021-04-28 09:52:28,275] Goodbye
+[2021-04-28 15:58:07,465] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 15:58:07,485] 
+Main menu
+[2021-04-28 15:58:07,485] 1..Login
+[2021-04-28 15:58:07,485] 2..Register
+[2021-04-28 15:58:07,495] 3..Quit
+[2021-04-28 15:58:07,495] Enter choice:
+[2021-04-28 19:26:37,110] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 19:26:37,140] 
+Main menu
+[2021-04-28 19:26:37,140] 1..Login
+[2021-04-28 19:26:37,140] 2..Register
+[2021-04-28 19:26:37,140] 3..Quit
+[2021-04-28 19:26:37,140] Enter choice:
+[2021-04-28 19:32:37,110] 
+Main menu > Register
+[2021-04-28 19:32:37,110] Username:
+[2021-04-28 19:32:40,140] Password:
+[2021-04-28 19:32:42,160] Confirm password:
+[2021-04-28 19:32:44,450] Username 'foo' already exists.
+[2021-04-28 19:32:44,450] 
+Main menu
+[2021-04-28 19:32:44,450] 1..Login
+[2021-04-28 19:32:44,450] 2..Register
+[2021-04-28 19:32:44,450] 3..Quit
+[2021-04-28 19:32:44,450] Enter choice:
+[2021-04-28 19:32:53,330] 
+Main menu > Login
+[2021-04-28 19:32:53,330] Username:
+[2021-04-28 19:32:55,370] Password:
+[2021-04-28 19:32:57,370] Looking up admin
+[2021-04-28 19:32:57,420] Found admin
+[2021-04-28 19:32:57,420] admin authenticated
+[2021-04-28 19:32:57,430] 
+Employee Menu
+[2021-04-28 19:32:57,430] 1..Approve/reject account
+[2021-04-28 19:32:57,430] 2..View customer accounts
+[2021-04-28 19:32:57,430] 3..View log of all transactions
+[2021-04-28 19:32:57,430] 4..Logout
+[2021-04-28 19:32:57,430] [admin] Enter choice:
+[2021-04-28 19:33:01,440] 
+Employee Menu > View customer accounts
+[2021-04-28 19:33:01,490] No existing accounts
+[2021-04-28 19:33:01,490] 
+Employee Menu
+[2021-04-28 19:33:01,490] 1..Approve/reject account
+[2021-04-28 19:33:01,490] 2..View customer accounts
+[2021-04-28 19:33:01,490] 3..View log of all transactions
+[2021-04-28 19:33:01,490] 4..Logout
+[2021-04-28 19:33:01,490] [admin] Enter choice:
+[2021-04-28 19:40:55,330] Logging out
+[2021-04-28 19:40:55,330] 
+Main menu
+[2021-04-28 19:40:55,330] 1..Login
+[2021-04-28 19:40:55,330] 2..Register
+[2021-04-28 19:40:55,330] 3..Quit
+[2021-04-28 19:40:55,330] Enter choice:
+[2021-04-28 19:41:22,590] 
+Main menu > Login
+[2021-04-28 19:41:22,590] Username:
+[2021-04-28 19:41:26,640] Password:
+[2021-04-28 19:41:28,680] Looking up foo
+[2021-04-28 19:41:28,730] Username 'foo' does not exist
+[2021-04-28 19:41:28,730] 
+Main menu
+[2021-04-28 19:41:28,730] 1..Login
+[2021-04-28 19:41:28,730] 2..Register
+[2021-04-28 19:41:28,730] 3..Quit
+[2021-04-28 19:41:28,730] Enter choice:
+[2021-04-28 19:41:34,760] 
+Main menu > Register
+[2021-04-28 19:41:34,760] Username:
+[2021-04-28 19:41:37,810] Password:
+[2021-04-28 19:41:39,830] Confirm password:
+[2021-04-28 19:41:42,910] Username 'admin' already exists.
+[2021-04-28 19:41:42,910] 
+Main menu
+[2021-04-28 19:41:42,910] 1..Login
+[2021-04-28 19:41:42,910] 2..Register
+[2021-04-28 19:41:42,910] 3..Quit
+[2021-04-28 19:41:42,910] Enter choice:
+[2021-04-28 19:42:07,190] 
+Main menu > Login
+[2021-04-28 19:42:07,190] Username:
+[2021-04-28 19:42:09,221] Password:
+[2021-04-28 19:42:11,260] Looking up admin
+[2021-04-28 19:42:11,310] Found admin
+[2021-04-28 19:42:11,310] admin authenticated
+[2021-04-28 19:42:11,310] 
+Employee Menu
+[2021-04-28 19:42:11,310] 1..Approve/reject account
+[2021-04-28 19:42:11,310] 2..View customer accounts
+[2021-04-28 19:42:11,310] 3..View log of all transactions
+[2021-04-28 19:42:11,310] 4..Logout
+[2021-04-28 19:42:11,310] [admin] Enter choice:
+[2021-04-28 19:42:14,300] 
+Employee Menu > Approve/reject account
+[2021-04-28 19:42:14,350] No pending accounts
+[2021-04-28 19:42:14,350] 
+Employee Menu
+[2021-04-28 19:42:14,350] 1..Approve/reject account
+[2021-04-28 19:42:14,350] 2..View customer accounts
+[2021-04-28 19:42:14,350] 3..View log of all transactions
+[2021-04-28 19:42:14,350] 4..Logout
+[2021-04-28 19:42:14,350] [admin] Enter choice:
+[2021-04-28 19:42:24,410] 
+Employee Menu > View customer accounts
+[2021-04-28 19:42:24,460] No existing accounts
+[2021-04-28 19:42:24,460] 
+Employee Menu
+[2021-04-28 19:42:24,460] 1..Approve/reject account
+[2021-04-28 19:42:24,460] 2..View customer accounts
+[2021-04-28 19:42:24,460] 3..View log of all transactions
+[2021-04-28 19:42:24,460] 4..Logout
+[2021-04-28 19:42:24,460] [admin] Enter choice:
+[2021-04-28 19:42:30,511] I'm sorry, this service is unavailable at the moment.
+[2021-04-28 19:42:30,511] 
+Employee Menu
+[2021-04-28 19:42:30,511] 1..Approve/reject account
+[2021-04-28 19:42:30,511] 2..View customer accounts
+[2021-04-28 19:42:30,511] 3..View log of all transactions
+[2021-04-28 19:42:30,511] 4..Logout
+[2021-04-28 19:42:30,511] [admin] Enter choice:
+[2021-04-28 19:43:07,100] Logging out
+[2021-04-28 19:43:07,100] 
+Main menu
+[2021-04-28 19:43:07,100] 1..Login
+[2021-04-28 19:43:07,100] 2..Register
+[2021-04-28 19:43:07,100] 3..Quit
+[2021-04-28 19:43:07,100] Enter choice:
+[2021-04-28 19:43:09,120] 
+Main menu > Register
+[2021-04-28 19:43:09,120] Username:
+[2021-04-28 19:43:12,160] Password:
+[2021-04-28 19:43:14,191] Confirm password:
+[2021-04-28 19:43:17,331] New user account created for foo
+[2021-04-28 19:43:17,331] 
+Customer menu
+[2021-04-28 19:43:17,331] 1..Apply for new account
+[2021-04-28 19:43:17,331] 2..View account balance
+[2021-04-28 19:43:17,331] 3..Withdraw funds
+[2021-04-28 19:43:17,331] 4..Deposit funds
+[2021-04-28 19:43:17,331] 5..Transfer funds
+[2021-04-28 19:43:17,331] 6..Logout
+[2021-04-28 19:43:17,331] [foo] Enter choice:
+[2021-04-28 19:48:08,401] Logging out
+[2021-04-28 19:48:08,401] 
+Main menu
+[2021-04-28 19:48:08,401] 1..Login
+[2021-04-28 19:48:08,401] 2..Register
+[2021-04-28 19:48:08,401] 3..Quit
+[2021-04-28 19:48:08,401] Enter choice:
+[2021-04-28 19:48:11,439] 
+Main menu > Register
+[2021-04-28 19:48:11,439] Username:
+[2021-04-28 19:48:14,480] Password:
+[2021-04-28 19:48:16,510] Confirm password:
+[2021-04-28 19:48:18,580] Username 'foo' already exists.
+[2021-04-28 19:48:18,580] 
+Main menu
+[2021-04-28 19:48:18,580] 1..Login
+[2021-04-28 19:48:18,580] 2..Register
+[2021-04-28 19:48:18,580] 3..Quit
+[2021-04-28 19:48:18,580] Enter choice:
+[2021-04-28 21:33:42,403] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 21:33:42,414] 
+Main menu
+[2021-04-28 21:33:42,414] 1..Login
+[2021-04-28 21:33:42,414] 2..Register
+[2021-04-28 21:33:42,414] 3..Quit
+[2021-04-28 21:33:42,414] Enter choice:
+[2021-04-28 21:33:52,232] 
+Main menu > Login
+[2021-04-28 21:33:52,232] Username:
+[2021-04-28 21:33:54,243] Password:
+[2021-04-28 21:33:56,253] Looking up foo
+[2021-04-28 21:33:56,482] ShivacorpDAOImpl.getUserByUsername: ERROR: column u.accountid does not exist
+  Position: 50
+[2021-04-28 21:33:56,482] 
+Main menu
+[2021-04-28 21:33:56,482] 1..Login
+[2021-04-28 21:33:56,482] 2..Register
+[2021-04-28 21:33:56,482] 3..Quit
+[2021-04-28 21:33:56,482] Enter choice:
+[2021-04-28 21:34:04,353] Thank you for using ShivaCorp Banking app
+[2021-04-28 21:34:04,353] Goodbye
+[2021-04-28 22:34:14,123] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 22:34:14,133] 
+Main menu
+[2021-04-28 22:34:14,133] 1..Login
+[2021-04-28 22:34:14,133] 2..Register
+[2021-04-28 22:34:14,133] 3..Quit
+[2021-04-28 22:34:14,133] Enter choice:
+[2021-04-28 22:34:34,094] 
+Main menu > Login
+[2021-04-28 22:34:34,094] Username:
+[2021-04-28 22:34:36,124] Password:
+[2021-04-28 22:34:38,154] Looking up admin
+[2021-04-28 22:34:38,409] ShivacorpDAOImpl.getUserByUsername: The column name accountid was not found in this ResultSet.
+[2021-04-28 22:34:38,409] 
+Main menu
+[2021-04-28 22:34:38,409] 1..Login
+[2021-04-28 22:34:38,409] 2..Register
+[2021-04-28 22:34:38,409] 3..Quit
+[2021-04-28 22:34:38,409] Enter choice:
+[2021-04-28 22:35:02,474] Thank you for using ShivaCorp Banking app
+[2021-04-28 22:35:02,474] Goodbye
+[2021-04-28 22:35:18,424] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 22:35:18,434] 
+Main menu
+[2021-04-28 22:35:18,434] 1..Login
+[2021-04-28 22:35:18,434] 2..Register
+[2021-04-28 22:35:18,434] 3..Quit
+[2021-04-28 22:35:18,434] Enter choice:
+[2021-04-28 22:35:30,234] 
+Main menu > Login
+[2021-04-28 22:35:30,234] Username:
+[2021-04-28 22:35:35,284] Password:
+[2021-04-28 22:35:37,314] Looking up admin
+[2021-04-28 22:35:49,998] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 22:35:50,006] 
+Main menu
+[2021-04-28 22:35:50,006] 1..Login
+[2021-04-28 22:35:50,006] 2..Register
+[2021-04-28 22:35:50,006] 3..Quit
+[2021-04-28 22:35:50,006] Enter choice:
+[2021-04-28 22:35:56,630] 
+Main menu > Login
+[2021-04-28 22:35:56,630] Username:
+[2021-04-28 22:35:58,631] Password:
+[2021-04-28 22:36:01,631] Looking up admin
+[2021-04-28 22:40:55,074] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 22:40:55,088] 
+Main menu
+[2021-04-28 22:40:55,088] 1..Login
+[2021-04-28 22:40:55,088] 2..Register
+[2021-04-28 22:40:55,088] 3..Quit
+[2021-04-28 22:40:55,088] Enter choice:
+[2021-04-28 22:40:59,802] 
+Main menu > Login
+[2021-04-28 22:40:59,802] Username:
+[2021-04-28 22:41:01,824] Password:
+[2021-04-28 22:41:03,844] Looking up admin
+[2021-04-28 22:41:04,074] ShivacorpDAOImpl.getUserByUsername: ERROR: missing FROM-clause entry for table "u"
+  Position: 8
+[2021-04-28 22:41:04,074] 
+Main menu
+[2021-04-28 22:41:04,074] 1..Login
+[2021-04-28 22:41:04,074] 2..Register
+[2021-04-28 22:41:04,074] 3..Quit
+[2021-04-28 22:41:04,074] Enter choice:
+[2021-04-28 22:41:48,529] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 22:41:48,549] 
+Main menu
+[2021-04-28 22:41:48,549] 1..Login
+[2021-04-28 22:41:48,549] 2..Register
+[2021-04-28 22:41:48,549] 3..Quit
+[2021-04-28 22:41:48,549] Enter choice:
+[2021-04-28 22:41:54,264] 
+Main menu > Login
+[2021-04-28 22:41:54,264] Username:
+[2021-04-28 22:41:56,284] Password:
+[2021-04-28 22:41:59,334] Looking up admin
+[2021-04-28 22:41:59,574] Found admin
+[2021-04-28 22:41:59,574] Authentication failed
+[2021-04-28 22:41:59,574] 
+Main menu
+[2021-04-28 22:41:59,574] 1..Login
+[2021-04-28 22:41:59,574] 2..Register
+[2021-04-28 22:41:59,574] 3..Quit
+[2021-04-28 22:41:59,574] Enter choice:
+[2021-04-28 22:43:24,823] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 22:43:24,823] 
+Main menu
+[2021-04-28 22:43:24,823] 1..Login
+[2021-04-28 22:43:24,823] 2..Register
+[2021-04-28 22:43:24,823] 3..Quit
+[2021-04-28 22:43:24,823] Enter choice:
+[2021-04-28 22:43:28,564] 
+Main menu > Login
+[2021-04-28 22:43:28,564] Username:
+[2021-04-28 22:43:30,591] Password:
+[2021-04-28 22:43:32,594] Looking up admin
+[2021-04-28 22:43:32,834] Found admin
+[2021-04-28 22:43:32,834] admin authenticated
+[2021-04-28 22:43:32,834] 
+Employee Menu
+[2021-04-28 22:43:32,834] 1..Approve/reject account
+[2021-04-28 22:43:32,834] 2..View customer accounts
+[2021-04-28 22:43:32,834] 3..View log of all transactions
+[2021-04-28 22:43:32,834] 4..Logout
+[2021-04-28 22:43:32,834] [admin] Enter choice:
+[2021-04-28 22:43:38,674] 
+Employee Menu > View customer accounts
+[2021-04-28 22:43:38,724] No existing accounts
+[2021-04-28 22:43:38,724] 
+Employee Menu
+[2021-04-28 22:43:38,724] 1..Approve/reject account
+[2021-04-28 22:43:38,724] 2..View customer accounts
+[2021-04-28 22:43:38,724] 3..View log of all transactions
+[2021-04-28 22:43:38,724] 4..Logout
+[2021-04-28 22:43:38,724] [admin] Enter choice:
+[2021-04-28 22:43:45,744] 
+Employee Menu > Approve/reject account
+[2021-04-28 22:43:45,796] No pending accounts
+[2021-04-28 22:43:45,796] 
+Employee Menu
+[2021-04-28 22:43:45,796] 1..Approve/reject account
+[2021-04-28 22:43:45,796] 2..View customer accounts
+[2021-04-28 22:43:45,796] 3..View log of all transactions
+[2021-04-28 22:43:45,796] 4..Logout
+[2021-04-28 22:43:45,796] [admin] Enter choice:
+[2021-04-28 22:43:49,794] I'm sorry, this service is currently unavailable.
+[2021-04-28 22:43:49,794] 
+Employee Menu
+[2021-04-28 22:43:49,794] 1..Approve/reject account
+[2021-04-28 22:43:49,794] 2..View customer accounts
+[2021-04-28 22:43:49,794] 3..View log of all transactions
+[2021-04-28 22:43:49,794] 4..Logout
+[2021-04-28 22:43:49,794] [admin] Enter choice:
+[2021-04-28 22:44:06,984] Logging out
+[2021-04-28 22:44:06,984] 
+Main menu
+[2021-04-28 22:44:06,984] 1..Login
+[2021-04-28 22:44:06,984] 2..Register
+[2021-04-28 22:44:06,984] 3..Quit
+[2021-04-28 22:44:06,984] Enter choice:
+[2021-04-28 22:44:09,004] 
+Main menu > Login
+[2021-04-28 22:44:09,004] Username:
+[2021-04-28 22:44:12,064] Password:
+[2021-04-28 22:44:14,104] Looking up foo
+[2021-04-28 22:44:14,144] Found foo
+[2021-04-28 22:44:14,144] foo authenticated
+[2021-04-28 22:44:14,154] 
+Customer menu
+[2021-04-28 22:44:14,154] 1..Apply for new account
+[2021-04-28 22:44:14,154] 2..View account balance
+[2021-04-28 22:44:14,154] 3..Withdraw funds
+[2021-04-28 22:44:14,154] 4..Deposit funds
+[2021-04-28 22:44:14,154] 5..Transfer funds
+[2021-04-28 22:44:14,154] 6..Logout
+[2021-04-28 22:44:14,154] [foo] Enter choice:
+[2021-04-28 22:44:17,154] 
+Customer menu > View account balance
+[2021-04-28 22:44:17,204] 
+[2021-04-28 22:44:17,204] 
+Customer menu
+[2021-04-28 22:44:17,204] 1..Apply for new account
+[2021-04-28 22:44:17,204] 2..View account balance
+[2021-04-28 22:44:17,204] 3..Withdraw funds
+[2021-04-28 22:44:17,204] 4..Deposit funds
+[2021-04-28 22:44:17,204] 5..Transfer funds
+[2021-04-28 22:44:17,204] 6..Logout
+[2021-04-28 22:44:17,204] [foo] Enter choice:
+[2021-04-28 22:44:24,244] I'm sorry, this service is currently unavailable.
+[2021-04-28 22:44:24,244] 
+Customer menu
+[2021-04-28 22:44:24,244] 1..Apply for new account
+[2021-04-28 22:44:24,244] 2..View account balance
+[2021-04-28 22:44:24,244] 3..Withdraw funds
+[2021-04-28 22:44:24,244] 4..Deposit funds
+[2021-04-28 22:44:24,244] 5..Transfer funds
+[2021-04-28 22:44:24,244] 6..Logout
+[2021-04-28 22:44:24,244] [foo] Enter choice:
+[2021-04-28 22:45:08,834] 
+Customer menu > Apply for new account
+[2021-04-28 22:45:08,844] Please enter a starting balance:
+[2021-04-28 22:45:13,824] Invalid input: 'asdf51'
+[2021-04-28 22:45:21,983] Requires a starting balance of $500 or more.
+[2021-04-28 22:45:21,983] 
+Customer menu
+[2021-04-28 22:45:21,983] 1..Apply for new account
+[2021-04-28 22:45:21,983] 2..View account balance
+[2021-04-28 22:45:21,983] 3..Withdraw funds
+[2021-04-28 22:45:21,983] 4..Deposit funds
+[2021-04-28 22:45:21,983] 5..Transfer funds
+[2021-04-28 22:45:21,983] 6..Logout
+[2021-04-28 22:45:21,983] [foo] Enter choice:
+[2021-04-28 22:46:32,896] 
+Customer menu > Apply for new account
+[2021-04-28 22:46:32,896] Please enter a starting balance:
+[2021-04-28 22:46:37,004] Your new account is pending approval.
+[2021-04-28 22:46:37,004] 
+Customer menu
+[2021-04-28 22:46:37,004] 1..Apply for new account
+[2021-04-28 22:46:37,004] 2..View account balance
+[2021-04-28 22:46:37,004] 3..Withdraw funds
+[2021-04-28 22:46:37,004] 4..Deposit funds
+[2021-04-28 22:46:37,004] 5..Transfer funds
+[2021-04-28 22:46:37,004] 6..Logout
+[2021-04-28 22:46:37,004] [foo] Enter choice:
+[2021-04-28 22:46:45,054] Account already exists for foo
+[2021-04-28 22:46:45,054] 
+Customer menu
+[2021-04-28 22:46:45,054] 1..Apply for new account
+[2021-04-28 22:46:45,054] 2..View account balance
+[2021-04-28 22:46:45,054] 3..Withdraw funds
+[2021-04-28 22:46:45,054] 4..Deposit funds
+[2021-04-28 22:46:45,054] 5..Transfer funds
+[2021-04-28 22:46:45,054] 6..Logout
+[2021-04-28 22:46:45,054] [foo] Enter choice:
+[2021-04-28 22:46:59,194] 
+Customer menu > View account balance
+[2021-04-28 22:46:59,244] org.shivacorp.exception.BusinessException: ShivacorpDAOImpl.getUserByUsername: The column name accountid was not found in this ResultSet.
+[2021-04-28 22:46:59,244] 
+Customer menu
+[2021-04-28 22:46:59,244] 1..Apply for new account
+[2021-04-28 22:46:59,244] 2..View account balance
+[2021-04-28 22:46:59,244] 3..Withdraw funds
+[2021-04-28 22:46:59,244] 4..Deposit funds
+[2021-04-28 22:46:59,244] 5..Transfer funds
+[2021-04-28 22:46:59,244] 6..Logout
+[2021-04-28 22:46:59,244] [foo] Enter choice:
+[2021-04-28 22:47:30,544] 
+Customer menu > View account balance
+[2021-04-28 22:47:30,704] org.shivacorp.exception.BusinessException: ShivacorpDAOImpl.getUserByUsername: The column name accountid was not found in this ResultSet.
+[2021-04-28 22:47:30,704] 
+Customer menu
+[2021-04-28 22:47:30,704] 1..Apply for new account
+[2021-04-28 22:47:30,704] 2..View account balance
+[2021-04-28 22:47:30,704] 3..Withdraw funds
+[2021-04-28 22:47:30,704] 4..Deposit funds
+[2021-04-28 22:47:30,704] 5..Transfer funds
+[2021-04-28 22:47:30,704] 6..Logout
+[2021-04-28 22:47:30,704] [foo] Enter choice:
+[2021-04-28 22:47:35,424] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 22:47:35,424] 
+Main menu
+[2021-04-28 22:47:35,424] 1..Login
+[2021-04-28 22:47:35,424] 2..Register
+[2021-04-28 22:47:35,424] 3..Quit
+[2021-04-28 22:47:35,424] Enter choice:
+[2021-04-28 22:47:40,154] 
+Main menu > Login
+[2021-04-28 22:47:40,154] Username:
+[2021-04-28 22:47:44,234] Password:
+[2021-04-28 22:47:46,274] Looking up foo
+[2021-04-28 22:47:46,514] Found foo
+[2021-04-28 22:47:46,514] foo authenticated
+[2021-04-28 22:47:46,514] 
+Customer menu
+[2021-04-28 22:47:46,514] 1..Apply for new account
+[2021-04-28 22:47:46,514] 2..View account balance
+[2021-04-28 22:47:46,514] 3..Withdraw funds
+[2021-04-28 22:47:46,514] 4..Deposit funds
+[2021-04-28 22:47:46,514] 5..Transfer funds
+[2021-04-28 22:47:46,514] 6..Logout
+[2021-04-28 22:47:46,514] [foo] Enter choice:
+[2021-04-28 22:47:49,334] 
+Customer menu > View account balance
+[2021-04-28 22:47:49,334] I'm sorry, this service is currently unavailable.
+[2021-04-28 22:47:49,334] 
+Customer menu
+[2021-04-28 22:47:49,334] 1..Apply for new account
+[2021-04-28 22:47:49,334] 2..View account balance
+[2021-04-28 22:47:49,334] 3..Withdraw funds
+[2021-04-28 22:47:49,334] 4..Deposit funds
+[2021-04-28 22:47:49,334] 5..Transfer funds
+[2021-04-28 22:47:49,334] 6..Logout
+[2021-04-28 22:47:49,334] [foo] Enter choice:
+[2021-04-28 22:48:08,604] I'm sorry, this service is currently unavailable.
+[2021-04-28 22:48:08,604] 
+Customer menu
+[2021-04-28 22:48:08,604] 1..Apply for new account
+[2021-04-28 22:48:08,604] 2..View account balance
+[2021-04-28 22:48:08,604] 3..Withdraw funds
+[2021-04-28 22:48:08,604] 4..Deposit funds
+[2021-04-28 22:48:08,604] 5..Transfer funds
+[2021-04-28 22:48:08,604] 6..Logout
+[2021-04-28 22:48:08,604] [foo] Enter choice:
+[2021-04-28 22:48:13,694] I'm sorry, this service is currently unavailable.
+[2021-04-28 22:48:13,694] 
+Customer menu
+[2021-04-28 22:48:13,694] 1..Apply for new account
+[2021-04-28 22:48:13,694] 2..View account balance
+[2021-04-28 22:48:13,694] 3..Withdraw funds
+[2021-04-28 22:48:13,694] 4..Deposit funds
+[2021-04-28 22:48:13,694] 5..Transfer funds
+[2021-04-28 22:48:13,694] 6..Logout
+[2021-04-28 22:48:13,694] [foo] Enter choice:
+[2021-04-28 22:48:15,714] I'm sorry, this service is currently unavailable.
+[2021-04-28 22:48:15,714] 
+Customer menu
+[2021-04-28 22:48:15,714] 1..Apply for new account
+[2021-04-28 22:48:15,714] 2..View account balance
+[2021-04-28 22:48:15,714] 3..Withdraw funds
+[2021-04-28 22:48:15,714] 4..Deposit funds
+[2021-04-28 22:48:15,714] 5..Transfer funds
+[2021-04-28 22:48:15,714] 6..Logout
+[2021-04-28 22:48:15,714] [foo] Enter choice:
+[2021-04-28 22:48:17,724] 
+Customer menu > View account balance
+[2021-04-28 22:48:17,724] I'm sorry, this service is currently unavailable.
+[2021-04-28 22:48:17,724] 
+Customer menu
+[2021-04-28 22:48:17,724] 1..Apply for new account
+[2021-04-28 22:48:17,724] 2..View account balance
+[2021-04-28 22:48:17,724] 3..Withdraw funds
+[2021-04-28 22:48:17,724] 4..Deposit funds
+[2021-04-28 22:48:17,724] 5..Transfer funds
+[2021-04-28 22:48:17,724] 6..Logout
+[2021-04-28 22:48:17,724] [foo] Enter choice:
+[2021-04-28 22:49:44,834] Logging out
+[2021-04-28 22:49:44,834] 
+Main menu
+[2021-04-28 22:49:44,834] 1..Login
+[2021-04-28 22:49:44,834] 2..Register
+[2021-04-28 22:49:44,834] 3..Quit
+[2021-04-28 22:49:44,834] Enter choice:
+[2021-04-28 22:49:46,862] 
+Main menu > Login
+[2021-04-28 22:49:46,862] Username:
+[2021-04-28 22:49:48,884] Password:
+[2021-04-28 22:49:50,914] Looking up admin
+[2021-04-28 22:49:51,064] Found admin
+[2021-04-28 22:49:51,064] admin authenticated
+[2021-04-28 22:49:51,064] 
+Employee Menu
+[2021-04-28 22:49:51,064] 1..Approve/reject account
+[2021-04-28 22:49:51,064] 2..View customer accounts
+[2021-04-28 22:49:51,064] 3..View log of all transactions
+[2021-04-28 22:49:51,064] 4..Logout
+[2021-04-28 22:49:51,064] [admin] Enter choice:
+[2021-04-28 23:17:33,434] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 23:17:33,444] 
+Main menu
+[2021-04-28 23:17:33,444] 1..Login
+[2021-04-28 23:17:33,444] 2..Register
+[2021-04-28 23:17:33,444] 3..Quit
+[2021-04-28 23:17:33,444] Enter choice:
+[2021-04-28 23:17:42,265] 
+Main menu > Login
+[2021-04-28 23:17:42,265] Username:
+[2021-04-28 23:17:53,405] Password:
+[2021-04-28 23:17:55,445] Looking up admin
+[2021-04-28 23:17:55,684] Found admin
+[2021-04-28 23:17:55,684] admin authenticated
+[2021-04-28 23:17:55,684] 
+Employee Menu
+[2021-04-28 23:17:55,684] 1..Approve/reject account
+[2021-04-28 23:17:55,684] 2..View customer accounts
+[2021-04-28 23:17:55,684] 3..View log of all transactions
+[2021-04-28 23:17:55,684] 4..Logout
+[2021-04-28 23:17:55,684] [admin] Enter choice:
+[2021-04-28 23:17:58,490] 
+Employee Menu > View customer accounts
+[2021-04-28 23:17:58,540] Account {id=111112, balance=500.0, status=PENDING, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-28 23:17:58,540] 
+Employee Menu
+[2021-04-28 23:17:58,540] 1..Approve/reject account
+[2021-04-28 23:17:58,540] 2..View customer accounts
+[2021-04-28 23:17:58,540] 3..View log of all transactions
+[2021-04-28 23:17:58,540] 4..Logout
+[2021-04-28 23:17:58,540] [admin] Enter choice:
+[2021-04-28 23:18:28,905] 
+Employee Menu > Approve/reject account
+[2021-04-28 23:18:28,964] ShivacorpDAOImpl.getAccountsByStatus: The column name id was not found in this ResultSet.
+[2021-04-28 23:18:28,964] 
+Employee Menu
+[2021-04-28 23:18:28,964] 1..Approve/reject account
+[2021-04-28 23:18:28,964] 2..View customer accounts
+[2021-04-28 23:18:28,964] 3..View log of all transactions
+[2021-04-28 23:18:28,964] 4..Logout
+[2021-04-28 23:18:28,964] [admin] Enter choice:
+[2021-04-28 23:28:54,377] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 23:28:54,387] 
+Main menu
+[2021-04-28 23:28:54,387] 1..Login
+[2021-04-28 23:28:54,387] 2..Register
+[2021-04-28 23:28:54,387] 3..Quit
+[2021-04-28 23:28:54,387] Enter choice:
+[2021-04-28 23:28:57,985] 
+Main menu > Login
+[2021-04-28 23:28:57,985] Username:
+[2021-04-28 23:29:01,021] Password:
+[2021-04-28 23:29:05,045] Looking up admin
+[2021-04-28 23:29:05,335] Found admin
+[2021-04-28 23:29:05,335] admin authenticated
+[2021-04-28 23:29:05,335] 
+Employee Menu
+[2021-04-28 23:29:05,335] 1..Approve/reject account
+[2021-04-28 23:29:05,335] 2..View customer accounts
+[2021-04-28 23:29:05,335] 3..View log of all transactions
+[2021-04-28 23:29:05,335] 4..Logout
+[2021-04-28 23:29:05,335] [admin] Enter choice:
+[2021-04-28 23:29:10,095] 
+Employee Menu > View customer accounts
+[2021-04-28 23:29:10,144] Account {id=111112, balance=500.0, status=PENDING, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-28 23:29:10,155] 
+Employee Menu
+[2021-04-28 23:29:10,155] 1..Approve/reject account
+[2021-04-28 23:29:10,155] 2..View customer accounts
+[2021-04-28 23:29:10,155] 3..View log of all transactions
+[2021-04-28 23:29:10,155] 4..Logout
+[2021-04-28 23:29:10,155] [admin] Enter choice:
+[2021-04-28 23:29:17,205] 
+Employee Menu > Approve/reject account
+[2021-04-28 23:29:22,851] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 23:29:22,861] 
+Main menu
+[2021-04-28 23:29:22,861] 1..Login
+[2021-04-28 23:29:22,861] 2..Register
+[2021-04-28 23:29:22,861] 3..Quit
+[2021-04-28 23:29:22,861] Enter choice:
+[2021-04-28 23:29:30,511] 
+Main menu > Login
+[2021-04-28 23:29:30,512] Username:
+[2021-04-28 23:29:32,513] Password:
+[2021-04-28 23:29:34,513] Looking up admin
+[2021-04-28 23:29:34,760] Found admin
+[2021-04-28 23:29:34,760] admin authenticated
+[2021-04-28 23:29:34,762] 
+Employee Menu
+[2021-04-28 23:29:34,762] 1..Approve/reject account
+[2021-04-28 23:29:34,763] 2..View customer accounts
+[2021-04-28 23:29:34,763] 3..View log of all transactions
+[2021-04-28 23:29:34,763] 4..Logout
+[2021-04-28 23:29:34,763] [admin] Enter choice:
+[2021-04-28 23:29:38,516] 
+Employee Menu > Approve/reject account
+[2021-04-28 23:32:57,595] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-28 23:32:57,605] 
+Main menu
+[2021-04-28 23:32:57,605] 1..Login
+[2021-04-28 23:32:57,605] 2..Register
+[2021-04-28 23:32:57,605] 3..Quit
+[2021-04-28 23:32:57,605] Enter choice:
+[2021-04-28 23:33:01,305] 
+Main menu > Login
+[2021-04-28 23:33:01,305] Username:
+[2021-04-28 23:33:03,325] Password:
+[2021-04-28 23:33:05,365] Looking up admin
+[2021-04-28 23:33:05,610] Found admin
+[2021-04-28 23:33:05,610] admin authenticated
+[2021-04-28 23:33:05,615] 
+Employee Menu
+[2021-04-28 23:33:05,615] 1..Approve/reject account
+[2021-04-28 23:33:05,615] 2..View customer accounts
+[2021-04-28 23:33:05,615] 3..View log of all transactions
+[2021-04-28 23:33:05,615] 4..Logout
+[2021-04-28 23:33:05,615] [admin] Enter choice:
+[2021-04-28 23:33:08,425] 
+Employee Menu > Approve/reject account
+[2021-04-28 23:33:08,474] 
+1 account(s) pending:
+[2021-04-28 23:33:08,474] 0..Cancel
+[2021-04-28 23:33:08,474] 1..Account {id=111112, balance=500.0, status=PENDING, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-28 23:33:08,474] Choose account:
+[2021-04-28 23:33:18,575] 0..Cancel
+[2021-04-28 23:33:18,575] 1..PENDING
+[2021-04-28 23:33:18,575] 2..APPROVED
+[2021-04-28 23:33:18,575] 3..DENIED
+[2021-04-28 23:33:18,575] Choose status:
+[2021-04-28 23:33:25,725] Account status updated
+[2021-04-28 23:33:25,725] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-28 23:33:25,725] 
+Employee Menu
+[2021-04-28 23:33:25,725] 1..Approve/reject account
+[2021-04-28 23:33:25,725] 2..View customer accounts
+[2021-04-28 23:33:25,725] 3..View log of all transactions
+[2021-04-28 23:33:25,725] 4..Logout
+[2021-04-28 23:33:25,725] [admin] Enter choice:
+[2021-04-28 23:33:31,755] 
+Employee Menu > View customer accounts
+[2021-04-28 23:33:31,805] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-28 23:33:31,805] 
+Employee Menu
+[2021-04-28 23:33:31,805] 1..Approve/reject account
+[2021-04-28 23:33:31,805] 2..View customer accounts
+[2021-04-28 23:33:31,805] 3..View log of all transactions
+[2021-04-28 23:33:31,805] 4..Logout
+[2021-04-28 23:33:31,805] [admin] Enter choice:
+[2021-04-28 23:36:40,245] Logging out
+[2021-04-28 23:36:40,245] 
+Main menu
+[2021-04-28 23:36:40,245] 1..Login
+[2021-04-28 23:36:40,245] 2..Register
+[2021-04-28 23:36:40,245] 3..Quit
+[2021-04-28 23:36:40,245] Enter choice:
+[2021-04-28 23:36:42,254] Thank you for using ShivaCorp Banking app
+[2021-04-28 23:36:42,254] Goodbye
+[2021-04-29 00:22:33,224] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 00:22:33,234] 
+Main menu
+[2021-04-29 00:22:33,234] 1..Login
+[2021-04-29 00:22:33,234] 2..Register
+[2021-04-29 00:22:33,234] 3..Quit
+[2021-04-29 00:22:33,234] Enter choice:
+[2021-04-29 00:22:41,039] 
+Main menu > Login
+[2021-04-29 00:22:41,039] Username:
+[2021-04-29 00:22:52,174] Password:
+[2021-04-29 00:22:54,194] Looking up foo
+[2021-04-29 00:22:54,439] Found foo
+[2021-04-29 00:22:54,439] foo authenticated
+[2021-04-29 00:22:54,439] 
+Customer menu
+[2021-04-29 00:22:54,439] 1..Apply for new account
+[2021-04-29 00:22:54,439] 2..View account balance
+[2021-04-29 00:22:54,439] 3..Withdraw funds
+[2021-04-29 00:22:54,439] 4..Deposit funds
+[2021-04-29 00:22:54,439] 5..Transfer funds
+[2021-04-29 00:22:54,439] 6..Logout
+[2021-04-29 00:22:54,439] [foo] Enter choice:
+[2021-04-29 00:22:57,244] 
+Customer menu > View account balance
+[2021-04-29 00:22:57,419] org.shivacorp.exception.BusinessException: ShivacorpDAOImpl.getUserByUsername: ERROR: syntax error at or near "a"
+  Position: 70
+[2021-04-29 00:22:57,419] 
+Customer menu
+[2021-04-29 00:22:57,419] 1..Apply for new account
+[2021-04-29 00:22:57,419] 2..View account balance
+[2021-04-29 00:22:57,419] 3..Withdraw funds
+[2021-04-29 00:22:57,419] 4..Deposit funds
+[2021-04-29 00:22:57,419] 5..Transfer funds
+[2021-04-29 00:22:57,419] 6..Logout
+[2021-04-29 00:22:57,419] [foo] Enter choice:
+[2021-04-29 00:23:49,594] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 00:23:49,604] 
+Main menu
+[2021-04-29 00:23:49,604] 1..Login
+[2021-04-29 00:23:49,604] 2..Register
+[2021-04-29 00:23:49,604] 3..Quit
+[2021-04-29 00:23:49,604] Enter choice:
+[2021-04-29 00:23:53,333] 
+Main menu > Login
+[2021-04-29 00:23:53,334] Username:
+[2021-04-29 00:23:55,345] Password:
+[2021-04-29 00:23:57,374] Looking up foo
+[2021-04-29 00:23:57,624] Found foo
+[2021-04-29 00:23:57,624] foo authenticated
+[2021-04-29 00:23:57,624] 
+Customer menu
+[2021-04-29 00:23:57,629] 1..Apply for new account
+[2021-04-29 00:23:57,629] 2..View account balance
+[2021-04-29 00:23:57,629] 3..Withdraw funds
+[2021-04-29 00:23:57,629] 4..Deposit funds
+[2021-04-29 00:23:57,629] 5..Transfer funds
+[2021-04-29 00:23:57,629] 6..Logout
+[2021-04-29 00:23:57,629] [foo] Enter choice:
+[2021-04-29 00:24:01,420] 
+Customer menu > View account balance
+[2021-04-29 00:24:01,464] org.shivacorp.exception.BusinessException: ShivacorpDAOImpl.getUserByUsername: ERROR: syntax error at or near "."
+  Position: 51
+[2021-04-29 00:24:01,464] 
+Customer menu
+[2021-04-29 00:24:01,464] 1..Apply for new account
+[2021-04-29 00:24:01,464] 2..View account balance
+[2021-04-29 00:24:01,464] 3..Withdraw funds
+[2021-04-29 00:24:01,464] 4..Deposit funds
+[2021-04-29 00:24:01,464] 5..Transfer funds
+[2021-04-29 00:24:01,464] 6..Logout
+[2021-04-29 00:24:01,464] [foo] Enter choice:
+[2021-04-29 00:24:37,743] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 00:24:37,744] 
+Main menu
+[2021-04-29 00:24:37,744] 1..Login
+[2021-04-29 00:24:37,744] 2..Register
+[2021-04-29 00:24:37,744] 3..Quit
+[2021-04-29 00:24:37,744] Enter choice:
+[2021-04-29 00:24:44,524] 
+Main menu > Login
+[2021-04-29 00:24:44,524] Username:
+[2021-04-29 00:24:47,574] Password:
+[2021-04-29 00:24:49,595] Looking up foo
+[2021-04-29 00:24:49,844] Found foo
+[2021-04-29 00:24:49,844] foo authenticated
+[2021-04-29 00:24:49,844] 
+Customer menu
+[2021-04-29 00:24:49,844] 1..Apply for new account
+[2021-04-29 00:24:49,844] 2..View account balance
+[2021-04-29 00:24:49,844] 3..Withdraw funds
+[2021-04-29 00:24:49,844] 4..Deposit funds
+[2021-04-29 00:24:49,844] 5..Transfer funds
+[2021-04-29 00:24:49,844] 6..Logout
+[2021-04-29 00:24:49,844] [foo] Enter choice:
+[2021-04-29 00:24:51,634] 
+Customer menu > View account balance
+[2021-04-29 00:24:51,684] org.shivacorp.exception.BusinessException: ShivacorpDAOImpl.getUserByUsername: ERROR: syntax error at or near "."
+  Position: 50
+[2021-04-29 00:24:51,684] 
+Customer menu
+[2021-04-29 00:24:51,684] 1..Apply for new account
+[2021-04-29 00:24:51,684] 2..View account balance
+[2021-04-29 00:24:51,684] 3..Withdraw funds
+[2021-04-29 00:24:51,684] 4..Deposit funds
+[2021-04-29 00:24:51,684] 5..Transfer funds
+[2021-04-29 00:24:51,684] 6..Logout
+[2021-04-29 00:24:51,684] [foo] Enter choice:
+[2021-04-29 00:25:11,584] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 00:25:11,588] 
+Main menu
+[2021-04-29 00:25:11,594] 1..Login
+[2021-04-29 00:25:11,594] 2..Register
+[2021-04-29 00:25:11,594] 3..Quit
+[2021-04-29 00:25:11,594] Enter choice:
+[2021-04-29 00:25:15,245] 
+Main menu > Login
+[2021-04-29 00:25:15,245] Username:
+[2021-04-29 00:25:17,265] Password:
+[2021-04-29 00:25:18,284] Looking up foo
+[2021-04-29 00:25:18,534] Found foo
+[2021-04-29 00:25:18,534] foo authenticated
+[2021-04-29 00:25:18,534] 
+Customer menu
+[2021-04-29 00:25:18,534] 1..Apply for new account
+[2021-04-29 00:25:18,534] 2..View account balance
+[2021-04-29 00:25:18,534] 3..Withdraw funds
+[2021-04-29 00:25:18,534] 4..Deposit funds
+[2021-04-29 00:25:18,534] 5..Transfer funds
+[2021-04-29 00:25:18,534] 6..Logout
+[2021-04-29 00:25:18,534] [foo] Enter choice:
+[2021-04-29 00:25:20,314] 
+Customer menu > View account balance
+[2021-04-29 00:25:20,364] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 00:25:20,364] 
+Customer menu
+[2021-04-29 00:25:20,364] 1..Apply for new account
+[2021-04-29 00:25:20,364] 2..View account balance
+[2021-04-29 00:25:20,364] 3..Withdraw funds
+[2021-04-29 00:25:20,364] 4..Deposit funds
+[2021-04-29 00:25:20,364] 5..Transfer funds
+[2021-04-29 00:25:20,364] 6..Logout
+[2021-04-29 00:25:20,364] [foo] Enter choice:
+[2021-04-29 00:26:39,385] Logging out
+[2021-04-29 00:26:39,385] 
+Main menu
+[2021-04-29 00:26:39,385] 1..Login
+[2021-04-29 00:26:39,385] 2..Register
+[2021-04-29 00:26:39,385] 3..Quit
+[2021-04-29 00:26:39,385] Enter choice:
+[2021-04-29 00:26:41,424] 
+Main menu > Login
+[2021-04-29 00:26:41,424] Username:
+[2021-04-29 00:26:49,545] Password:
+[2021-04-29 00:26:51,584] Looking up asdf
+[2021-04-29 00:26:51,634] Username 'asdf' does not exist
+[2021-04-29 00:26:51,634] 
+Main menu
+[2021-04-29 00:26:51,634] 1..Login
+[2021-04-29 00:26:51,634] 2..Register
+[2021-04-29 00:26:51,634] 3..Quit
+[2021-04-29 00:26:51,634] Enter choice:
+[2021-04-29 00:26:54,645] 
+Main menu > Register
+[2021-04-29 00:26:54,645] Username:
+[2021-04-29 00:26:57,705] Password:
+[2021-04-29 00:26:59,744] Confirm password:
+[2021-04-29 00:27:01,784] Full name:
+[2021-04-29 00:27:05,934] New user account created for poo
+[2021-04-29 00:27:05,934] 
+Customer menu
+[2021-04-29 00:27:05,934] 1..Apply for new account
+[2021-04-29 00:27:05,934] 2..View account balance
+[2021-04-29 00:27:05,934] 3..Withdraw funds
+[2021-04-29 00:27:05,934] 4..Deposit funds
+[2021-04-29 00:27:05,934] 5..Transfer funds
+[2021-04-29 00:27:05,934] 6..Logout
+[2021-04-29 00:27:05,934] [poo] Enter choice:
+[2021-04-29 00:27:10,944] 
+Customer menu > Apply for new account
+[2021-04-29 00:27:10,944] Please enter a starting balance:
+[2021-04-29 00:27:13,044] Your new account is pending approval.
+[2021-04-29 00:27:13,044] 
+Customer menu
+[2021-04-29 00:27:13,044] 1..Apply for new account
+[2021-04-29 00:27:13,044] 2..View account balance
+[2021-04-29 00:27:13,044] 3..Withdraw funds
+[2021-04-29 00:27:13,044] 4..Deposit funds
+[2021-04-29 00:27:13,044] 5..Transfer funds
+[2021-04-29 00:27:13,044] 6..Logout
+[2021-04-29 00:27:13,044] [poo] Enter choice:
+[2021-04-29 00:27:19,015] 
+Customer menu > View account balance
+[2021-04-29 00:27:19,064] Account {id=111113, balance=500.0, status=PENDING, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 00:27:19,064] 
+Customer menu
+[2021-04-29 00:27:19,064] 1..Apply for new account
+[2021-04-29 00:27:19,064] 2..View account balance
+[2021-04-29 00:27:19,064] 3..Withdraw funds
+[2021-04-29 00:27:19,064] 4..Deposit funds
+[2021-04-29 00:27:19,064] 5..Transfer funds
+[2021-04-29 00:27:19,064] 6..Logout
+[2021-04-29 00:27:19,064] [poo] Enter choice:
+[2021-04-29 00:34:58,174] Logging out
+[2021-04-29 00:34:58,174] 
+Main menu
+[2021-04-29 00:34:58,174] 1..Login
+[2021-04-29 00:34:58,174] 2..Register
+[2021-04-29 00:34:58,174] 3..Quit
+[2021-04-29 00:34:58,174] Enter choice:
+[2021-04-29 00:34:59,175] Thank you for using ShivaCorp Banking app
+[2021-04-29 00:34:59,175] Goodbye
+[2021-04-29 00:35:04,574] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 00:35:04,574] 
+Main menu
+[2021-04-29 00:35:04,574] 1..Login
+[2021-04-29 00:35:04,574] 2..Register
+[2021-04-29 00:35:04,574] 3..Quit
+[2021-04-29 00:35:04,574] Enter choice:
+[2021-04-29 00:35:13,415] 
+Main menu > Login
+[2021-04-29 00:35:13,415] Username:
+[2021-04-29 00:35:31,635] Password:
+[2021-04-29 00:35:33,665] Looking up poo
+[2021-04-29 00:35:33,914] Found poo
+[2021-04-29 00:35:33,914] poo authenticated
+[2021-04-29 00:35:33,914] 
+Customer menu
+[2021-04-29 00:35:33,914] 1..Apply for new account
+[2021-04-29 00:35:33,914] 2..View account balance
+[2021-04-29 00:35:33,914] 3..Withdraw funds
+[2021-04-29 00:35:33,914] 4..Deposit funds
+[2021-04-29 00:35:33,914] 5..Transfer funds
+[2021-04-29 00:35:33,914] 6..Logout
+[2021-04-29 00:35:33,914] [poo] Enter choice:
+[2021-04-29 00:35:39,804] Account already exists for poo
+[2021-04-29 00:35:39,804] 
+Customer menu
+[2021-04-29 00:35:39,804] 1..Apply for new account
+[2021-04-29 00:35:39,804] 2..View account balance
+[2021-04-29 00:35:39,804] 3..Withdraw funds
+[2021-04-29 00:35:39,804] 4..Deposit funds
+[2021-04-29 00:35:39,804] 5..Transfer funds
+[2021-04-29 00:35:39,804] 6..Logout
+[2021-04-29 00:35:39,804] [poo] Enter choice:
+[2021-04-29 00:35:44,815] 
+Customer menu > View account balance
+[2021-04-29 00:35:44,864] org.shivacorp.exception.BusinessException: Account is pending. Try again later.
+[2021-04-29 00:35:44,864] 
+Customer menu
+[2021-04-29 00:35:44,864] 1..Apply for new account
+[2021-04-29 00:35:44,864] 2..View account balance
+[2021-04-29 00:35:44,864] 3..Withdraw funds
+[2021-04-29 00:35:44,864] 4..Deposit funds
+[2021-04-29 00:35:44,864] 5..Transfer funds
+[2021-04-29 00:35:44,864] 6..Logout
+[2021-04-29 00:35:44,864] [poo] Enter choice:
+[2021-04-29 00:36:10,844] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 00:36:10,854] 
+Main menu
+[2021-04-29 00:36:10,854] 1..Login
+[2021-04-29 00:36:10,854] 2..Register
+[2021-04-29 00:36:10,854] 3..Quit
+[2021-04-29 00:36:10,854] Enter choice:
+[2021-04-29 00:36:14,555] 
+Main menu > Login
+[2021-04-29 00:36:14,555] Username:
+[2021-04-29 00:36:16,595] Password:
+[2021-04-29 00:36:18,635] Looking up poo
+[2021-04-29 00:36:18,890] Found poo
+[2021-04-29 00:36:18,890] poo authenticated
+[2021-04-29 00:36:18,890] 
+Customer menu
+[2021-04-29 00:36:18,890] 1..Apply for new account
+[2021-04-29 00:36:18,894] 2..View account balance
+[2021-04-29 00:36:18,894] 3..Withdraw funds
+[2021-04-29 00:36:18,894] 4..Deposit funds
+[2021-04-29 00:36:18,894] 5..Transfer funds
+[2021-04-29 00:36:18,894] 6..Logout
+[2021-04-29 00:36:18,894] [poo] Enter choice:
+[2021-04-29 00:36:22,664] 
+Customer menu > View account balance
+[2021-04-29 00:36:22,714] Account is pending. Try again later.
+[2021-04-29 00:36:22,714] 
+Customer menu
+[2021-04-29 00:36:22,714] 1..Apply for new account
+[2021-04-29 00:36:22,714] 2..View account balance
+[2021-04-29 00:36:22,714] 3..Withdraw funds
+[2021-04-29 00:36:22,714] 4..Deposit funds
+[2021-04-29 00:36:22,714] 5..Transfer funds
+[2021-04-29 00:36:22,714] 6..Logout
+[2021-04-29 00:36:22,714] [poo] Enter choice:
+[2021-04-29 00:50:46,675] Account already exists for poo
+[2021-04-29 00:50:46,675] 
+Customer menu
+[2021-04-29 00:50:46,675] 1..Apply for new account
+[2021-04-29 00:50:46,675] 2..View account balance
+[2021-04-29 00:50:46,675] 3..Withdraw funds
+[2021-04-29 00:50:46,675] 4..Deposit funds
+[2021-04-29 00:50:46,675] 5..Transfer funds
+[2021-04-29 00:50:46,675] 6..Logout
+[2021-04-29 00:50:46,675] [poo] Enter choice:
+[2021-04-29 00:50:56,785] 
+Customer menu > View account balance
+[2021-04-29 00:50:56,835] Account is pending. Try again later.
+[2021-04-29 00:50:56,835] 
+Customer menu
+[2021-04-29 00:50:56,835] 1..Apply for new account
+[2021-04-29 00:50:56,835] 2..View account balance
+[2021-04-29 00:50:56,835] 3..Withdraw funds
+[2021-04-29 00:50:56,835] 4..Deposit funds
+[2021-04-29 00:50:56,835] 5..Transfer funds
+[2021-04-29 00:50:56,835] 6..Logout
+[2021-04-29 00:50:56,835] [poo] Enter choice:
+[2021-04-29 00:51:04,905] I'm sorry, this service is currently unavailable.
+[2021-04-29 00:51:04,905] 
+Customer menu
+[2021-04-29 00:51:04,905] 1..Apply for new account
+[2021-04-29 00:51:04,905] 2..View account balance
+[2021-04-29 00:51:04,905] 3..Withdraw funds
+[2021-04-29 00:51:04,905] 4..Deposit funds
+[2021-04-29 00:51:04,905] 5..Transfer funds
+[2021-04-29 00:51:04,905] 6..Logout
+[2021-04-29 00:51:04,905] [poo] Enter choice:
+[2021-04-29 00:51:07,955] I'm sorry, this service is currently unavailable.
+[2021-04-29 00:51:07,955] 
+Customer menu
+[2021-04-29 00:51:07,955] 1..Apply for new account
+[2021-04-29 00:51:07,955] 2..View account balance
+[2021-04-29 00:51:07,955] 3..Withdraw funds
+[2021-04-29 00:51:07,955] 4..Deposit funds
+[2021-04-29 00:51:07,955] 5..Transfer funds
+[2021-04-29 00:51:07,955] 6..Logout
+[2021-04-29 00:51:07,955] [poo] Enter choice:
+[2021-04-29 00:51:09,975] I'm sorry, this service is currently unavailable.
+[2021-04-29 00:51:09,975] 
+Customer menu
+[2021-04-29 00:51:09,975] 1..Apply for new account
+[2021-04-29 00:51:09,975] 2..View account balance
+[2021-04-29 00:51:09,975] 3..Withdraw funds
+[2021-04-29 00:51:09,975] 4..Deposit funds
+[2021-04-29 00:51:09,975] 5..Transfer funds
+[2021-04-29 00:51:09,975] 6..Logout
+[2021-04-29 00:51:09,975] [poo] Enter choice:
+[2021-04-29 00:51:16,045] Logging out
+[2021-04-29 00:51:16,045] 
+Main menu
+[2021-04-29 00:51:16,045] 1..Login
+[2021-04-29 00:51:16,045] 2..Register
+[2021-04-29 00:51:16,045] 3..Quit
+[2021-04-29 00:51:16,045] Enter choice:
+[2021-04-29 00:51:18,065] 
+Main menu > Login
+[2021-04-29 00:51:18,065] Username:
+[2021-04-29 00:51:20,085] Password:
+[2021-04-29 00:51:22,115] Looking up admin
+[2021-04-29 00:51:22,165] Found admin
+[2021-04-29 00:51:22,165] admin authenticated
+[2021-04-29 00:51:22,165] 
+Employee Menu
+[2021-04-29 00:51:22,165] 1..Approve/reject account
+[2021-04-29 00:51:22,165] 2..View customer accounts
+[2021-04-29 00:51:22,165] 3..View log of all transactions
+[2021-04-29 00:51:22,165] 4..Logout
+[2021-04-29 00:51:22,165] [admin] Enter choice:
+[2021-04-29 00:51:25,145] 
+Employee Menu > View customer accounts
+[2021-04-29 00:51:25,305] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 00:51:25,305] Account {id=111113, balance=500.0, status=PENDING, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 00:51:25,305] 
+Employee Menu
+[2021-04-29 00:51:25,305] 1..Approve/reject account
+[2021-04-29 00:51:25,305] 2..View customer accounts
+[2021-04-29 00:51:25,305] 3..View log of all transactions
+[2021-04-29 00:51:25,305] 4..Logout
+[2021-04-29 00:51:25,305] [admin] Enter choice:
+[2021-04-29 00:51:33,245] Logging out
+[2021-04-29 00:51:33,245] 
+Main menu
+[2021-04-29 00:51:33,245] 1..Login
+[2021-04-29 00:51:33,245] 2..Register
+[2021-04-29 00:51:33,245] 3..Quit
+[2021-04-29 00:51:33,245] Enter choice:
+[2021-04-29 00:51:35,255] 
+Main menu > Login
+[2021-04-29 00:51:35,255] Username:
+[2021-04-29 00:51:37,285] Password:
+[2021-04-29 00:51:39,315] Looking up foo
+[2021-04-29 00:51:39,355] Found foo
+[2021-04-29 00:51:39,355] foo authenticated
+[2021-04-29 00:51:39,355] 
+Customer menu
+[2021-04-29 00:51:39,355] 1..Apply for new account
+[2021-04-29 00:51:39,355] 2..View account balance
+[2021-04-29 00:51:39,355] 3..Withdraw funds
+[2021-04-29 00:51:39,355] 4..Deposit funds
+[2021-04-29 00:51:39,355] 5..Transfer funds
+[2021-04-29 00:51:39,365] 6..Logout
+[2021-04-29 00:51:39,365] [foo] Enter choice:
+[2021-04-29 00:51:41,495] Account already exists for foo
+[2021-04-29 00:51:41,495] 
+Customer menu
+[2021-04-29 00:51:41,495] 1..Apply for new account
+[2021-04-29 00:51:41,495] 2..View account balance
+[2021-04-29 00:51:41,495] 3..Withdraw funds
+[2021-04-29 00:51:41,495] 4..Deposit funds
+[2021-04-29 00:51:41,495] 5..Transfer funds
+[2021-04-29 00:51:41,495] 6..Logout
+[2021-04-29 00:51:41,495] [foo] Enter choice:
+[2021-04-29 00:51:44,365] 
+Customer menu > View account balance
+[2021-04-29 00:51:44,415] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 00:51:44,415] 
+Customer menu
+[2021-04-29 00:51:44,415] 1..Apply for new account
+[2021-04-29 00:51:44,415] 2..View account balance
+[2021-04-29 00:51:44,415] 3..Withdraw funds
+[2021-04-29 00:51:44,415] 4..Deposit funds
+[2021-04-29 00:51:44,415] 5..Transfer funds
+[2021-04-29 00:51:44,415] 6..Logout
+[2021-04-29 00:51:44,415] [foo] Enter choice:
+[2021-04-29 00:51:57,515] I'm sorry, this service is currently unavailable.
+[2021-04-29 00:51:57,515] 
+Customer menu
+[2021-04-29 00:51:57,515] 1..Apply for new account
+[2021-04-29 00:51:57,515] 2..View account balance
+[2021-04-29 00:51:57,515] 3..Withdraw funds
+[2021-04-29 00:51:57,515] 4..Deposit funds
+[2021-04-29 00:51:57,515] 5..Transfer funds
+[2021-04-29 00:51:57,515] 6..Logout
+[2021-04-29 00:51:57,515] [foo] Enter choice:
+[2021-04-29 00:52:00,542] Logging out
+[2021-04-29 00:52:00,542] 
+Main menu
+[2021-04-29 00:52:00,542] 1..Login
+[2021-04-29 00:52:00,542] 2..Register
+[2021-04-29 00:52:00,542] 3..Quit
+[2021-04-29 00:52:00,542] Enter choice:
+[2021-04-29 00:52:02,545] 
+Main menu > Login
+[2021-04-29 00:52:02,545] Username:
+[2021-04-29 00:52:04,585] Password:
+[2021-04-29 00:52:06,605] Looking up admin
+[2021-04-29 00:52:06,652] Found admin
+[2021-04-29 00:52:06,652] admin authenticated
+[2021-04-29 00:52:06,652] 
+Employee Menu
+[2021-04-29 00:52:06,655] 1..Approve/reject account
+[2021-04-29 00:52:06,655] 2..View customer accounts
+[2021-04-29 00:52:06,655] 3..View log of all transactions
+[2021-04-29 00:52:06,655] 4..Logout
+[2021-04-29 00:52:06,655] [admin] Enter choice:
+[2021-04-29 00:52:09,635] 
+Employee Menu > Approve/reject account
+[2021-04-29 00:52:09,685] 
+1 account(s) pending:
+[2021-04-29 00:52:09,685] 0..Cancel
+[2021-04-29 00:52:09,685] 1..Account {id=111113, balance=500.0, status=PENDING, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 00:52:09,685] Choose account:
+[2021-04-29 00:52:15,685] 0..Cancel
+[2021-04-29 00:52:15,685] 1..PENDING
+[2021-04-29 00:52:15,685] 2..APPROVED
+[2021-04-29 00:52:15,685] 3..DENIED
+[2021-04-29 00:52:15,685] Choose status:
+[2021-04-29 00:52:17,755] Account status updated
+[2021-04-29 00:52:17,755] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 00:52:17,755] 
+Employee Menu
+[2021-04-29 00:52:17,755] 1..Approve/reject account
+[2021-04-29 00:52:17,755] 2..View customer accounts
+[2021-04-29 00:52:17,755] 3..View log of all transactions
+[2021-04-29 00:52:17,755] 4..Logout
+[2021-04-29 00:52:17,755] [admin] Enter choice:
+[2021-04-29 00:52:23,785] Logging out
+[2021-04-29 00:52:23,785] 
+Main menu
+[2021-04-29 00:52:23,785] 1..Login
+[2021-04-29 00:52:23,785] 2..Register
+[2021-04-29 00:52:23,785] 3..Quit
+[2021-04-29 00:52:23,785] Enter choice:
+[2021-04-29 00:52:25,825] 
+Main menu > Login
+[2021-04-29 00:52:25,825] Username:
+[2021-04-29 00:52:28,855] Password:
+[2021-04-29 00:52:30,875] Looking up poo
+[2021-04-29 00:52:30,925] Found poo
+[2021-04-29 00:52:30,925] poo authenticated
+[2021-04-29 00:52:30,925] 
+Customer menu
+[2021-04-29 00:52:30,925] 1..Apply for new account
+[2021-04-29 00:52:30,925] 2..View account balance
+[2021-04-29 00:52:30,925] 3..Withdraw funds
+[2021-04-29 00:52:30,925] 4..Deposit funds
+[2021-04-29 00:52:30,925] 5..Transfer funds
+[2021-04-29 00:52:30,925] 6..Logout
+[2021-04-29 00:52:30,925] [poo] Enter choice:
+[2021-04-29 00:52:33,920] 
+Customer menu > View account balance
+[2021-04-29 00:52:33,965] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 00:52:33,965] 
+Customer menu
+[2021-04-29 00:52:33,965] 1..Apply for new account
+[2021-04-29 00:52:33,965] 2..View account balance
+[2021-04-29 00:52:33,965] 3..Withdraw funds
+[2021-04-29 00:52:33,965] 4..Deposit funds
+[2021-04-29 00:52:33,965] 5..Transfer funds
+[2021-04-29 00:52:33,965] 6..Logout
+[2021-04-29 00:52:33,965] [poo] Enter choice:
+[2021-04-29 00:52:57,205] Logging out
+[2021-04-29 00:52:57,205] 
+Main menu
+[2021-04-29 00:52:57,205] 1..Login
+[2021-04-29 00:52:57,205] 2..Register
+[2021-04-29 00:52:57,205] 3..Quit
+[2021-04-29 00:52:57,205] Enter choice:
+[2021-04-29 00:52:59,215] Thank you for using ShivaCorp Banking app
+[2021-04-29 00:52:59,215] Goodbye
+[2021-04-29 00:58:01,745] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 00:58:01,755] 
+Main menu
+[2021-04-29 00:58:01,755] 1..Login
+[2021-04-29 00:58:01,755] 2..Register
+[2021-04-29 00:58:01,755] 3..Quit
+[2021-04-29 00:58:01,755] Enter choice:
+[2021-04-29 00:58:07,505] 
+Main menu > Login
+[2021-04-29 00:58:07,505] Username:
+[2021-04-29 00:58:10,555] Password:
+[2021-04-29 00:58:12,595] Looking up admin
+[2021-04-29 00:58:12,845] Found admin
+[2021-04-29 00:58:12,845] admin authenticated
+[2021-04-29 00:58:12,845] 
+Employee Menu
+[2021-04-29 00:58:12,845] 1..Approve/reject account
+[2021-04-29 00:58:12,845] 2..View customer accounts
+[2021-04-29 00:58:12,845] 3..View log of all transactions
+[2021-04-29 00:58:12,845] 4..Logout
+[2021-04-29 00:58:12,845] [admin] Enter choice:
+[2021-04-29 00:58:14,605] 
+Employee Menu > Approve/reject account
+[2021-04-29 00:58:14,755] No pending accounts
+[2021-04-29 00:58:14,755] 
+Employee Menu
+[2021-04-29 00:58:14,755] 1..Approve/reject account
+[2021-04-29 00:58:14,755] 2..View customer accounts
+[2021-04-29 00:58:14,755] 3..View log of all transactions
+[2021-04-29 00:58:14,755] 4..Logout
+[2021-04-29 00:58:14,755] [admin] Enter choice:
+[2021-04-29 00:58:20,655] Logging out
+[2021-04-29 00:58:20,655] 
+Main menu
+[2021-04-29 00:58:20,655] 1..Login
+[2021-04-29 00:58:20,655] 2..Register
+[2021-04-29 00:58:20,655] 3..Quit
+[2021-04-29 00:58:20,655] Enter choice:
+[2021-04-29 00:58:37,925] 
+Main menu > Register
+[2021-04-29 00:58:37,925] Username:
+[2021-04-29 00:58:39,965] Password:
+[2021-04-29 00:58:41,995] Confirm password:
+[2021-04-29 00:58:44,025] Full name:
+[2021-04-29 00:58:47,185] New user account created for goo
+[2021-04-29 00:58:47,185] 
+Customer menu
+[2021-04-29 00:58:47,185] 1..Apply for new account
+[2021-04-29 00:58:47,185] 2..View account balance
+[2021-04-29 00:58:47,185] 3..Withdraw funds
+[2021-04-29 00:58:47,185] 4..Deposit funds
+[2021-04-29 00:58:47,185] 5..Transfer funds
+[2021-04-29 00:58:47,185] 6..Logout
+[2021-04-29 00:58:47,185] [goo] Enter choice:
+[2021-04-29 00:58:50,275] 
+Customer menu > Apply for new account
+[2021-04-29 00:58:50,275] Please enter a starting balance:
+[2021-04-29 01:00:36,895] Your new account is pending approval.
+[2021-04-29 01:00:36,895] 
+Customer menu
+[2021-04-29 01:00:36,895] 1..Apply for new account
+[2021-04-29 01:00:36,895] 2..View account balance
+[2021-04-29 01:00:36,895] 3..Withdraw funds
+[2021-04-29 01:00:36,895] 4..Deposit funds
+[2021-04-29 01:00:36,895] 5..Transfer funds
+[2021-04-29 01:00:36,895] 6..Logout
+[2021-04-29 01:00:36,895] [goo] Enter choice:
+[2021-04-29 01:00:39,825] 
+Customer menu > View account balance
+[2021-04-29 01:00:39,875] Your account is currently pending approval. Please try again later.
+[2021-04-29 01:00:39,875] 
+Customer menu
+[2021-04-29 01:00:39,875] 1..Apply for new account
+[2021-04-29 01:00:39,875] 2..View account balance
+[2021-04-29 01:00:39,875] 3..Withdraw funds
+[2021-04-29 01:00:39,875] 4..Deposit funds
+[2021-04-29 01:00:39,875] 5..Transfer funds
+[2021-04-29 01:00:39,875] 6..Logout
+[2021-04-29 01:00:39,875] [goo] Enter choice:
+[2021-04-29 01:00:43,955] Account already exists for goo
+[2021-04-29 01:00:43,955] 
+Customer menu
+[2021-04-29 01:00:43,955] 1..Apply for new account
+[2021-04-29 01:00:43,955] 2..View account balance
+[2021-04-29 01:00:43,955] 3..Withdraw funds
+[2021-04-29 01:00:43,955] 4..Deposit funds
+[2021-04-29 01:00:43,955] 5..Transfer funds
+[2021-04-29 01:00:43,955] 6..Logout
+[2021-04-29 01:00:43,955] [goo] Enter choice:
+[2021-04-29 01:00:52,034] Logging out
+[2021-04-29 01:00:52,034] 
+Main menu
+[2021-04-29 01:00:52,034] 1..Login
+[2021-04-29 01:00:52,035] 2..Register
+[2021-04-29 01:00:52,035] 3..Quit
+[2021-04-29 01:00:52,035] Enter choice:
+[2021-04-29 01:00:54,035] 
+Main menu > Login
+[2021-04-29 01:00:54,035] Username:
+[2021-04-29 01:00:56,075] Password:
+[2021-04-29 01:00:58,095] Looking up admin
+[2021-04-29 01:00:58,135] Found admin
+[2021-04-29 01:00:58,145] admin authenticated
+[2021-04-29 01:00:58,145] 
+Employee Menu
+[2021-04-29 01:00:58,145] 1..Approve/reject account
+[2021-04-29 01:00:58,145] 2..View customer accounts
+[2021-04-29 01:00:58,145] 3..View log of all transactions
+[2021-04-29 01:00:58,145] 4..Logout
+[2021-04-29 01:00:58,145] [admin] Enter choice:
+[2021-04-29 01:01:01,145] 
+Employee Menu > View customer accounts
+[2021-04-29 01:01:01,195] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 01:01:01,195] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 01:01:01,195] Account {id=111114, balance=500.0, status=PENDING, user=User {id=5, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 01:01:01,195] 
+Employee Menu
+[2021-04-29 01:01:01,195] 1..Approve/reject account
+[2021-04-29 01:01:01,195] 2..View customer accounts
+[2021-04-29 01:01:01,195] 3..View log of all transactions
+[2021-04-29 01:01:01,195] 4..Logout
+[2021-04-29 01:01:01,195] [admin] Enter choice:
+[2021-04-29 01:01:05,205] 
+Employee Menu > Approve/reject account
+[2021-04-29 01:01:05,258] 
+1 account(s) pending:
+[2021-04-29 01:01:05,258] 0..Cancel
+[2021-04-29 01:01:05,258] 1..Account {id=111114, balance=500.0, status=PENDING, user=User {id=5, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 01:01:05,258] Choose account:
+[2021-04-29 01:02:40,575] 0..Cancel
+[2021-04-29 01:02:40,575] 1..PENDING
+[2021-04-29 01:02:40,575] 2..APPROVED
+[2021-04-29 01:02:40,575] 3..DENIED
+[2021-04-29 01:02:40,575] Choose status:
+[2021-04-29 01:50:04,231] 
+Employee Menu
+[2021-04-29 01:50:04,231] 1..Approve/reject account
+[2021-04-29 01:50:04,231] 2..View customer accounts
+[2021-04-29 01:50:04,231] 3..View log of all transactions
+[2021-04-29 01:50:04,231] 4..Logout
+[2021-04-29 01:50:04,231] [admin] Enter choice:
+[2021-04-29 01:50:13,356] 
+Employee Menu > View customer accounts
+[2021-04-29 01:50:13,426] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 01:50:13,426] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 01:50:13,426] 
+Employee Menu
+[2021-04-29 01:50:13,426] 1..Approve/reject account
+[2021-04-29 01:50:13,426] 2..View customer accounts
+[2021-04-29 01:50:13,426] 3..View log of all transactions
+[2021-04-29 01:50:13,426] 4..Logout
+[2021-04-29 01:50:13,426] [admin] Enter choice:
+[2021-04-29 01:50:39,766] Logging out
+[2021-04-29 01:50:39,766] 
+Main menu
+[2021-04-29 01:50:39,766] 1..Login
+[2021-04-29 01:50:39,766] 2..Register
+[2021-04-29 01:50:39,766] 3..Quit
+[2021-04-29 01:50:39,766] Enter choice:
+[2021-04-29 02:22:54,587] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 02:22:54,597] 
+Main menu
+[2021-04-29 02:22:54,597] 1..Login
+[2021-04-29 02:22:54,597] 2..Register
+[2021-04-29 02:22:54,597] 3..Quit
+[2021-04-29 02:22:54,597] Enter choice:
+[2021-04-29 02:25:21,576] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 02:25:21,587] 
+Main menu
+[2021-04-29 02:25:21,587] 1..Login
+[2021-04-29 02:25:21,587] 2..Register
+[2021-04-29 02:25:21,587] 3..Quit
+[2021-04-29 02:25:21,587] Enter choice:
+[2021-04-29 02:25:28,347] 
+Main menu > Login
+[2021-04-29 02:25:28,347] Username:
+[2021-04-29 02:25:30,367] Password:
+[2021-04-29 02:25:32,387] Looking up admin
+[2021-04-29 02:25:32,667] Found admin
+[2021-04-29 02:25:32,667] admin authenticated
+[2021-04-29 02:25:32,677] 
+Employee Menu
+[2021-04-29 02:25:32,677] 1..Approve/reject account
+[2021-04-29 02:25:32,677] 2..View customer accounts
+[2021-04-29 02:25:32,677] 3..View users
+[2021-04-29 02:25:32,677] 4..View log of all transactions
+[2021-04-29 02:25:32,677] 5..Logout
+[2021-04-29 02:25:32,677] [admin] Enter choice:
+[2021-04-29 02:25:36,437] 
+Employee Menu > View customer accounts
+[2021-04-29 02:25:36,486] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 02:25:36,486] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 02:25:36,497] 
+Employee Menu
+[2021-04-29 02:25:36,497] 1..Approve/reject account
+[2021-04-29 02:25:36,497] 2..View customer accounts
+[2021-04-29 02:25:36,497] 3..View users
+[2021-04-29 02:25:36,497] 4..View log of all transactions
+[2021-04-29 02:25:36,497] 5..Logout
+[2021-04-29 02:25:36,497] [admin] Enter choice:
+[2021-04-29 02:25:39,497] 
+Employee Menu > View users
+[2021-04-29 02:25:39,647] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 02:25:39,647] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 02:25:39,647] User {id=5, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 02:25:39,647] 
+Employee Menu
+[2021-04-29 02:25:39,647] 1..Approve/reject account
+[2021-04-29 02:25:39,647] 2..View customer accounts
+[2021-04-29 02:25:39,647] 3..View users
+[2021-04-29 02:25:39,647] 4..View log of all transactions
+[2021-04-29 02:25:39,647] 5..Logout
+[2021-04-29 02:25:39,647] [admin] Enter choice:
+[2021-04-29 02:34:16,127] Logging out admin
+[2021-04-29 02:34:16,127] 
+Main menu
+[2021-04-29 02:34:16,127] 1..Login
+[2021-04-29 02:34:16,127] 2..Register
+[2021-04-29 02:34:16,127] 3..Quit
+[2021-04-29 02:34:16,127] Enter choice:
+[2021-04-29 02:34:22,247] 
+Main menu > Login
+[2021-04-29 02:34:22,247] Username:
+[2021-04-29 02:34:25,307] Password:
+[2021-04-29 02:34:27,347] Looking up admin
+[2021-04-29 02:34:27,397] Found admin
+[2021-04-29 02:34:27,397] admin authenticated
+[2021-04-29 02:34:27,397] 
+Employee Menu
+[2021-04-29 02:34:27,397] 1..Approve/reject account
+[2021-04-29 02:34:27,397] 2..View customer accounts
+[2021-04-29 02:34:27,397] 3..View users
+[2021-04-29 02:34:27,397] 4..View log of all transactions
+[2021-04-29 02:34:27,397] 5..Logout
+[2021-04-29 02:34:27,397] [admin] Enter choice:
+[2021-04-29 02:34:29,387] 
+Employee Menu > View customer accounts
+[2021-04-29 02:34:29,437] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 02:34:29,437] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 02:34:29,437] 
+Employee Menu
+[2021-04-29 02:34:29,437] 1..Approve/reject account
+[2021-04-29 02:34:29,437] 2..View customer accounts
+[2021-04-29 02:34:29,437] 3..View users
+[2021-04-29 02:34:29,437] 4..View log of all transactions
+[2021-04-29 02:34:29,437] 5..Logout
+[2021-04-29 02:34:29,437] [admin] Enter choice:
+[2021-04-29 02:34:35,447] Logging out admin
+[2021-04-29 02:34:35,447] 
+Main menu
+[2021-04-29 02:34:35,447] 1..Login
+[2021-04-29 02:34:35,447] 2..Register
+[2021-04-29 02:34:35,447] 3..Quit
+[2021-04-29 02:34:35,447] Enter choice:
+[2021-04-29 02:34:36,457] Thank you for using ShivaCorp Banking app
+[2021-04-29 02:34:36,457] Goodbye
+[2021-04-29 03:08:06,093] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 03:08:06,107] 
+Main menu
+[2021-04-29 03:08:06,107] 1..Login
+[2021-04-29 03:08:06,107] 2..Register
+[2021-04-29 03:08:06,107] 3..Quit
+[2021-04-29 03:08:06,107] Enter choice:
+[2021-04-29 03:09:38,798] Please enter a number between 1 and 3
+[2021-04-29 03:09:41,858] Please enter a number between 1 and 3
+[2021-04-29 03:09:47,928] 
+Main menu > Login
+[2021-04-29 03:09:47,928] Username:
+[2021-04-29 03:09:49,968] Password:
+[2021-04-29 03:09:53,007] Looking up admin
+[2021-04-29 03:09:53,248] Found admin
+[2021-04-29 03:09:53,248] admin authenticated
+[2021-04-29 03:09:53,258] 
+Employee Menu
+[2021-04-29 03:09:53,258] 1..Approve/reject account
+[2021-04-29 03:09:53,258] 2..View customer accounts
+[2021-04-29 03:09:53,258] 3..View users
+[2021-04-29 03:09:53,258] 4..View log of all transactions
+[2021-04-29 03:09:53,258] 5..Logout
+[2021-04-29 03:09:53,258] [admin] Enter choice:
+[2021-04-29 03:10:55,803] 
+Employee Menu > View users
+[2021-04-29 03:10:55,847] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:10:55,847] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:10:55,847] User {id=5, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:10:55,847] 
+Employee Menu
+[2021-04-29 03:10:55,847] 1..Approve/reject account
+[2021-04-29 03:10:55,847] 2..View customer accounts
+[2021-04-29 03:10:55,847] 3..View users
+[2021-04-29 03:10:55,847] 4..View log of all transactions
+[2021-04-29 03:10:55,847] 5..Logout
+[2021-04-29 03:10:55,847] [admin] Enter choice:
+[2021-04-29 03:11:00,878] 
+Employee Menu > View customer accounts
+[2021-04-29 03:11:00,928] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:11:00,928] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:11:00,928] 
+Employee Menu
+[2021-04-29 03:11:00,928] 1..Approve/reject account
+[2021-04-29 03:11:00,928] 2..View customer accounts
+[2021-04-29 03:11:00,928] 3..View users
+[2021-04-29 03:11:00,928] 4..View log of all transactions
+[2021-04-29 03:11:00,928] 5..Logout
+[2021-04-29 03:11:00,928] [admin] Enter choice:
+[2021-04-29 03:11:07,948] 
+Employee Menu > View users
+[2021-04-29 03:11:07,988] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:11:07,988] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:11:07,988] User {id=5, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:11:07,988] 
+Employee Menu
+[2021-04-29 03:11:07,988] 1..Approve/reject account
+[2021-04-29 03:11:07,988] 2..View customer accounts
+[2021-04-29 03:11:07,988] 3..View users
+[2021-04-29 03:11:07,988] 4..View log of all transactions
+[2021-04-29 03:11:07,988] 5..Logout
+[2021-04-29 03:11:07,988] [admin] Enter choice:
+[2021-04-29 03:12:29,958] Logging out admin
+[2021-04-29 03:12:29,958] 
+Main menu
+[2021-04-29 03:12:29,958] 1..Login
+[2021-04-29 03:12:29,958] 2..Register
+[2021-04-29 03:12:29,958] 3..Quit
+[2021-04-29 03:12:29,958] Enter choice:
+[2021-04-29 03:12:31,988] 
+Main menu > Login
+[2021-04-29 03:12:31,988] Username:
+[2021-04-29 03:12:34,018] String cannot be empty
+[2021-04-29 03:12:37,048] Password:
+[2021-04-29 03:12:39,058] Looking up asdf
+[2021-04-29 03:12:39,108] Username 'asdf' does not exist
+[2021-04-29 03:12:39,108] 
+Main menu
+[2021-04-29 03:12:39,108] 1..Login
+[2021-04-29 03:12:39,108] 2..Register
+[2021-04-29 03:12:39,108] 3..Quit
+[2021-04-29 03:12:39,108] Enter choice:
+[2021-04-29 03:12:46,158] 
+Main menu > Register
+[2021-04-29 03:12:46,158] Username:
+[2021-04-29 03:12:55,278] Password:
+[2021-04-29 03:12:57,318] Confirm password:
+[2021-04-29 03:12:59,328] Full name:
+[2021-04-29 03:13:02,468] New user account created for woo
+[2021-04-29 03:13:02,468] 
+Customer menu
+[2021-04-29 03:13:02,468] 1..Apply for new account
+[2021-04-29 03:13:02,468] 2..View account balance
+[2021-04-29 03:13:02,468] 3..Withdraw funds
+[2021-04-29 03:13:02,468] 4..Deposit funds
+[2021-04-29 03:13:02,468] 5..Transfer funds
+[2021-04-29 03:13:02,468] 6..Logout
+[2021-04-29 03:13:02,468] [woo] Enter choice:
+[2021-04-29 03:13:08,508] 
+Customer menu > Apply for new account
+[2021-04-29 03:13:08,508] Please enter a starting balance:
+[2021-04-29 03:13:11,617] Your new account is pending approval.
+[2021-04-29 03:13:11,617] 
+Customer menu
+[2021-04-29 03:13:11,617] 1..Apply for new account
+[2021-04-29 03:13:11,617] 2..View account balance
+[2021-04-29 03:13:11,617] 3..Withdraw funds
+[2021-04-29 03:13:11,617] 4..Deposit funds
+[2021-04-29 03:13:11,617] 5..Transfer funds
+[2021-04-29 03:13:11,617] 6..Logout
+[2021-04-29 03:13:11,617] [woo] Enter choice:
+[2021-04-29 03:13:17,588] 
+Customer menu > View account balance
+[2021-04-29 03:13:17,637] Your account is currently pending approval. Please try again later.
+[2021-04-29 03:13:17,637] 
+Customer menu
+[2021-04-29 03:13:17,637] 1..Apply for new account
+[2021-04-29 03:13:17,637] 2..View account balance
+[2021-04-29 03:13:17,637] 3..Withdraw funds
+[2021-04-29 03:13:17,637] 4..Deposit funds
+[2021-04-29 03:13:17,637] 5..Transfer funds
+[2021-04-29 03:13:17,637] 6..Logout
+[2021-04-29 03:13:17,637] [woo] Enter choice:
+[2021-04-29 03:13:21,648] 
+Customer menu > Withdraw funds
+[2021-04-29 03:13:21,648] Withdrawal amount:
+[2021-04-29 03:13:26,708] 
+Customer menu
+[2021-04-29 03:13:26,708] 1..Apply for new account
+[2021-04-29 03:13:26,708] 2..View account balance
+[2021-04-29 03:13:26,708] 3..Withdraw funds
+[2021-04-29 03:13:26,708] 4..Deposit funds
+[2021-04-29 03:13:26,708] 5..Transfer funds
+[2021-04-29 03:13:26,708] 6..Logout
+[2021-04-29 03:13:26,708] [woo] Enter choice:
+[2021-04-29 03:13:33,818] I'm sorry, this service is currently unavailable.
+[2021-04-29 03:13:33,818] 
+Customer menu
+[2021-04-29 03:13:33,818] 1..Apply for new account
+[2021-04-29 03:13:33,818] 2..View account balance
+[2021-04-29 03:13:33,818] 3..Withdraw funds
+[2021-04-29 03:13:33,818] 4..Deposit funds
+[2021-04-29 03:13:33,818] 5..Transfer funds
+[2021-04-29 03:13:33,818] 6..Logout
+[2021-04-29 03:13:33,818] [woo] Enter choice:
+[2021-04-29 03:14:00,218] 
+Customer menu > View account balance
+[2021-04-29 03:14:00,268] Your account is currently pending approval. Please try again later.
+[2021-04-29 03:14:00,268] 
+Customer menu
+[2021-04-29 03:14:00,268] 1..Apply for new account
+[2021-04-29 03:14:00,268] 2..View account balance
+[2021-04-29 03:14:00,268] 3..Withdraw funds
+[2021-04-29 03:14:00,268] 4..Deposit funds
+[2021-04-29 03:14:00,268] 5..Transfer funds
+[2021-04-29 03:14:00,268] 6..Logout
+[2021-04-29 03:14:00,268] [woo] Enter choice:
+[2021-04-29 03:14:06,308] Logging out
+[2021-04-29 03:14:06,308] 
+Main menu
+[2021-04-29 03:14:06,308] 1..Login
+[2021-04-29 03:14:06,308] 2..Register
+[2021-04-29 03:14:06,308] 3..Quit
+[2021-04-29 03:14:06,308] Enter choice:
+[2021-04-29 03:14:08,348] 
+Main menu > Login
+[2021-04-29 03:14:08,348] Username:
+[2021-04-29 03:14:11,388] Password:
+[2021-04-29 03:14:13,408] Looking up admin
+[2021-04-29 03:14:13,448] Found admin
+[2021-04-29 03:14:13,448] admin authenticated
+[2021-04-29 03:14:13,448] 
+Employee Menu
+[2021-04-29 03:14:13,448] 1..Approve/reject account
+[2021-04-29 03:14:13,448] 2..View customer accounts
+[2021-04-29 03:14:13,448] 3..View users
+[2021-04-29 03:14:13,448] 4..View log of all transactions
+[2021-04-29 03:14:13,448] 5..Logout
+[2021-04-29 03:14:13,448] [admin] Enter choice:
+[2021-04-29 03:14:17,448] 
+Employee Menu > View customer accounts
+[2021-04-29 03:14:17,497] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:14:17,497] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:14:17,497] Account {id=111115, balance=500.0, status=PENDING, user=User {id=6, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 03:14:17,497] 
+Employee Menu
+[2021-04-29 03:14:17,497] 1..Approve/reject account
+[2021-04-29 03:14:17,497] 2..View customer accounts
+[2021-04-29 03:14:17,497] 3..View users
+[2021-04-29 03:14:17,497] 4..View log of all transactions
+[2021-04-29 03:14:17,497] 5..Logout
+[2021-04-29 03:14:17,497] [admin] Enter choice:
+[2021-04-29 03:14:20,508] 
+Employee Menu > Approve/reject account
+[2021-04-29 03:14:20,558] 
+1 account(s) pending:
+[2021-04-29 03:14:20,558] 0..Cancel
+[2021-04-29 03:14:20,558] 1..Account {id=111115, balance=500.0, status=PENDING, user=User {id=6, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 03:14:20,558] Choose account:
+[2021-04-29 03:14:23,548] 0..Cancel
+[2021-04-29 03:14:23,548] 1..PENDING
+[2021-04-29 03:14:23,548] 2..APPROVED
+[2021-04-29 03:14:23,548] 3..DENIED
+[2021-04-29 03:14:23,548] Choose status:
+[2021-04-29 03:14:25,638] Account PENDING
+[2021-04-29 03:14:25,638] 
+Employee Menu
+[2021-04-29 03:14:25,638] 1..Approve/reject account
+[2021-04-29 03:14:25,638] 2..View customer accounts
+[2021-04-29 03:14:25,638] 3..View users
+[2021-04-29 03:14:25,638] 4..View log of all transactions
+[2021-04-29 03:14:25,638] 5..Logout
+[2021-04-29 03:14:25,638] [admin] Enter choice:
+[2021-04-29 03:14:30,688] 
+Employee Menu > View customer accounts
+[2021-04-29 03:14:30,738] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:14:30,738] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:14:30,738] 
+Employee Menu
+[2021-04-29 03:14:30,738] 1..Approve/reject account
+[2021-04-29 03:14:30,738] 2..View customer accounts
+[2021-04-29 03:14:30,738] 3..View users
+[2021-04-29 03:14:30,738] 4..View log of all transactions
+[2021-04-29 03:14:30,738] 5..Logout
+[2021-04-29 03:14:30,738] [admin] Enter choice:
+[2021-04-29 03:14:34,745] 
+Employee Menu > Approve/reject account
+[2021-04-29 03:14:34,787] No pending accounts
+[2021-04-29 03:14:34,787] 
+Employee Menu
+[2021-04-29 03:14:34,787] 1..Approve/reject account
+[2021-04-29 03:14:34,787] 2..View customer accounts
+[2021-04-29 03:14:34,787] 3..View users
+[2021-04-29 03:14:34,787] 4..View log of all transactions
+[2021-04-29 03:14:34,787] 5..Logout
+[2021-04-29 03:14:34,787] [admin] Enter choice:
+[2021-04-29 03:15:11,178] 
+Employee Menu > View customer accounts
+[2021-04-29 03:15:11,228] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:15:11,228] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:15:11,228] 
+Employee Menu
+[2021-04-29 03:15:11,228] 1..Approve/reject account
+[2021-04-29 03:15:11,228] 2..View customer accounts
+[2021-04-29 03:15:11,228] 3..View users
+[2021-04-29 03:15:11,228] 4..View log of all transactions
+[2021-04-29 03:15:11,228] 5..Logout
+[2021-04-29 03:15:11,228] [admin] Enter choice:
+[2021-04-29 03:15:19,288] 
+Employee Menu > View users
+[2021-04-29 03:15:19,328] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:15:19,328] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:15:19,328] User {id=5, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:15:19,328] User {id=6, username='woo', fullname='woo', usertype=CUSTOMER}
+[2021-04-29 03:15:19,328] 
+Employee Menu
+[2021-04-29 03:15:19,328] 1..Approve/reject account
+[2021-04-29 03:15:19,328] 2..View customer accounts
+[2021-04-29 03:15:19,328] 3..View users
+[2021-04-29 03:15:19,328] 4..View log of all transactions
+[2021-04-29 03:15:19,328] 5..Logout
+[2021-04-29 03:15:19,328] [admin] Enter choice:
+[2021-04-29 03:20:39,408] 
+Employee Menu > View customer accounts
+[2021-04-29 03:20:39,458] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:20:39,458] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:20:39,458] 
+Employee Menu
+[2021-04-29 03:20:39,458] 1..Approve/reject account
+[2021-04-29 03:20:39,458] 2..View customer accounts
+[2021-04-29 03:20:39,458] 3..View users
+[2021-04-29 03:20:39,458] 4..View log of all transactions
+[2021-04-29 03:20:39,458] 5..Logout
+[2021-04-29 03:20:39,458] [admin] Enter choice:
+[2021-04-29 03:20:42,456] 
+Employee Menu > View users
+[2021-04-29 03:20:42,608] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:20:42,608] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:20:42,608] 
+Employee Menu
+[2021-04-29 03:20:42,608] 1..Approve/reject account
+[2021-04-29 03:20:42,608] 2..View customer accounts
+[2021-04-29 03:20:42,608] 3..View users
+[2021-04-29 03:20:42,608] 4..View log of all transactions
+[2021-04-29 03:20:42,608] 5..Logout
+[2021-04-29 03:20:42,608] [admin] Enter choice:
+[2021-04-29 03:21:52,378] Logging out admin
+[2021-04-29 03:21:52,378] 
+Main menu
+[2021-04-29 03:21:52,378] 1..Login
+[2021-04-29 03:21:52,378] 2..Register
+[2021-04-29 03:21:52,378] 3..Quit
+[2021-04-29 03:21:52,378] Enter choice:
+[2021-04-29 03:21:54,404] Thank you for using ShivaCorp Banking app
+[2021-04-29 03:21:54,404] Goodbye
+[2021-04-29 03:38:10,368] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 03:38:10,378] 
+Main menu
+[2021-04-29 03:38:10,378] 1..Login
+[2021-04-29 03:38:10,378] 2..Register
+[2021-04-29 03:38:10,378] 3..Quit
+[2021-04-29 03:38:10,378] Enter choice:
+[2021-04-29 03:38:15,108] 
+Main menu > Login
+[2021-04-29 03:38:15,108] Username:
+[2021-04-29 03:38:17,138] Password:
+[2021-04-29 03:38:20,178] Looking up admin
+[2021-04-29 03:38:20,418] Found admin
+[2021-04-29 03:38:20,418] Authentication failed
+[2021-04-29 03:38:20,418] 
+Main menu
+[2021-04-29 03:38:20,418] 1..Login
+[2021-04-29 03:38:20,418] 2..Register
+[2021-04-29 03:38:20,418] 3..Quit
+[2021-04-29 03:38:20,418] Enter choice:
+[2021-04-29 03:38:59,648] 
+Main menu > Login
+[2021-04-29 03:38:59,648] Username:
+[2021-04-29 03:39:01,659] Password:
+[2021-04-29 03:39:03,698] Looking up admin
+[2021-04-29 03:39:03,748] Found admin
+[2021-04-29 03:39:03,748] admin authenticated
+[2021-04-29 03:39:03,748] 
+Employee Menu
+[2021-04-29 03:39:03,748] 1..Approve/reject account
+[2021-04-29 03:39:03,748] 2..View customer accounts
+[2021-04-29 03:39:03,748] 3..View users
+[2021-04-29 03:39:03,748] 4..View log of all transactions
+[2021-04-29 03:39:03,748] 5..Logout
+[2021-04-29 03:39:03,748] [admin] Enter choice:
+[2021-04-29 03:39:16,874] 
+Employee Menu > View users
+[2021-04-29 03:39:16,918] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:39:16,918] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:39:16,918] 
+Employee Menu
+[2021-04-29 03:39:16,918] 1..Approve/reject account
+[2021-04-29 03:39:16,918] 2..View customer accounts
+[2021-04-29 03:39:16,918] 3..View users
+[2021-04-29 03:39:16,918] 4..View log of all transactions
+[2021-04-29 03:39:16,918] 5..Logout
+[2021-04-29 03:39:16,918] [admin] Enter choice:
+[2021-04-29 03:39:18,893] 
+Employee Menu > View customer accounts
+[2021-04-29 03:39:18,938] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:39:18,938] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:39:18,938] 
+Employee Menu
+[2021-04-29 03:39:18,938] 1..Approve/reject account
+[2021-04-29 03:39:18,938] 2..View customer accounts
+[2021-04-29 03:39:18,938] 3..View users
+[2021-04-29 03:39:18,938] 4..View log of all transactions
+[2021-04-29 03:39:18,938] 5..Logout
+[2021-04-29 03:39:18,938] [admin] Enter choice:
+[2021-04-29 03:39:22,948] Logging out admin
+[2021-04-29 03:39:22,948] 
+Main menu
+[2021-04-29 03:39:22,948] 1..Login
+[2021-04-29 03:39:22,948] 2..Register
+[2021-04-29 03:39:22,948] 3..Quit
+[2021-04-29 03:39:22,948] Enter choice:
+[2021-04-29 03:39:25,989] 
+Main menu > Register
+[2021-04-29 03:39:25,989] Username:
+[2021-04-29 03:39:31,058] Password:
+[2021-04-29 03:39:33,068] Confirm password:
+[2021-04-29 03:39:35,108] Full name:
+[2021-04-29 03:39:37,228] New user account created for goo
+[2021-04-29 03:39:37,228] 
+Customer menu
+[2021-04-29 03:39:37,228] 1..Apply for new account
+[2021-04-29 03:39:37,228] 2..View account balance
+[2021-04-29 03:39:37,228] 3..Withdraw funds
+[2021-04-29 03:39:37,228] 4..Deposit funds
+[2021-04-29 03:39:37,228] 5..Transfer funds
+[2021-04-29 03:39:37,228] 6..Logout
+[2021-04-29 03:39:37,228] [goo] Enter choice:
+[2021-04-29 03:39:40,208] 
+Customer menu > Apply for new account
+[2021-04-29 03:39:40,208] Please enter a starting balance:
+[2021-04-29 03:39:43,508] Your new account is pending approval.
+[2021-04-29 03:39:43,508] 
+Customer menu
+[2021-04-29 03:39:43,508] 1..Apply for new account
+[2021-04-29 03:39:43,508] 2..View account balance
+[2021-04-29 03:39:43,508] 3..Withdraw funds
+[2021-04-29 03:39:43,508] 4..Deposit funds
+[2021-04-29 03:39:43,508] 5..Transfer funds
+[2021-04-29 03:39:43,508] 6..Logout
+[2021-04-29 03:39:43,508] [goo] Enter choice:
+[2021-04-29 03:39:46,249] 
+Customer menu > View account balance
+[2021-04-29 03:39:46,298] Your account is currently pending approval. Please try again later.
+[2021-04-29 03:39:46,298] 
+Customer menu
+[2021-04-29 03:39:46,298] 1..Apply for new account
+[2021-04-29 03:39:46,298] 2..View account balance
+[2021-04-29 03:39:46,298] 3..Withdraw funds
+[2021-04-29 03:39:46,298] 4..Deposit funds
+[2021-04-29 03:39:46,298] 5..Transfer funds
+[2021-04-29 03:39:46,298] 6..Logout
+[2021-04-29 03:39:46,298] [goo] Enter choice:
+[2021-04-29 03:39:52,329] Logging out
+[2021-04-29 03:39:52,329] 
+Main menu
+[2021-04-29 03:39:52,329] 1..Login
+[2021-04-29 03:39:52,329] 2..Register
+[2021-04-29 03:39:52,329] 3..Quit
+[2021-04-29 03:39:52,329] Enter choice:
+[2021-04-29 03:39:56,389] 
+Main menu > Login
+[2021-04-29 03:39:56,389] Username:
+[2021-04-29 03:39:58,423] Password:
+[2021-04-29 03:40:00,443] Looking up admin
+[2021-04-29 03:40:00,488] Found admin
+[2021-04-29 03:40:00,488] admin authenticated
+[2021-04-29 03:40:00,488] 
+Employee Menu
+[2021-04-29 03:40:00,488] 1..Approve/reject account
+[2021-04-29 03:40:00,488] 2..View customer accounts
+[2021-04-29 03:40:00,488] 3..View users
+[2021-04-29 03:40:00,488] 4..View log of all transactions
+[2021-04-29 03:40:00,488] 5..Logout
+[2021-04-29 03:40:00,488] [admin] Enter choice:
+[2021-04-29 03:40:05,509] 
+Employee Menu > View users
+[2021-04-29 03:40:05,558] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:40:05,558] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:40:05,558] User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:40:05,558] 
+Employee Menu
+[2021-04-29 03:40:05,558] 1..Approve/reject account
+[2021-04-29 03:40:05,558] 2..View customer accounts
+[2021-04-29 03:40:05,558] 3..View users
+[2021-04-29 03:40:05,558] 4..View log of all transactions
+[2021-04-29 03:40:05,558] 5..Logout
+[2021-04-29 03:40:05,558] [admin] Enter choice:
+[2021-04-29 03:40:08,549] 
+Employee Menu > View customer accounts
+[2021-04-29 03:40:08,598] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:40:08,598] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:40:08,598] Account {id=111116, balance=500.0, status=PENDING, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 03:40:08,598] 
+Employee Menu
+[2021-04-29 03:40:08,598] 1..Approve/reject account
+[2021-04-29 03:40:08,598] 2..View customer accounts
+[2021-04-29 03:40:08,598] 3..View users
+[2021-04-29 03:40:08,598] 4..View log of all transactions
+[2021-04-29 03:40:08,598] 5..Logout
+[2021-04-29 03:40:08,598] [admin] Enter choice:
+[2021-04-29 03:40:13,603] 
+Employee Menu > Approve/reject account
+[2021-04-29 03:40:13,658] 
+1 account(s) pending:
+[2021-04-29 03:40:13,658] 0..Cancel
+[2021-04-29 03:40:13,658] 1..Account {id=111116, balance=500.0, status=PENDING, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 03:40:13,658] Choose account:
+[2021-04-29 03:40:17,639] 0..Cancel
+[2021-04-29 03:40:17,639] 1..PENDING
+[2021-04-29 03:40:17,639] 2..APPROVED
+[2021-04-29 03:40:17,639] 3..DENIED
+[2021-04-29 03:40:17,639] Choose status:
+[2021-04-29 03:40:20,718] Account 
+[2021-04-29 03:40:20,718] 
+Employee Menu
+[2021-04-29 03:40:20,718] 1..Approve/reject account
+[2021-04-29 03:40:20,718] 2..View customer accounts
+[2021-04-29 03:40:20,718] 3..View users
+[2021-04-29 03:40:20,718] 4..View log of all transactions
+[2021-04-29 03:40:20,718] 5..Logout
+[2021-04-29 03:40:20,718] [admin] Enter choice:
+[2021-04-29 03:40:34,869] 
+Employee Menu > View customer accounts
+[2021-04-29 03:40:34,918] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:40:34,918] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:40:34,918] 
+Employee Menu
+[2021-04-29 03:40:34,918] 1..Approve/reject account
+[2021-04-29 03:40:34,918] 2..View customer accounts
+[2021-04-29 03:40:34,918] 3..View users
+[2021-04-29 03:40:34,918] 4..View log of all transactions
+[2021-04-29 03:40:34,918] 5..Logout
+[2021-04-29 03:40:34,918] [admin] Enter choice:
+[2021-04-29 03:40:36,888] 
+Employee Menu > View users
+[2021-04-29 03:40:36,936] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:40:36,936] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:40:36,936] User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:40:36,936] 
+Employee Menu
+[2021-04-29 03:40:36,936] 1..Approve/reject account
+[2021-04-29 03:40:36,936] 2..View customer accounts
+[2021-04-29 03:40:36,936] 3..View users
+[2021-04-29 03:40:36,936] 4..View log of all transactions
+[2021-04-29 03:40:36,936] 5..Logout
+[2021-04-29 03:40:36,936] [admin] Enter choice:
+[2021-04-29 03:40:42,947] Logging out admin
+[2021-04-29 03:40:42,947] 
+Main menu
+[2021-04-29 03:40:42,947] 1..Login
+[2021-04-29 03:40:42,947] 2..Register
+[2021-04-29 03:40:42,947] 3..Quit
+[2021-04-29 03:40:42,947] Enter choice:
+[2021-04-29 03:40:43,949] Thank you for using ShivaCorp Banking app
+[2021-04-29 03:40:43,949] Goodbye
+[2021-04-29 03:41:49,503] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 03:41:49,508] 
+Main menu
+[2021-04-29 03:41:49,508] 1..Login
+[2021-04-29 03:41:49,508] 2..Register
+[2021-04-29 03:41:49,508] 3..Quit
+[2021-04-29 03:41:49,508] Enter choice:
+[2021-04-29 03:41:54,224] 
+Main menu > Login
+[2021-04-29 03:41:54,224] Username:
+[2021-04-29 03:41:57,258] Password:
+[2021-04-29 03:41:59,269] Looking up admin
+[2021-04-29 03:41:59,528] Found admin
+[2021-04-29 03:41:59,528] admin authenticated
+[2021-04-29 03:41:59,528] 
+Employee Menu
+[2021-04-29 03:41:59,538] 1..Approve/reject account
+[2021-04-29 03:41:59,538] 2..View customer accounts
+[2021-04-29 03:41:59,538] 3..View users
+[2021-04-29 03:41:59,538] 4..View log of all transactions
+[2021-04-29 03:41:59,538] 5..Logout
+[2021-04-29 03:41:59,538] [admin] Enter choice:
+[2021-04-29 03:42:04,328] 
+Employee Menu > View customer accounts
+[2021-04-29 03:42:04,488] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:42:04,488] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:42:04,488] 
+Employee Menu
+[2021-04-29 03:42:04,488] 1..Approve/reject account
+[2021-04-29 03:42:04,488] 2..View customer accounts
+[2021-04-29 03:42:04,488] 3..View users
+[2021-04-29 03:42:04,488] 4..View log of all transactions
+[2021-04-29 03:42:04,488] 5..Logout
+[2021-04-29 03:42:04,488] [admin] Enter choice:
+[2021-04-29 03:42:06,358] 
+Employee Menu > View users
+[2021-04-29 03:42:06,408] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:42:06,408] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:42:06,408] User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:42:06,408] 
+Employee Menu
+[2021-04-29 03:42:06,408] 1..Approve/reject account
+[2021-04-29 03:42:06,408] 2..View customer accounts
+[2021-04-29 03:42:06,408] 3..View users
+[2021-04-29 03:42:06,408] 4..View log of all transactions
+[2021-04-29 03:42:06,408] 5..Logout
+[2021-04-29 03:42:06,408] [admin] Enter choice:
+[2021-04-29 03:42:12,429] 
+Employee Menu > View customer accounts
+[2021-04-29 03:42:12,478] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:42:12,478] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:42:12,478] 
+Employee Menu
+[2021-04-29 03:42:12,478] 1..Approve/reject account
+[2021-04-29 03:42:12,478] 2..View customer accounts
+[2021-04-29 03:42:12,478] 3..View users
+[2021-04-29 03:42:12,478] 4..View log of all transactions
+[2021-04-29 03:42:12,478] 5..Logout
+[2021-04-29 03:42:12,478] [admin] Enter choice:
+[2021-04-29 03:42:19,509] 
+Employee Menu > View users
+[2021-04-29 03:42:19,558] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:42:19,558] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:42:19,558] User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:42:19,558] 
+Employee Menu
+[2021-04-29 03:42:19,558] 1..Approve/reject account
+[2021-04-29 03:42:19,558] 2..View customer accounts
+[2021-04-29 03:42:19,558] 3..View users
+[2021-04-29 03:42:19,558] 4..View log of all transactions
+[2021-04-29 03:42:19,558] 5..Logout
+[2021-04-29 03:42:19,558] [admin] Enter choice:
+[2021-04-29 03:42:50,659] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 03:42:50,668] 
+Main menu
+[2021-04-29 03:42:50,668] 1..Login
+[2021-04-29 03:42:50,669] 2..Register
+[2021-04-29 03:42:50,669] 3..Quit
+[2021-04-29 03:42:50,669] Enter choice:
+[2021-04-29 03:42:59,372] 
+Main menu > Login
+[2021-04-29 03:42:59,372] Username:
+[2021-04-29 03:43:02,376] Password:
+[2021-04-29 03:43:04,377] Looking up admin
+[2021-04-29 03:43:04,654] Found admin
+[2021-04-29 03:43:04,654] admin authenticated
+[2021-04-29 03:43:04,656] 
+Employee Menu
+[2021-04-29 03:43:04,657] 1..Approve/reject account
+[2021-04-29 03:43:04,657] 2..View customer accounts
+[2021-04-29 03:43:04,657] 3..View users
+[2021-04-29 03:43:04,657] 4..View log of all transactions
+[2021-04-29 03:43:04,657] 5..Logout
+[2021-04-29 03:43:04,657] [admin] Enter choice:
+[2021-04-29 03:46:06,698] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 03:46:06,708] 
+Main menu
+[2021-04-29 03:46:06,708] 1..Login
+[2021-04-29 03:46:06,708] 2..Register
+[2021-04-29 03:46:06,708] 3..Quit
+[2021-04-29 03:46:06,708] Enter choice:
+[2021-04-29 03:46:14,448] Please enter a number between 1 and 3
+[2021-04-29 03:46:19,509] 
+Main menu > Login
+[2021-04-29 03:46:19,509] Username:
+[2021-04-29 03:46:22,524] Password:
+[2021-04-29 03:46:24,559] Looking up goo
+[2021-04-29 03:46:24,803] Found goo
+[2021-04-29 03:46:24,803] goo authenticated
+[2021-04-29 03:46:24,803] 
+Customer menu
+[2021-04-29 03:46:24,803] 1..Apply for new account
+[2021-04-29 03:46:24,803] 2..View account balance
+[2021-04-29 03:46:24,803] 3..Withdraw funds
+[2021-04-29 03:46:24,803] 4..Deposit funds
+[2021-04-29 03:46:24,803] 5..Transfer funds
+[2021-04-29 03:46:24,808] 6..Logout
+[2021-04-29 03:46:24,808] [goo] Enter choice:
+[2021-04-29 03:46:28,589] 
+Customer menu > View account balance
+[2021-04-29 03:46:28,738] No account for user goo
+[2021-04-29 03:46:28,738] 
+Customer menu
+[2021-04-29 03:46:28,738] 1..Apply for new account
+[2021-04-29 03:46:28,748] 2..View account balance
+[2021-04-29 03:46:28,748] 3..Withdraw funds
+[2021-04-29 03:46:28,748] 4..Deposit funds
+[2021-04-29 03:46:28,748] 5..Transfer funds
+[2021-04-29 03:46:28,748] 6..Logout
+[2021-04-29 03:46:28,748] [goo] Enter choice:
+[2021-04-29 03:47:03,018] 
+Customer menu > Apply for new account
+[2021-04-29 03:47:03,018] Please enter a starting balance:
+[2021-04-29 03:47:05,078] Your new account is pending approval.
+[2021-04-29 03:47:05,078] 
+Customer menu
+[2021-04-29 03:47:05,078] 1..Apply for new account
+[2021-04-29 03:47:05,078] 2..View account balance
+[2021-04-29 03:47:05,078] 3..Withdraw funds
+[2021-04-29 03:47:05,078] 4..Deposit funds
+[2021-04-29 03:47:05,078] 5..Transfer funds
+[2021-04-29 03:47:05,078] 6..Logout
+[2021-04-29 03:47:05,078] [goo] Enter choice:
+[2021-04-29 03:47:07,999] 
+Customer menu > View account balance
+[2021-04-29 03:47:08,148] Your account is currently pending approval. Please try again later.
+[2021-04-29 03:47:08,148] 
+Customer menu
+[2021-04-29 03:47:08,148] 1..Apply for new account
+[2021-04-29 03:47:08,148] 2..View account balance
+[2021-04-29 03:47:08,148] 3..Withdraw funds
+[2021-04-29 03:47:08,148] 4..Deposit funds
+[2021-04-29 03:47:08,148] 5..Transfer funds
+[2021-04-29 03:47:08,148] 6..Logout
+[2021-04-29 03:47:08,148] [goo] Enter choice:
+[2021-04-29 03:47:10,019] Please enter a number between 1 and 6
+[2021-04-29 03:47:15,089] Logging out
+[2021-04-29 03:47:15,089] 
+Main menu
+[2021-04-29 03:47:15,089] 1..Login
+[2021-04-29 03:47:15,089] 2..Register
+[2021-04-29 03:47:15,089] 3..Quit
+[2021-04-29 03:47:15,089] Enter choice:
+[2021-04-29 03:47:19,168] 
+Main menu > Login
+[2021-04-29 03:47:19,168] Username:
+[2021-04-29 03:47:21,198] Password:
+[2021-04-29 03:47:23,218] Looking up admin
+[2021-04-29 03:47:23,268] Found admin
+[2021-04-29 03:47:23,268] admin authenticated
+[2021-04-29 03:47:23,268] 
+Employee Menu
+[2021-04-29 03:47:23,268] 1..Approve/reject account
+[2021-04-29 03:47:23,268] 2..View customer accounts
+[2021-04-29 03:47:23,268] 3..View users
+[2021-04-29 03:47:23,268] 4..View log of all transactions
+[2021-04-29 03:47:23,268] 5..Logout
+[2021-04-29 03:47:23,268] [admin] Enter choice:
+[2021-04-29 03:47:26,258] 
+Employee Menu > View customer accounts
+[2021-04-29 03:47:26,308] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:47:26,308] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:47:26,308] Account {id=111117, balance=500.0, status=PENDING, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 03:47:26,308] 
+Employee Menu
+[2021-04-29 03:47:26,308] 1..Approve/reject account
+[2021-04-29 03:47:26,308] 2..View customer accounts
+[2021-04-29 03:47:26,308] 3..View users
+[2021-04-29 03:47:26,308] 4..View log of all transactions
+[2021-04-29 03:47:26,308] 5..Logout
+[2021-04-29 03:47:26,308] [admin] Enter choice:
+[2021-04-29 03:47:32,328] 
+Employee Menu > Approve/reject account
+[2021-04-29 03:47:32,378] 
+1 account(s) pending:
+[2021-04-29 03:47:32,378] 0..Cancel
+[2021-04-29 03:47:32,378] 1..Account {id=111117, balance=500.0, status=PENDING, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 03:47:32,378] Choose account:
+[2021-04-29 03:47:35,358] 0..Cancel
+[2021-04-29 03:47:35,358] 1..PENDING
+[2021-04-29 03:47:35,358] 2..APPROVED
+[2021-04-29 03:47:35,358] 3..DENIED
+[2021-04-29 03:47:35,358] Choose status:
+[2021-04-29 03:47:37,418] Account DENIED
+[2021-04-29 03:47:37,418] 
+Employee Menu
+[2021-04-29 03:47:37,418] 1..Approve/reject account
+[2021-04-29 03:47:37,418] 2..View customer accounts
+[2021-04-29 03:47:37,418] 3..View users
+[2021-04-29 03:47:37,418] 4..View log of all transactions
+[2021-04-29 03:47:37,418] 5..Logout
+[2021-04-29 03:47:37,418] [admin] Enter choice:
+[2021-04-29 03:47:42,429] 
+Employee Menu > View users
+[2021-04-29 03:47:42,468] User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}
+[2021-04-29 03:47:42,468] User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}
+[2021-04-29 03:47:42,468] User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}
+[2021-04-29 03:47:42,468] 
+Employee Menu
+[2021-04-29 03:47:42,468] 1..Approve/reject account
+[2021-04-29 03:47:42,468] 2..View customer accounts
+[2021-04-29 03:47:42,468] 3..View users
+[2021-04-29 03:47:42,468] 4..View log of all transactions
+[2021-04-29 03:47:42,468] 5..Logout
+[2021-04-29 03:47:42,468] [admin] Enter choice:
+[2021-04-29 03:47:44,459] 
+Employee Menu > View customer accounts
+[2021-04-29 03:47:44,508] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 03:47:44,508] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 03:47:44,508] 
+Employee Menu
+[2021-04-29 03:47:44,508] 1..Approve/reject account
+[2021-04-29 03:47:44,508] 2..View customer accounts
+[2021-04-29 03:47:44,508] 3..View users
+[2021-04-29 03:47:44,508] 4..View log of all transactions
+[2021-04-29 03:47:44,508] 5..Logout
+[2021-04-29 03:47:44,508] [admin] Enter choice:
+[2021-04-29 03:48:08,758] Logging out admin
+[2021-04-29 03:48:08,758] 
+Main menu
+[2021-04-29 03:48:08,758] 1..Login
+[2021-04-29 03:48:08,758] 2..Register
+[2021-04-29 03:48:08,758] 3..Quit
+[2021-04-29 03:48:08,758] Enter choice:
+[2021-04-29 03:48:11,779] 
+Main menu > Login
+[2021-04-29 03:48:11,779] Username:
+[2021-04-29 03:48:13,809] Password:
+[2021-04-29 03:48:15,849] Looking up goo
+[2021-04-29 03:48:15,999] Found goo
+[2021-04-29 03:48:15,999] goo authenticated
+[2021-04-29 03:48:15,999] 
+Customer menu
+[2021-04-29 03:48:15,999] 1..Apply for new account
+[2021-04-29 03:48:15,999] 2..View account balance
+[2021-04-29 03:48:15,999] 3..Withdraw funds
+[2021-04-29 03:48:15,999] 4..Deposit funds
+[2021-04-29 03:48:15,999] 5..Transfer funds
+[2021-04-29 03:48:15,999] 6..Logout
+[2021-04-29 03:48:15,999] [goo] Enter choice:
+[2021-04-29 03:48:17,928] 
+Customer menu > Apply for new account
+[2021-04-29 03:48:17,928] Please enter a starting balance:
+[2021-04-29 03:48:20,018] Your new account is pending approval.
+[2021-04-29 03:48:20,018] 
+Customer menu
+[2021-04-29 03:48:20,018] 1..Apply for new account
+[2021-04-29 03:48:20,018] 2..View account balance
+[2021-04-29 03:48:20,018] 3..Withdraw funds
+[2021-04-29 03:48:20,018] 4..Deposit funds
+[2021-04-29 03:48:20,018] 5..Transfer funds
+[2021-04-29 03:48:20,018] 6..Logout
+[2021-04-29 03:48:20,018] [goo] Enter choice:
+[2021-04-29 03:48:28,018] Logging out
+[2021-04-29 03:48:28,018] 
+Main menu
+[2021-04-29 03:48:28,018] 1..Login
+[2021-04-29 03:48:28,018] 2..Register
+[2021-04-29 03:48:28,018] 3..Quit
+[2021-04-29 03:48:28,018] Enter choice:
+[2021-04-29 03:48:30,038] 
+Main menu > Login
+[2021-04-29 03:48:30,038] Username:
+[2021-04-29 03:48:32,049] Password:
+[2021-04-29 03:48:34,069] Looking up admin
+[2021-04-29 03:48:34,219] Found admin
+[2021-04-29 03:48:34,219] admin authenticated
+[2021-04-29 03:48:34,219] 
+Employee Menu
+[2021-04-29 03:48:34,219] 1..Approve/reject account
+[2021-04-29 03:48:34,219] 2..View customer accounts
+[2021-04-29 03:48:34,219] 3..View users
+[2021-04-29 03:48:34,219] 4..View log of all transactions
+[2021-04-29 03:48:34,219] 5..Logout
+[2021-04-29 03:48:34,219] [admin] Enter choice:
+[2021-04-29 03:48:40,179] 
+Employee Menu > Approve/reject account
+[2021-04-29 03:48:40,228] 
+1 account(s) pending:
+[2021-04-29 03:48:40,228] 0..Cancel
+[2021-04-29 03:48:40,228] 1..Account {id=111118, balance=500.0, status=PENDING, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 03:48:40,228] Choose account:
+[2021-04-29 03:48:43,198] 0..Cancel
+[2021-04-29 03:48:43,198] 1..PENDING
+[2021-04-29 03:48:43,198] 2..APPROVED
+[2021-04-29 03:48:43,198] 3..DENIED
+[2021-04-29 03:48:43,198] Choose status:
+[2021-04-29 03:48:45,269] Account DENIED
+[2021-04-29 03:48:45,269] 
+Employee Menu
+[2021-04-29 03:48:45,269] 1..Approve/reject account
+[2021-04-29 03:48:45,269] 2..View customer accounts
+[2021-04-29 03:48:45,269] 3..View users
+[2021-04-29 03:48:45,269] 4..View log of all transactions
+[2021-04-29 03:48:45,269] 5..Logout
+[2021-04-29 03:48:45,269] [admin] Enter choice:
+[2021-04-29 03:51:13,143] Logging out admin
+[2021-04-29 03:51:13,143] 
+Main menu
+[2021-04-29 03:51:13,143] 1..Login
+[2021-04-29 03:51:13,143] 2..Register
+[2021-04-29 03:51:13,143] 3..Quit
+[2021-04-29 03:51:13,143] Enter choice:
+[2021-04-29 03:51:14,149] Thank you for using ShivaCorp Banking app
+[2021-04-29 03:51:14,149] Goodbye
+[2021-04-29 04:31:22,580] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 04:31:22,589] 
+Main menu
+[2021-04-29 04:31:22,589] 1..Login
+[2021-04-29 04:31:22,589] 2..Register
+[2021-04-29 04:31:22,589] 3..Quit
+[2021-04-29 04:31:22,589] Enter choice:
+[2021-04-29 04:31:28,359] 
+Main menu > Login
+[2021-04-29 04:31:28,359] Username:
+[2021-04-29 04:31:30,389] Password:
+[2021-04-29 04:31:32,419] Looking up admin
+[2021-04-29 04:31:32,669] Found admin
+[2021-04-29 04:31:32,669] admin authenticated
+[2021-04-29 04:31:32,669] 
+Employee Menu
+[2021-04-29 04:31:32,669] 1..Approve/reject account
+[2021-04-29 04:31:32,669] 2..View customer accounts
+[2021-04-29 04:31:32,669] 3..View users
+[2021-04-29 04:31:32,669] 4..View log of all transactions
+[2021-04-29 04:31:32,669] 5..Logout
+[2021-04-29 04:31:32,669] [admin] Enter choice:
+[2021-04-29 04:31:35,479] 
+Employee Menu > View users
+[2021-04-29 04:31:42,593] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 04:31:42,612] 
+Main menu
+[2021-04-29 04:31:42,612] 1..Login
+[2021-04-29 04:31:42,612] 2..Register
+[2021-04-29 04:31:42,614] 3..Quit
+[2021-04-29 04:31:42,614] Enter choice:
+[2021-04-29 04:31:48,223] 
+Main menu > Login
+[2021-04-29 04:31:48,223] Username:
+[2021-04-29 04:31:52,225] Password:
+[2021-04-29 04:31:54,227] Looking up admin
+[2021-04-29 04:31:54,475] Found admin
+[2021-04-29 04:31:54,475] admin authenticated
+[2021-04-29 04:31:54,477] 
+Employee Menu
+[2021-04-29 04:31:54,477] 1..Approve/reject account
+[2021-04-29 04:31:54,477] 2..View customer accounts
+[2021-04-29 04:31:54,477] 3..View users
+[2021-04-29 04:31:54,477] 4..View log of all transactions
+[2021-04-29 04:31:54,477] 5..Logout
+[2021-04-29 04:31:54,477] [admin] Enter choice:
+[2021-04-29 04:31:58,229] 
+Employee Menu > View users
+[2021-04-29 04:39:56,614] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 04:39:56,619] 
+Main menu
+[2021-04-29 04:39:56,619] 1..Login
+[2021-04-29 04:39:56,619] 2..Register
+[2021-04-29 04:39:56,619] 3..Quit
+[2021-04-29 04:39:56,619] Enter choice:
+[2021-04-29 04:40:01,330] 
+Main menu > Login
+[2021-04-29 04:40:01,330] Username:
+[2021-04-29 04:40:03,349] Password:
+[2021-04-29 04:40:05,369] Looking up admin
+[2021-04-29 04:40:05,609] Found admin
+[2021-04-29 04:40:05,609] admin authenticated
+[2021-04-29 04:40:05,619] 
+Employee Menu
+[2021-04-29 04:40:05,619] 1..Approve/reject account
+[2021-04-29 04:40:05,619] 2..View customer accounts
+[2021-04-29 04:40:05,619] 3..View users
+[2021-04-29 04:40:05,619] 4..View log of all transactions
+[2021-04-29 04:40:05,619] 5..Logout
+[2021-04-29 04:40:05,619] [admin] Enter choice:
+[2021-04-29 04:40:08,390] 
+Employee Menu > View users
+[2021-04-29 04:40:12,157] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 04:40:12,167] 
+Main menu
+[2021-04-29 04:40:12,167] 1..Login
+[2021-04-29 04:40:12,167] 2..Register
+[2021-04-29 04:40:12,167] 3..Quit
+[2021-04-29 04:40:12,167] Enter choice:
+[2021-04-29 04:40:15,863] 
+Main menu > Login
+[2021-04-29 04:40:15,863] Username:
+[2021-04-29 04:40:17,865] Password:
+[2021-04-29 04:40:20,866] Looking up admin
+[2021-04-29 04:40:21,119] Found admin
+[2021-04-29 04:40:21,119] admin authenticated
+[2021-04-29 04:40:21,121] 
+Employee Menu
+[2021-04-29 04:40:21,121] 1..Approve/reject account
+[2021-04-29 04:40:21,121] 2..View customer accounts
+[2021-04-29 04:40:21,121] 3..View users
+[2021-04-29 04:40:21,121] 4..View log of all transactions
+[2021-04-29 04:40:21,122] 5..Logout
+[2021-04-29 04:40:21,122] [admin] Enter choice:
+[2021-04-29 04:40:22,867] 
+Employee Menu > View customer accounts
+[2021-04-29 04:40:22,921] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 04:40:22,921] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 04:40:22,921] 
+Employee Menu
+[2021-04-29 04:40:22,921] 1..Approve/reject account
+[2021-04-29 04:40:22,921] 2..View customer accounts
+[2021-04-29 04:40:22,921] 3..View users
+[2021-04-29 04:40:22,922] 4..View log of all transactions
+[2021-04-29 04:40:22,922] 5..Logout
+[2021-04-29 04:40:22,922] [admin] Enter choice:
+[2021-04-29 04:40:24,868] 
+Employee Menu > View users
+[2021-04-29 04:46:25,969] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 04:46:25,980] 
+Main menu
+[2021-04-29 04:46:25,980] 1..Login
+[2021-04-29 04:46:25,980] 2..Register
+[2021-04-29 04:46:25,980] 3..Quit
+[2021-04-29 04:46:25,980] Enter choice:
+[2021-04-29 04:46:29,650] 
+Main menu > Login
+[2021-04-29 04:46:29,650] Username:
+[2021-04-29 04:46:31,667] Password:
+[2021-04-29 04:46:33,670] Looking up admin
+[2021-04-29 04:46:33,914] Found admin
+[2021-04-29 04:46:33,914] admin authenticated
+[2021-04-29 04:46:33,919] 
+Employee Menu
+[2021-04-29 04:46:33,919] 1..Approve/reject account
+[2021-04-29 04:46:33,919] 2..View customer accounts
+[2021-04-29 04:46:33,919] 3..View users
+[2021-04-29 04:46:33,919] 4..View log of all transactions
+[2021-04-29 04:46:33,919] 5..Logout
+[2021-04-29 04:46:33,919] [admin] Enter choice:
+[2021-04-29 04:46:36,710] 
+Employee Menu > View users
+[2021-04-29 04:46:36,869] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 04:46:36,869] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 04:46:36,869] Account {id=0, balance=0.0, status=null, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 04:46:36,869] 
+Employee Menu
+[2021-04-29 04:46:36,869] 1..Approve/reject account
+[2021-04-29 04:46:36,869] 2..View customer accounts
+[2021-04-29 04:46:36,869] 3..View users
+[2021-04-29 04:46:36,869] 4..View log of all transactions
+[2021-04-29 04:46:36,869] 5..Logout
+[2021-04-29 04:46:36,869] [admin] Enter choice:
+[2021-04-29 04:46:53,919] Logging out admin
+[2021-04-29 04:46:53,919] 
+Main menu
+[2021-04-29 04:46:53,919] 1..Login
+[2021-04-29 04:46:53,919] 2..Register
+[2021-04-29 04:46:53,919] 3..Quit
+[2021-04-29 04:46:53,919] Enter choice:
+[2021-04-29 04:46:55,950] 
+Main menu > Register
+[2021-04-29 04:46:55,950] Username:
+[2021-04-29 04:47:08,100] Password:
+[2021-04-29 04:47:10,140] Confirm password:
+[2021-04-29 04:47:12,169] Full name:
+[2021-04-29 04:47:14,379] New user account created for woo
+[2021-04-29 04:47:14,379] 
+Customer menu
+[2021-04-29 04:47:14,379] 1..Apply for new account
+[2021-04-29 04:47:14,379] 2..View account balance
+[2021-04-29 04:47:14,379] 3..Withdraw funds
+[2021-04-29 04:47:14,379] 4..Deposit funds
+[2021-04-29 04:47:14,379] 5..Transfer funds
+[2021-04-29 04:47:14,379] 6..Logout
+[2021-04-29 04:47:14,379] [woo] Enter choice:
+[2021-04-29 04:47:30,439] 
+Customer menu > Apply for new account
+[2021-04-29 04:47:30,439] Please enter a starting balance:
+[2021-04-29 04:47:34,590] Your new account is pending approval.
+[2021-04-29 04:47:34,590] 
+Customer menu
+[2021-04-29 04:47:34,590] 1..Apply for new account
+[2021-04-29 04:47:34,590] 2..View account balance
+[2021-04-29 04:47:34,590] 3..Withdraw funds
+[2021-04-29 04:47:34,590] 4..Deposit funds
+[2021-04-29 04:47:34,590] 5..Transfer funds
+[2021-04-29 04:47:34,590] 6..Logout
+[2021-04-29 04:47:34,590] [woo] Enter choice:
+[2021-04-29 04:47:44,640] Logging out
+[2021-04-29 04:47:44,640] 
+Main menu
+[2021-04-29 04:47:44,640] 1..Login
+[2021-04-29 04:47:44,640] 2..Register
+[2021-04-29 04:47:44,640] 3..Quit
+[2021-04-29 04:47:44,640] Enter choice:
+[2021-04-29 04:47:45,660] 
+Main menu > Login
+[2021-04-29 04:47:45,660] Username:
+[2021-04-29 04:47:48,670] Password:
+[2021-04-29 04:47:50,690] Looking up admin
+[2021-04-29 04:47:50,850] Found admin
+[2021-04-29 04:47:50,850] admin authenticated
+[2021-04-29 04:47:50,850] 
+Employee Menu
+[2021-04-29 04:47:50,850] 1..Approve/reject account
+[2021-04-29 04:47:50,850] 2..View customer accounts
+[2021-04-29 04:47:50,850] 3..View users
+[2021-04-29 04:47:50,850] 4..View log of all transactions
+[2021-04-29 04:47:50,850] 5..Logout
+[2021-04-29 04:47:50,850] [admin] Enter choice:
+[2021-04-29 04:47:55,760] 
+Employee Menu > View users
+[2021-04-29 04:47:55,810] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 04:47:55,810] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 04:47:55,810] Account {id=111119, balance=500.0, status=PENDING, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 04:47:55,810] Account {id=0, balance=0.0, status=null, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 04:47:55,810] 
+Employee Menu
+[2021-04-29 04:47:55,810] 1..Approve/reject account
+[2021-04-29 04:47:55,810] 2..View customer accounts
+[2021-04-29 04:47:55,810] 3..View users
+[2021-04-29 04:47:55,810] 4..View log of all transactions
+[2021-04-29 04:47:55,810] 5..Logout
+[2021-04-29 04:47:55,810] [admin] Enter choice:
+[2021-04-29 04:48:06,940] 
+Employee Menu > Approve/reject account
+[2021-04-29 04:48:06,989] 
+1 account(s) pending:
+[2021-04-29 04:48:06,989] 0..Cancel
+[2021-04-29 04:48:06,989] 1..Account {id=111119, balance=500.0, status=PENDING, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 04:48:06,989] Choose account:
+[2021-04-29 04:48:10,000] 0..Cancel
+[2021-04-29 04:48:10,000] 1..PENDING
+[2021-04-29 04:48:10,000] 2..APPROVED
+[2021-04-29 04:48:10,000] 3..DENIED
+[2021-04-29 04:48:10,000] Choose status:
+[2021-04-29 04:48:12,069] Account DENIED
+[2021-04-29 04:48:12,069] 
+Employee Menu
+[2021-04-29 04:48:12,069] 1..Approve/reject account
+[2021-04-29 04:48:12,069] 2..View customer accounts
+[2021-04-29 04:48:12,069] 3..View users
+[2021-04-29 04:48:12,069] 4..View log of all transactions
+[2021-04-29 04:48:12,069] 5..Logout
+[2021-04-29 04:48:12,069] [admin] Enter choice:
+[2021-04-29 04:48:16,070] 
+Employee Menu > View customer accounts
+[2021-04-29 04:48:16,120] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 04:48:16,120] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 04:48:16,120] 
+Employee Menu
+[2021-04-29 04:48:16,120] 1..Approve/reject account
+[2021-04-29 04:48:16,120] 2..View customer accounts
+[2021-04-29 04:48:16,120] 3..View users
+[2021-04-29 04:48:16,120] 4..View log of all transactions
+[2021-04-29 04:48:16,120] 5..Logout
+[2021-04-29 04:48:16,120] [admin] Enter choice:
+[2021-04-29 04:48:19,090] 
+Employee Menu > View users
+[2021-04-29 04:48:19,140] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 04:48:19,140] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 04:48:19,140] Account {id=0, balance=0.0, status=null, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 04:48:19,140] Account {id=0, balance=0.0, status=null, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 04:48:19,140] 
+Employee Menu
+[2021-04-29 04:48:19,140] 1..Approve/reject account
+[2021-04-29 04:48:19,140] 2..View customer accounts
+[2021-04-29 04:48:19,140] 3..View users
+[2021-04-29 04:48:19,140] 4..View log of all transactions
+[2021-04-29 04:48:19,140] 5..Logout
+[2021-04-29 04:48:19,140] [admin] Enter choice:
+[2021-04-29 04:48:33,250] I'm sorry, this service is currently unavailable.
+[2021-04-29 04:48:33,250] 
+Employee Menu
+[2021-04-29 04:48:33,250] 1..Approve/reject account
+[2021-04-29 04:48:33,250] 2..View customer accounts
+[2021-04-29 04:48:33,250] 3..View users
+[2021-04-29 04:48:33,250] 4..View log of all transactions
+[2021-04-29 04:48:33,250] 5..Logout
+[2021-04-29 04:48:33,250] [admin] Enter choice:
+[2021-04-29 04:48:38,300] Logging out admin
+[2021-04-29 04:48:38,300] 
+Main menu
+[2021-04-29 04:48:38,300] 1..Login
+[2021-04-29 04:48:38,300] 2..Register
+[2021-04-29 04:48:38,300] 3..Quit
+[2021-04-29 04:48:38,300] Enter choice:
+[2021-04-29 04:48:48,420] 
+Main menu > Login
+[2021-04-29 04:48:48,420] Username:
+[2021-04-29 04:48:53,490] Password:
+[2021-04-29 04:48:55,511] Looking up foo
+[2021-04-29 04:48:55,559] Found foo
+[2021-04-29 04:48:55,559] foo authenticated
+[2021-04-29 04:48:55,559] 
+Customer menu
+[2021-04-29 04:48:55,559] 1..Apply for new account
+[2021-04-29 04:48:55,559] 2..View account balance
+[2021-04-29 04:48:55,559] 3..Withdraw funds
+[2021-04-29 04:48:55,559] 4..Deposit funds
+[2021-04-29 04:48:55,559] 5..Transfer funds
+[2021-04-29 04:48:55,559] 6..Logout
+[2021-04-29 04:48:55,559] [foo] Enter choice:
+[2021-04-29 04:48:58,540] 
+Customer menu > View account balance
+[2021-04-29 04:48:58,589] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 04:48:58,589] 
+Customer menu
+[2021-04-29 04:48:58,589] 1..Apply for new account
+[2021-04-29 04:48:58,589] 2..View account balance
+[2021-04-29 04:48:58,589] 3..Withdraw funds
+[2021-04-29 04:48:58,589] 4..Deposit funds
+[2021-04-29 04:48:58,589] 5..Transfer funds
+[2021-04-29 04:48:58,589] 6..Logout
+[2021-04-29 04:48:58,589] [foo] Enter choice:
+[2021-04-29 04:49:05,600] Logging out
+[2021-04-29 04:49:05,600] 
+Main menu
+[2021-04-29 04:49:05,600] 1..Login
+[2021-04-29 04:49:05,600] 2..Register
+[2021-04-29 04:49:05,600] 3..Quit
+[2021-04-29 04:49:05,600] Enter choice:
+[2021-04-29 04:49:06,620] Thank you for using ShivaCorp Banking app
+[2021-04-29 04:49:06,620] Goodbye
+[2021-04-29 05:00:20,920] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:00:20,930] 
+Main menu
+[2021-04-29 05:00:20,930] 1..Login
+[2021-04-29 05:00:20,930] 2..Register
+[2021-04-29 05:00:20,930] 3..Quit
+[2021-04-29 05:00:20,930] Enter choice:
+[2021-04-29 05:00:24,681] 
+Main menu > Login
+[2021-04-29 05:00:24,681] Username:
+[2021-04-29 05:00:27,705] Password:
+[2021-04-29 05:00:29,720] Looking up admin
+[2021-04-29 05:00:29,985] Found admin
+[2021-04-29 05:00:29,985] admin authenticated
+[2021-04-29 05:00:29,989] 
+Employee Menu
+[2021-04-29 05:00:29,990] 1..Approve/reject account
+[2021-04-29 05:00:29,990] 2..View customer accounts
+[2021-04-29 05:00:29,990] 3..View users
+[2021-04-29 05:00:29,990] 4..View log of all transactions
+[2021-04-29 05:00:29,990] 5..Logout
+[2021-04-29 05:00:29,990] [admin] Enter choice:
+[2021-04-29 05:00:32,760] 
+Employee Menu > View users
+[2021-04-29 05:00:32,810] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:00:32,810] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 05:00:32,810] Account {id=0, balance=0.0, status=null, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 05:00:32,810] Account {id=0, balance=0.0, status=null, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 05:00:32,810] 
+Employee Menu
+[2021-04-29 05:00:32,810] 1..Approve/reject account
+[2021-04-29 05:00:32,810] 2..View customer accounts
+[2021-04-29 05:00:32,810] 3..View users
+[2021-04-29 05:00:32,810] 4..View log of all transactions
+[2021-04-29 05:00:32,810] 5..Logout
+[2021-04-29 05:00:32,810] [admin] Enter choice:
+[2021-04-29 05:00:36,800] 
+Employee Menu > View customer accounts
+[2021-04-29 05:00:36,950] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:00:36,960] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 05:00:36,960] 
+Employee Menu
+[2021-04-29 05:00:36,960] 1..Approve/reject account
+[2021-04-29 05:00:36,960] 2..View customer accounts
+[2021-04-29 05:00:36,960] 3..View users
+[2021-04-29 05:00:36,960] 4..View log of all transactions
+[2021-04-29 05:00:36,960] 5..Logout
+[2021-04-29 05:00:36,960] [admin] Enter choice:
+[2021-04-29 05:00:38,820] 
+Employee Menu > View users
+[2021-04-29 05:00:38,870] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:00:38,870] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 05:00:38,870] Account {id=0, balance=0.0, status=null, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 05:00:38,870] Account {id=0, balance=0.0, status=null, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 05:00:38,870] 
+Employee Menu
+[2021-04-29 05:00:38,870] 1..Approve/reject account
+[2021-04-29 05:00:38,870] 2..View customer accounts
+[2021-04-29 05:00:38,870] 3..View users
+[2021-04-29 05:00:38,870] 4..View log of all transactions
+[2021-04-29 05:00:38,870] 5..Logout
+[2021-04-29 05:00:38,870] [admin] Enter choice:
+[2021-04-29 05:01:43,610] Logging out admin
+[2021-04-29 05:01:43,610] 
+Main menu
+[2021-04-29 05:01:43,610] 1..Login
+[2021-04-29 05:01:43,610] 2..Register
+[2021-04-29 05:01:43,610] 3..Quit
+[2021-04-29 05:01:43,610] Enter choice:
+[2021-04-29 05:01:45,630] 
+Main menu > Login
+[2021-04-29 05:01:45,630] Username:
+[2021-04-29 05:01:47,660] Password:
+[2021-04-29 05:01:49,690] Looking up foo
+[2021-04-29 05:01:49,740] Found foo
+[2021-04-29 05:01:49,740] foo authenticated
+[2021-04-29 05:01:49,740] 
+Customer menu
+[2021-04-29 05:01:49,740] 1..Apply for new account
+[2021-04-29 05:01:49,740] 2..View account balance
+[2021-04-29 05:01:49,740] 3..Withdraw funds
+[2021-04-29 05:01:49,740] 4..Deposit funds
+[2021-04-29 05:01:49,740] 5..Transfer funds
+[2021-04-29 05:01:49,740] 6..Logout
+[2021-04-29 05:01:49,740] [foo] Enter choice:
+[2021-04-29 05:01:52,710] 
+Customer menu > View account balance
+[2021-04-29 05:01:52,760] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:01:52,760] 
+Customer menu
+[2021-04-29 05:01:52,760] 1..Apply for new account
+[2021-04-29 05:01:52,760] 2..View account balance
+[2021-04-29 05:01:52,760] 3..Withdraw funds
+[2021-04-29 05:01:52,760] 4..Deposit funds
+[2021-04-29 05:01:52,760] 5..Transfer funds
+[2021-04-29 05:01:52,760] 6..Logout
+[2021-04-29 05:01:52,760] [foo] Enter choice:
+[2021-04-29 05:02:05,880] 
+Customer menu > Apply for new account
+[2021-04-29 05:02:05,880] Please enter a starting balance:
+[2021-04-29 05:02:12,140] Account for foo already exists
+[2021-04-29 05:02:12,140] 
+Customer menu
+[2021-04-29 05:02:12,140] 1..Apply for new account
+[2021-04-29 05:02:12,140] 2..View account balance
+[2021-04-29 05:02:12,140] 3..Withdraw funds
+[2021-04-29 05:02:12,140] 4..Deposit funds
+[2021-04-29 05:02:12,140] 5..Transfer funds
+[2021-04-29 05:02:12,140] 6..Logout
+[2021-04-29 05:02:12,140] [foo] Enter choice:
+[2021-04-29 05:02:21,090] Logging out
+[2021-04-29 05:02:21,090] 
+Main menu
+[2021-04-29 05:02:21,090] 1..Login
+[2021-04-29 05:02:21,090] 2..Register
+[2021-04-29 05:02:21,090] 3..Quit
+[2021-04-29 05:02:21,090] Enter choice:
+[2021-04-29 05:02:23,111] Thank you for using ShivaCorp Banking app
+[2021-04-29 05:02:23,111] Goodbye
+[2021-04-29 05:26:59,840] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:26:59,850] 
+Main menu
+[2021-04-29 05:26:59,850] 1..Login
+[2021-04-29 05:26:59,850] 2..Register
+[2021-04-29 05:26:59,850] 3..Quit
+[2021-04-29 05:26:59,850] Enter choice:
+[2021-04-29 05:27:05,580] 
+Main menu > Login
+[2021-04-29 05:27:05,580] Username:
+[2021-04-29 05:27:11,660] Password:
+[2021-04-29 05:27:13,670] Looking up woo
+[2021-04-29 05:27:13,925] Found woo
+[2021-04-29 05:27:13,925] woo authenticated
+[2021-04-29 05:27:13,925] 
+Customer menu
+[2021-04-29 05:27:13,925] 1..Apply for new account
+[2021-04-29 05:27:13,925] 2..View account balance
+[2021-04-29 05:27:13,925] 3..Withdraw funds
+[2021-04-29 05:27:13,925] 4..Deposit funds
+[2021-04-29 05:27:13,925] 5..Transfer funds
+[2021-04-29 05:27:13,925] 6..Logout
+[2021-04-29 05:27:13,925] [woo] Enter choice:
+[2021-04-29 05:27:16,730] 
+Customer menu > View account balance
+[2021-04-29 05:27:16,780] No account for user woo
+[2021-04-29 05:27:16,780] 
+Customer menu
+[2021-04-29 05:27:16,780] 1..Apply for new account
+[2021-04-29 05:27:16,780] 2..View account balance
+[2021-04-29 05:27:16,780] 3..Withdraw funds
+[2021-04-29 05:27:16,780] 4..Deposit funds
+[2021-04-29 05:27:16,780] 5..Transfer funds
+[2021-04-29 05:27:16,780] 6..Logout
+[2021-04-29 05:27:16,780] [woo] Enter choice:
+[2021-04-29 05:27:21,830] 
+Customer menu > Withdraw funds
+[2021-04-29 05:27:21,830] Withdrawal amount:
+[2021-04-29 05:27:26,930] No account for user woo
+[2021-04-29 05:27:26,930] 
+Customer menu
+[2021-04-29 05:27:26,930] 1..Apply for new account
+[2021-04-29 05:27:26,930] 2..View account balance
+[2021-04-29 05:27:26,930] 3..Withdraw funds
+[2021-04-29 05:27:26,930] 4..Deposit funds
+[2021-04-29 05:27:26,930] 5..Transfer funds
+[2021-04-29 05:27:26,930] 6..Logout
+[2021-04-29 05:27:26,930] [woo] Enter choice:
+[2021-04-29 05:27:42,120] 
+Customer menu > Apply for new account
+[2021-04-29 05:27:42,120] Please enter a starting balance:
+[2021-04-29 05:27:44,370] Your new account is pending approval.
+[2021-04-29 05:27:44,370] 
+Customer menu
+[2021-04-29 05:27:44,370] 1..Apply for new account
+[2021-04-29 05:27:44,370] 2..View account balance
+[2021-04-29 05:27:44,370] 3..Withdraw funds
+[2021-04-29 05:27:44,370] 4..Deposit funds
+[2021-04-29 05:27:44,370] 5..Transfer funds
+[2021-04-29 05:27:44,370] 6..Logout
+[2021-04-29 05:27:44,370] [woo] Enter choice:
+[2021-04-29 05:27:47,200] 
+Customer menu > Withdraw funds
+[2021-04-29 05:27:47,200] Withdrawal amount:
+[2021-04-29 05:27:49,260] Your account is currently pending approval. Please try again later.
+[2021-04-29 05:27:49,270] 
+Customer menu
+[2021-04-29 05:27:49,270] 1..Apply for new account
+[2021-04-29 05:27:49,270] 2..View account balance
+[2021-04-29 05:27:49,270] 3..Withdraw funds
+[2021-04-29 05:27:49,270] 4..Deposit funds
+[2021-04-29 05:27:49,270] 5..Transfer funds
+[2021-04-29 05:27:49,270] 6..Logout
+[2021-04-29 05:27:49,270] [woo] Enter choice:
+[2021-04-29 05:27:58,340] Logging out
+[2021-04-29 05:27:58,340] 
+Main menu
+[2021-04-29 05:27:58,340] 1..Login
+[2021-04-29 05:27:58,340] 2..Register
+[2021-04-29 05:27:58,340] 3..Quit
+[2021-04-29 05:27:58,340] Enter choice:
+[2021-04-29 05:28:00,360] 
+Main menu > Login
+[2021-04-29 05:28:00,360] Username:
+[2021-04-29 05:28:02,400] Password:
+[2021-04-29 05:28:04,420] Looking up admin
+[2021-04-29 05:28:04,460] Found admin
+[2021-04-29 05:28:04,460] admin authenticated
+[2021-04-29 05:28:04,470] 
+Employee Menu
+[2021-04-29 05:28:04,470] 1..Approve/reject account
+[2021-04-29 05:28:04,470] 2..View customer accounts
+[2021-04-29 05:28:04,470] 3..View users
+[2021-04-29 05:28:04,470] 4..View log of all transactions
+[2021-04-29 05:28:04,470] 5..Logout
+[2021-04-29 05:28:04,470] [admin] Enter choice:
+[2021-04-29 05:28:07,481] 
+Employee Menu > Approve/reject account
+[2021-04-29 05:28:07,640] 
+1 account(s) pending:
+[2021-04-29 05:28:07,640] 0..Cancel
+[2021-04-29 05:28:07,640] 1..Account {id=111120, balance=500.0, status=PENDING, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 05:28:07,640] Choose account:
+[2021-04-29 05:28:10,540] 0..Cancel
+[2021-04-29 05:28:10,540] 1..PENDING
+[2021-04-29 05:28:10,540] 2..APPROVED
+[2021-04-29 05:28:10,540] 3..DENIED
+[2021-04-29 05:28:10,540] Choose status:
+[2021-04-29 05:28:12,620] Account APPROVED
+[2021-04-29 05:28:12,620] 
+Employee Menu
+[2021-04-29 05:28:12,620] 1..Approve/reject account
+[2021-04-29 05:28:12,620] 2..View customer accounts
+[2021-04-29 05:28:12,620] 3..View users
+[2021-04-29 05:28:12,620] 4..View log of all transactions
+[2021-04-29 05:28:12,620] 5..Logout
+[2021-04-29 05:28:12,620] [admin] Enter choice:
+[2021-04-29 05:28:16,630] 
+Employee Menu > View customer accounts
+[2021-04-29 05:28:16,680] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:28:16,680] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 05:28:16,680] Account {id=111120, balance=500.0, status=APPROVED, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 05:28:16,680] 
+Employee Menu
+[2021-04-29 05:28:16,680] 1..Approve/reject account
+[2021-04-29 05:28:16,680] 2..View customer accounts
+[2021-04-29 05:28:16,680] 3..View users
+[2021-04-29 05:28:16,680] 4..View log of all transactions
+[2021-04-29 05:28:16,680] 5..Logout
+[2021-04-29 05:28:16,680] [admin] Enter choice:
+[2021-04-29 05:28:22,750] 
+Employee Menu > View users
+[2021-04-29 05:28:22,800] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:28:22,800] Account {id=111113, balance=500.0, status=APPROVED, user=User {id=4, username='poo', fullname='poo', usertype=CUSTOMER}}
+[2021-04-29 05:28:22,800] Account {id=111120, balance=500.0, status=APPROVED, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 05:28:22,800] Account {id=0, balance=0.0, status=null, user=User {id=7, username='goo', fullname='goo', usertype=CUSTOMER}}
+[2021-04-29 05:28:22,800] 
+Employee Menu
+[2021-04-29 05:28:22,800] 1..Approve/reject account
+[2021-04-29 05:28:22,800] 2..View customer accounts
+[2021-04-29 05:28:22,800] 3..View users
+[2021-04-29 05:28:22,800] 4..View log of all transactions
+[2021-04-29 05:28:22,800] 5..Logout
+[2021-04-29 05:28:22,800] [admin] Enter choice:
+[2021-04-29 05:28:29,850] Please enter a number between 1 and 5
+[2021-04-29 05:28:31,860] Logging out admin
+[2021-04-29 05:28:31,860] 
+Main menu
+[2021-04-29 05:28:31,860] 1..Login
+[2021-04-29 05:28:31,860] 2..Register
+[2021-04-29 05:28:31,860] 3..Quit
+[2021-04-29 05:28:31,860] Enter choice:
+[2021-04-29 05:28:35,920] 
+Main menu > Login
+[2021-04-29 05:28:35,920] Username:
+[2021-04-29 05:28:37,930] Password:
+[2021-04-29 05:28:39,971] Looking up woo
+[2021-04-29 05:28:40,020] Found woo
+[2021-04-29 05:28:40,020] woo authenticated
+[2021-04-29 05:28:40,020] 
+Customer menu
+[2021-04-29 05:28:40,020] 1..Apply for new account
+[2021-04-29 05:28:40,020] 2..View account balance
+[2021-04-29 05:28:40,020] 3..Withdraw funds
+[2021-04-29 05:28:40,020] 4..Deposit funds
+[2021-04-29 05:28:40,020] 5..Transfer funds
+[2021-04-29 05:28:40,020] 6..Logout
+[2021-04-29 05:28:40,020] [woo] Enter choice:
+[2021-04-29 05:28:44,020] 
+Customer menu > View account balance
+[2021-04-29 05:28:44,070] Account {id=111120, balance=500.0, status=APPROVED, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 05:28:44,070] 
+Customer menu
+[2021-04-29 05:28:44,070] 1..Apply for new account
+[2021-04-29 05:28:44,070] 2..View account balance
+[2021-04-29 05:28:44,070] 3..Withdraw funds
+[2021-04-29 05:28:44,070] 4..Deposit funds
+[2021-04-29 05:28:44,070] 5..Transfer funds
+[2021-04-29 05:28:44,070] 6..Logout
+[2021-04-29 05:28:44,070] [woo] Enter choice:
+[2021-04-29 05:28:47,060] 
+Customer menu > Withdraw funds
+[2021-04-29 05:28:47,060] Withdrawal amount:
+[2021-04-29 05:28:49,130] Account {id=111120, balance=500.0, status=APPROVED, user=User {id=8, username='woo', fullname='woo', usertype=CUSTOMER}}
+[2021-04-29 05:28:49,130] 
+Customer menu
+[2021-04-29 05:28:49,130] 1..Apply for new account
+[2021-04-29 05:28:49,130] 2..View account balance
+[2021-04-29 05:28:49,130] 3..Withdraw funds
+[2021-04-29 05:28:49,130] 4..Deposit funds
+[2021-04-29 05:28:49,130] 5..Transfer funds
+[2021-04-29 05:28:49,130] 6..Logout
+[2021-04-29 05:28:49,130] [woo] Enter choice:
+[2021-04-29 05:28:58,200] Logging out
+[2021-04-29 05:28:58,200] 
+Main menu
+[2021-04-29 05:28:58,200] 1..Login
+[2021-04-29 05:28:58,200] 2..Register
+[2021-04-29 05:28:58,200] 3..Quit
+[2021-04-29 05:28:58,200] Enter choice:
+[2021-04-29 05:29:00,240] Thank you for using ShivaCorp Banking app
+[2021-04-29 05:29:00,240] Goodbye
+[2021-04-29 05:46:33,871] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:46:33,881] 
+Main menu
+[2021-04-29 05:46:33,881] 1..Login
+[2021-04-29 05:46:33,881] 2..Register
+[2021-04-29 05:46:33,881] 3..Quit
+[2021-04-29 05:46:33,881] Enter choice:
+[2021-04-29 05:46:42,701] 
+Main menu > Login
+[2021-04-29 05:46:42,701] Username:
+[2021-04-29 05:46:45,751] Password:
+[2021-04-29 05:46:47,771] Looking up foo
+[2021-04-29 05:46:48,011] Found foo
+[2021-04-29 05:46:48,011] foo authenticated
+[2021-04-29 05:46:48,011] 
+Customer menu
+[2021-04-29 05:46:48,011] 1..Apply for new account
+[2021-04-29 05:46:48,011] 2..View account balance
+[2021-04-29 05:46:48,011] 3..Withdraw funds
+[2021-04-29 05:46:48,011] 4..Deposit funds
+[2021-04-29 05:46:48,011] 5..Transfer funds
+[2021-04-29 05:46:48,011] 6..Logout
+[2021-04-29 05:46:48,011] [foo] Enter choice:
+[2021-04-29 05:46:50,821] 
+Customer menu > View account balance
+[2021-04-29 05:46:50,871] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:46:50,871] 
+Customer menu
+[2021-04-29 05:46:50,871] 1..Apply for new account
+[2021-04-29 05:46:50,871] 2..View account balance
+[2021-04-29 05:46:50,871] 3..Withdraw funds
+[2021-04-29 05:46:50,871] 4..Deposit funds
+[2021-04-29 05:46:50,871] 5..Transfer funds
+[2021-04-29 05:46:50,871] 6..Logout
+[2021-04-29 05:46:50,871] [foo] Enter choice:
+[2021-04-29 05:46:57,891] Please enter a number between 1 and 6
+[2021-04-29 05:47:00,941] 
+Customer menu > Withdraw funds
+[2021-04-29 05:47:00,941] Withdrawal amount:
+[2021-04-29 05:47:04,210] ShivacorpDAOImpl.updateBalance: ERROR: syntax error at or near "="
+  Position: 84
+[2021-04-29 05:47:04,210] 
+Customer menu
+[2021-04-29 05:47:04,210] 1..Apply for new account
+[2021-04-29 05:47:04,210] 2..View account balance
+[2021-04-29 05:47:04,210] 3..Withdraw funds
+[2021-04-29 05:47:04,210] 4..Deposit funds
+[2021-04-29 05:47:04,210] 5..Transfer funds
+[2021-04-29 05:47:04,210] 6..Logout
+[2021-04-29 05:47:04,210] [foo] Enter choice:
+[2021-04-29 05:47:36,001] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:47:36,010] 
+Main menu
+[2021-04-29 05:47:36,010] 1..Login
+[2021-04-29 05:47:36,010] 2..Register
+[2021-04-29 05:47:36,010] 3..Quit
+[2021-04-29 05:47:36,010] Enter choice:
+[2021-04-29 05:47:39,751] 
+Main menu > Login
+[2021-04-29 05:47:39,751] Username:
+[2021-04-29 05:47:41,781] Password:
+[2021-04-29 05:47:43,821] Looking up foo
+[2021-04-29 05:47:44,100] Found foo
+[2021-04-29 05:47:44,100] foo authenticated
+[2021-04-29 05:47:44,100] 
+Customer menu
+[2021-04-29 05:47:44,100] 1..Apply for new account
+[2021-04-29 05:47:44,100] 2..View account balance
+[2021-04-29 05:47:44,100] 3..Withdraw funds
+[2021-04-29 05:47:44,100] 4..Deposit funds
+[2021-04-29 05:47:44,100] 5..Transfer funds
+[2021-04-29 05:47:44,100] 6..Logout
+[2021-04-29 05:47:44,110] [foo] Enter choice:
+[2021-04-29 05:47:47,860] 
+Customer menu > View account balance
+[2021-04-29 05:47:47,910] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:47:47,910] 
+Customer menu
+[2021-04-29 05:47:47,910] 1..Apply for new account
+[2021-04-29 05:47:47,910] 2..View account balance
+[2021-04-29 05:47:47,910] 3..Withdraw funds
+[2021-04-29 05:47:47,910] 4..Deposit funds
+[2021-04-29 05:47:47,910] 5..Transfer funds
+[2021-04-29 05:47:47,910] 6..Logout
+[2021-04-29 05:47:47,910] [foo] Enter choice:
+[2021-04-29 05:47:50,881] 
+Customer menu > Withdraw funds
+[2021-04-29 05:47:50,881] Withdrawal amount:
+[2021-04-29 05:47:52,001] ShivacorpDAOImpl.updateBalance: ERROR: syntax error at or near "="
+  Position: 81
+[2021-04-29 05:47:52,001] 
+Customer menu
+[2021-04-29 05:47:52,001] 1..Apply for new account
+[2021-04-29 05:47:52,001] 2..View account balance
+[2021-04-29 05:47:52,001] 3..Withdraw funds
+[2021-04-29 05:47:52,001] 4..Deposit funds
+[2021-04-29 05:47:52,001] 5..Transfer funds
+[2021-04-29 05:47:52,001] 6..Logout
+[2021-04-29 05:47:52,001] [foo] Enter choice:
+[2021-04-29 05:48:30,760] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:48:30,775] 
+Main menu
+[2021-04-29 05:48:30,775] 1..Login
+[2021-04-29 05:48:30,775] 2..Register
+[2021-04-29 05:48:30,775] 3..Quit
+[2021-04-29 05:48:30,775] Enter choice:
+[2021-04-29 05:48:34,491] 
+Main menu > Login
+[2021-04-29 05:48:34,491] Username:
+[2021-04-29 05:48:36,511] Password:
+[2021-04-29 05:48:38,541] Looking up foo
+[2021-04-29 05:48:38,790] Found foo
+[2021-04-29 05:48:38,790] foo authenticated
+[2021-04-29 05:48:38,790] 
+Customer menu
+[2021-04-29 05:48:38,790] 1..Apply for new account
+[2021-04-29 05:48:38,790] 2..View account balance
+[2021-04-29 05:48:38,790] 3..Withdraw funds
+[2021-04-29 05:48:38,790] 4..Deposit funds
+[2021-04-29 05:48:38,790] 5..Transfer funds
+[2021-04-29 05:48:38,790] 6..Logout
+[2021-04-29 05:48:38,790] [foo] Enter choice:
+[2021-04-29 05:48:42,581] 
+Customer menu > View account balance
+[2021-04-29 05:48:42,631] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:48:42,631] 
+Customer menu
+[2021-04-29 05:48:42,631] 1..Apply for new account
+[2021-04-29 05:48:42,631] 2..View account balance
+[2021-04-29 05:48:42,631] 3..Withdraw funds
+[2021-04-29 05:48:42,631] 4..Deposit funds
+[2021-04-29 05:48:42,631] 5..Transfer funds
+[2021-04-29 05:48:42,631] 6..Logout
+[2021-04-29 05:48:42,631] [foo] Enter choice:
+[2021-04-29 05:48:45,617] 
+Customer menu > Withdraw funds
+[2021-04-29 05:48:45,617] Withdrawal amount:
+[2021-04-29 05:48:56,941] ShivacorpDAOImpl.updateBalance: ERROR: operator does not exist: money = integer
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 89
+[2021-04-29 05:48:56,941] 
+Customer menu
+[2021-04-29 05:48:56,941] 1..Apply for new account
+[2021-04-29 05:48:56,941] 2..View account balance
+[2021-04-29 05:48:56,941] 3..Withdraw funds
+[2021-04-29 05:48:56,941] 4..Deposit funds
+[2021-04-29 05:48:56,941] 5..Transfer funds
+[2021-04-29 05:48:56,941] 6..Logout
+[2021-04-29 05:48:56,941] [foo] Enter choice:
+[2021-04-29 05:49:35,770] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:49:35,780] 
+Main menu
+[2021-04-29 05:49:35,780] 1..Login
+[2021-04-29 05:49:35,780] 2..Register
+[2021-04-29 05:49:35,780] 3..Quit
+[2021-04-29 05:49:35,780] Enter choice:
+[2021-04-29 05:49:39,491] 
+Main menu > Login
+[2021-04-29 05:49:39,491] Username:
+[2021-04-29 05:49:41,511] Password:
+[2021-04-29 05:49:43,531] Looking up foo
+[2021-04-29 05:49:43,776] Found foo
+[2021-04-29 05:49:43,776] foo authenticated
+[2021-04-29 05:49:43,776] 
+Customer menu
+[2021-04-29 05:49:43,776] 1..Apply for new account
+[2021-04-29 05:49:43,776] 2..View account balance
+[2021-04-29 05:49:43,776] 3..Withdraw funds
+[2021-04-29 05:49:43,776] 4..Deposit funds
+[2021-04-29 05:49:43,776] 5..Transfer funds
+[2021-04-29 05:49:43,776] 6..Logout
+[2021-04-29 05:49:43,776] [foo] Enter choice:
+[2021-04-29 05:49:47,591] 
+Customer menu > View account balance
+[2021-04-29 05:49:47,641] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:49:47,641] 
+Customer menu
+[2021-04-29 05:49:47,641] 1..Apply for new account
+[2021-04-29 05:49:47,641] 2..View account balance
+[2021-04-29 05:49:47,641] 3..Withdraw funds
+[2021-04-29 05:49:47,641] 4..Deposit funds
+[2021-04-29 05:49:47,641] 5..Transfer funds
+[2021-04-29 05:49:47,641] 6..Logout
+[2021-04-29 05:49:47,641] [foo] Enter choice:
+[2021-04-29 05:49:50,631] 
+Customer menu > Withdraw funds
+[2021-04-29 05:49:50,631] Withdrawal amount:
+[2021-04-29 05:49:52,761] ShivacorpDAOImpl.updateBalance: ERROR: operator does not exist: money = integer
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 89
+[2021-04-29 05:49:52,761] 
+Customer menu
+[2021-04-29 05:49:52,761] 1..Apply for new account
+[2021-04-29 05:49:52,761] 2..View account balance
+[2021-04-29 05:49:52,761] 3..Withdraw funds
+[2021-04-29 05:49:52,761] 4..Deposit funds
+[2021-04-29 05:49:52,761] 5..Transfer funds
+[2021-04-29 05:49:52,761] 6..Logout
+[2021-04-29 05:49:52,761] [foo] Enter choice:
+[2021-04-29 05:50:54,271] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:50:54,271] 
+Main menu
+[2021-04-29 05:50:54,271] 1..Login
+[2021-04-29 05:50:54,271] 2..Register
+[2021-04-29 05:50:54,271] 3..Quit
+[2021-04-29 05:50:54,271] Enter choice:
+[2021-04-29 05:50:57,961] 
+Main menu > Login
+[2021-04-29 05:50:57,961] Username:
+[2021-04-29 05:50:59,981] Password:
+[2021-04-29 05:51:02,021] Looking up foo
+[2021-04-29 05:51:02,271] Found foo
+[2021-04-29 05:51:02,271] foo authenticated
+[2021-04-29 05:51:02,271] 
+Customer menu
+[2021-04-29 05:51:02,271] 1..Apply for new account
+[2021-04-29 05:51:02,271] 2..View account balance
+[2021-04-29 05:51:02,271] 3..Withdraw funds
+[2021-04-29 05:51:02,271] 4..Deposit funds
+[2021-04-29 05:51:02,271] 5..Transfer funds
+[2021-04-29 05:51:02,271] 6..Logout
+[2021-04-29 05:51:02,271] [foo] Enter choice:
+[2021-04-29 05:51:04,058] 
+Customer menu > View account balance
+[2021-04-29 05:51:04,111] Account {id=111112, balance=500.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:51:04,111] 
+Customer menu
+[2021-04-29 05:51:04,111] 1..Apply for new account
+[2021-04-29 05:51:04,111] 2..View account balance
+[2021-04-29 05:51:04,111] 3..Withdraw funds
+[2021-04-29 05:51:04,111] 4..Deposit funds
+[2021-04-29 05:51:04,111] 5..Transfer funds
+[2021-04-29 05:51:04,111] 6..Logout
+[2021-04-29 05:51:04,111] [foo] Enter choice:
+[2021-04-29 05:51:06,061] 
+Customer menu > Withdraw funds
+[2021-04-29 05:51:06,061] Withdrawal amount:
+[2021-04-29 05:51:08,180] Account {id=111112, balance=499.0, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:51:08,180] 
+Customer menu
+[2021-04-29 05:51:08,180] 1..Apply for new account
+[2021-04-29 05:51:08,180] 2..View account balance
+[2021-04-29 05:51:08,180] 3..Withdraw funds
+[2021-04-29 05:51:08,180] 4..Deposit funds
+[2021-04-29 05:51:08,180] 5..Transfer funds
+[2021-04-29 05:51:08,180] 6..Logout
+[2021-04-29 05:51:08,180] [foo] Enter choice:
+[2021-04-29 05:51:15,191] 
+Customer menu > Withdraw funds
+[2021-04-29 05:51:15,191] Withdrawal amount:
+[2021-04-29 05:51:19,321] Account {id=111112, balance=486.66, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 05:51:19,321] 
+Customer menu
+[2021-04-29 05:51:19,321] 1..Apply for new account
+[2021-04-29 05:51:19,321] 2..View account balance
+[2021-04-29 05:51:19,321] 3..Withdraw funds
+[2021-04-29 05:51:19,321] 4..Deposit funds
+[2021-04-29 05:51:19,321] 5..Transfer funds
+[2021-04-29 05:51:19,321] 6..Logout
+[2021-04-29 05:51:19,321] [foo] Enter choice:
+[2021-04-29 05:52:18,061] I'm sorry, this service is currently unavailable.
+[2021-04-29 05:52:18,061] 
+Customer menu
+[2021-04-29 05:52:18,061] 1..Apply for new account
+[2021-04-29 05:52:18,061] 2..View account balance
+[2021-04-29 05:52:18,061] 3..Withdraw funds
+[2021-04-29 05:52:18,061] 4..Deposit funds
+[2021-04-29 05:52:18,061] 5..Transfer funds
+[2021-04-29 05:52:18,061] 6..Logout
+[2021-04-29 05:52:18,061] [foo] Enter choice:
+[2021-04-29 05:52:34,261] Please enter a number between 1 and 6
+[2021-04-29 05:52:41,401] Logging out
+[2021-04-29 05:52:41,401] 
+Main menu
+[2021-04-29 05:52:41,401] 1..Login
+[2021-04-29 05:52:41,401] 2..Register
+[2021-04-29 05:52:41,401] 3..Quit
+[2021-04-29 05:52:41,401] Enter choice:
+[2021-04-29 05:52:42,411] Thank you for using ShivaCorp Banking app
+[2021-04-29 05:52:42,411] Goodbye
+[2021-04-29 05:58:38,791] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 05:58:38,801] 
+Main menu
+[2021-04-29 05:58:38,801] 1..Login
+[2021-04-29 05:58:38,801] 2..Register
+[2021-04-29 05:58:38,801] 3..Quit
+[2021-04-29 05:58:38,801] Enter choice:
+[2021-04-29 05:58:45,551] 
+Main menu > Login
+[2021-04-29 05:58:45,551] Username:
+[2021-04-29 05:58:47,571] Password:
+[2021-04-29 05:58:49,611] Looking up foo
+[2021-04-29 05:58:49,871] Found foo
+[2021-04-29 05:58:49,871] foo authenticated
+[2021-04-29 05:58:49,871] 
+Customer menu
+[2021-04-29 05:58:49,871] 1..Apply for new account
+[2021-04-29 05:58:49,871] 2..View account balance
+[2021-04-29 05:58:49,871] 3..Withdraw funds
+[2021-04-29 05:58:49,871] 4..Deposit funds
+[2021-04-29 05:58:49,871] 5..Transfer funds
+[2021-04-29 05:58:49,871] 6..Logout
+[2021-04-29 05:58:49,871] [foo] Enter choice:
+[2021-04-29 05:58:52,631] 
+Customer menu > Withdraw funds
+[2021-04-29 05:58:52,631] Withdrawal amount:
+[2021-04-29 05:58:53,631] Please enter a non-negative decimal number
+[2021-04-29 05:58:57,671] Please enter a non-negative decimal number
+[2021-04-29 06:00:01,570] Account {id=111112, balance=485.66, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 06:00:01,570] 
+Customer menu
+[2021-04-29 06:00:01,570] 1..Apply for new account
+[2021-04-29 06:00:01,570] 2..View account balance
+[2021-04-29 06:00:01,570] 3..Withdraw funds
+[2021-04-29 06:00:01,570] 4..Deposit funds
+[2021-04-29 06:00:01,570] 5..Transfer funds
+[2021-04-29 06:00:01,570] 6..Logout
+[2021-04-29 06:00:01,570] [foo] Enter choice:
+[2021-04-29 06:00:45,020] 
+Customer menu > Withdraw funds
+[2021-04-29 06:00:45,020] Withdrawal amount:
+[2021-04-29 06:01:05,961] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 06:01:05,978] 
+Main menu
+[2021-04-29 06:01:05,978] 1..Login
+[2021-04-29 06:01:05,978] 2..Register
+[2021-04-29 06:01:05,978] 3..Quit
+[2021-04-29 06:01:05,978] Enter choice:
+[2021-04-29 06:01:09,691] 
+Main menu > Login
+[2021-04-29 06:01:09,691] Username:
+[2021-04-29 06:01:11,721] Password:
+[2021-04-29 06:01:12,740] Looking up foo
+[2021-04-29 06:01:13,011] Found foo
+[2021-04-29 06:01:13,011] foo authenticated
+[2021-04-29 06:01:13,011] 
+Customer menu
+[2021-04-29 06:01:13,011] 1..Apply for new account
+[2021-04-29 06:01:13,011] 2..View account balance
+[2021-04-29 06:01:13,011] 3..Withdraw funds
+[2021-04-29 06:01:13,011] 4..Deposit funds
+[2021-04-29 06:01:13,011] 5..Transfer funds
+[2021-04-29 06:01:13,011] 6..Logout
+[2021-04-29 06:01:13,011] [foo] Enter choice:
+[2021-04-29 06:01:15,781] 
+Customer menu > Withdraw funds
+[2021-04-29 06:01:15,781] Withdrawal amount:
+[2021-04-29 06:01:16,851] Withdrawal amount must be greater than zero
+[2021-04-29 06:01:16,851] 
+Customer menu
+[2021-04-29 06:01:16,851] 1..Apply for new account
+[2021-04-29 06:01:16,851] 2..View account balance
+[2021-04-29 06:01:16,851] 3..Withdraw funds
+[2021-04-29 06:01:16,851] 4..Deposit funds
+[2021-04-29 06:01:16,851] 5..Transfer funds
+[2021-04-29 06:01:16,851] 6..Logout
+[2021-04-29 06:01:16,851] [foo] Enter choice:
+[2021-04-29 06:01:44,121] 
+Customer menu > Withdraw funds
+[2021-04-29 06:01:44,121] Withdrawal amount:
+[2021-04-29 06:01:46,151] Please enter a non-negative decimal number
+[2021-04-29 06:01:49,191] Please enter a non-negative decimal number
+[2021-04-29 06:01:51,211] Please enter a non-negative decimal number
+[2021-04-29 06:01:52,281] Withdrawal amount must be greater than zero
+[2021-04-29 06:01:52,281] 
+Customer menu
+[2021-04-29 06:01:52,281] 1..Apply for new account
+[2021-04-29 06:01:52,281] 2..View account balance
+[2021-04-29 06:01:52,281] 3..Withdraw funds
+[2021-04-29 06:01:52,281] 4..Deposit funds
+[2021-04-29 06:01:52,281] 5..Transfer funds
+[2021-04-29 06:01:52,281] 6..Logout
+[2021-04-29 06:01:52,281] [foo] Enter choice:
+[2021-04-29 06:02:46,560] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-29 06:02:46,570] 
+Main menu
+[2021-04-29 06:02:46,570] 1..Login
+[2021-04-29 06:02:46,570] 2..Register
+[2021-04-29 06:02:46,570] 3..Quit
+[2021-04-29 06:02:46,570] Enter choice:
+[2021-04-29 06:02:49,290] 
+Main menu > Login
+[2021-04-29 06:02:49,290] Username:
+[2021-04-29 06:02:51,331] Password:
+[2021-04-29 06:02:53,351] Looking up foo
+[2021-04-29 06:02:53,611] Found foo
+[2021-04-29 06:02:53,611] foo authenticated
+[2021-04-29 06:02:53,611] 
+Customer menu
+[2021-04-29 06:02:53,611] 1..Apply for new account
+[2021-04-29 06:02:53,611] 2..View account balance
+[2021-04-29 06:02:53,611] 3..Withdraw funds
+[2021-04-29 06:02:53,611] 4..Deposit funds
+[2021-04-29 06:02:53,611] 5..Transfer funds
+[2021-04-29 06:02:53,611] 6..Logout
+[2021-04-29 06:02:53,611] [foo] Enter choice:
+[2021-04-29 06:02:57,410] 
+Customer menu > View account balance
+[2021-04-29 06:02:57,461] Account {id=111112, balance=485.66, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 06:02:57,461] 
+Customer menu
+[2021-04-29 06:02:57,461] 1..Apply for new account
+[2021-04-29 06:02:57,461] 2..View account balance
+[2021-04-29 06:02:57,461] 3..Withdraw funds
+[2021-04-29 06:02:57,461] 4..Deposit funds
+[2021-04-29 06:02:57,461] 5..Transfer funds
+[2021-04-29 06:02:57,461] 6..Logout
+[2021-04-29 06:02:57,461] [foo] Enter choice:
+[2021-04-29 06:03:00,441] 
+Customer menu > Withdraw funds
+[2021-04-29 06:03:00,441] Withdrawal amount (0 to cancel):
+[2021-04-29 06:03:02,471] 
+Customer menu
+[2021-04-29 06:03:02,471] 1..Apply for new account
+[2021-04-29 06:03:02,471] 2..View account balance
+[2021-04-29 06:03:02,471] 3..Withdraw funds
+[2021-04-29 06:03:02,471] 4..Deposit funds
+[2021-04-29 06:03:02,471] 5..Transfer funds
+[2021-04-29 06:03:02,471] 6..Logout
+[2021-04-29 06:03:02,471] [foo] Enter choice:
+[2021-04-29 06:03:04,491] 
+Customer menu > Withdraw funds
+[2021-04-29 06:03:04,491] Withdrawal amount (0 to cancel):
+[2021-04-29 06:03:08,671] Account {id=111112, balance=85.66000000000003, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 06:03:08,671] 
+Customer menu
+[2021-04-29 06:03:08,671] 1..Apply for new account
+[2021-04-29 06:03:08,671] 2..View account balance
+[2021-04-29 06:03:08,671] 3..Withdraw funds
+[2021-04-29 06:03:08,671] 4..Deposit funds
+[2021-04-29 06:03:08,671] 5..Transfer funds
+[2021-04-29 06:03:08,671] 6..Logout
+[2021-04-29 06:03:08,671] [foo] Enter choice:
+[2021-04-29 06:05:21,170] 
+Customer menu > View account balance
+[2021-04-29 06:05:21,220] Account {id=111112, balance=85.66, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 06:05:21,220] 
+Customer menu
+[2021-04-29 06:05:21,220] 1..Apply for new account
+[2021-04-29 06:05:21,220] 2..View account balance
+[2021-04-29 06:05:21,220] 3..Withdraw funds
+[2021-04-29 06:05:21,220] 4..Deposit funds
+[2021-04-29 06:05:21,220] 5..Transfer funds
+[2021-04-29 06:05:21,220] 6..Logout
+[2021-04-29 06:05:21,220] [foo] Enter choice:
+[2021-04-29 06:05:33,309] 
+Customer menu > View account balance
+[2021-04-29 06:05:33,361] Account {id=111112, balance=85.66, status=APPROVED, user=User {id=2, username='foo', fullname='foo', usertype=CUSTOMER}}
+[2021-04-29 06:05:33,361] 
+Customer menu
+[2021-04-29 06:05:33,361] 1..Apply for new account
+[2021-04-29 06:05:33,361] 2..View account balance
+[2021-04-29 06:05:33,361] 3..Withdraw funds
+[2021-04-29 06:05:33,361] 4..Deposit funds
+[2021-04-29 06:05:33,361] 5..Transfer funds
+[2021-04-29 06:05:33,361] 6..Logout
+[2021-04-29 06:05:33,361] [foo] Enter choice:
+[2021-04-29 06:05:39,341] 
+Customer menu > Apply for new account
+[2021-04-29 06:05:39,341] Please enter a starting balance:
+[2021-04-29 06:05:43,461] Account for foo already exists
+[2021-04-29 06:05:43,461] 
+Customer menu
+[2021-04-29 06:05:43,461] 1..Apply for new account
+[2021-04-29 06:05:43,461] 2..View account balance
+[2021-04-29 06:05:43,461] 3..Withdraw funds
+[2021-04-29 06:05:43,461] 4..Deposit funds
+[2021-04-29 06:05:43,461] 5..Transfer funds
+[2021-04-29 06:05:43,461] 6..Logout
+[2021-04-29 06:05:43,461] [foo] Enter choice:
+[2021-04-29 06:06:06,691] Logging out
+[2021-04-29 06:06:06,691] 
+Main menu
+[2021-04-29 06:06:06,691] 1..Login
+[2021-04-29 06:06:06,691] 2..Register
+[2021-04-29 06:06:06,691] 3..Quit
+[2021-04-29 06:06:06,691] Enter choice:
+[2021-04-29 06:06:08,730] Thank you for using ShivaCorp Banking app
+[2021-04-29 06:06:08,730] Goodbye

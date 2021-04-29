@@ -25,9 +25,9 @@ public class Stdin {
                 if (n >= min && n <= max) {
                     valid = true;
                 } else {
-                    throw new InputMismatchException();
+                    throw new NumberFormatException();
                 }
-            } catch (InputMismatchException | NumberFormatException e) {
+            } catch (NumberFormatException e) {
                 log.info("Please enter a number between "+min+" and "+max);
             }
         } while(!valid);
@@ -47,7 +47,7 @@ public class Stdin {
                 curr = scanner.nextLine();
                 d = Double.parseDouble(curr);
                 valid = true;
-            } catch (InputMismatchException | NumberFormatException e) {
+            } catch (NumberFormatException e) {
                 log.info(INVALID_INPUT+"'"+curr+"'");
             }
         } while(!valid);
@@ -62,16 +62,29 @@ public class Stdin {
             try {
                 curr = scanner.nextLine();
                 d = Double.parseDouble(curr);
-                valid = true;
-            } catch (InputMismatchException | NumberFormatException e) {
-                log.info(INVALID_INPUT+"'"+curr+"'");
+                if (d < 0)
+                    throw new NumberFormatException();
+                if (d >= 0)
+                    valid = true;
+            } catch (NumberFormatException e) {
+                log.info("Please enter a non-negative decimal number");
             }
         } while(!valid);
         return d;
     }
 
+    public static String getString(boolean nonEmptyConstraint) {
+        String s = scanner.nextLine();
+        if (nonEmptyConstraint)
+            while (s.isEmpty()) {
+                log.info("String cannot be empty");
+                s = scanner.nextLine();
+            }
+        return s;
+    }
+
     public static String getString() {
-        return scanner.nextLine();
+        return getString(true);
     }
 
     public static String getPassword() {
