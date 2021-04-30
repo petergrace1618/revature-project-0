@@ -1,42 +1,51 @@
 
 r
-java:S2095é"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Úİšã‘/
-k
-java:S1192R"IDefine a constant instead of duplicating this literal "usertype" 4 times.(‡û¿•ùÿÿÿÿ8Úİšã‘/
+java:S2095ÿ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
 r
-java:S2095Ç"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8ø€ôæ‘/
+java:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+Ÿ
+java:S1192{"Define a constant instead of duplicating this literal "a.id as account_id, a.balance::money::numeric::float8, a.status " 3 times.(¬»¹ø8Äøı’/
+r
+java:S2095¿"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+f
+java:S1192‹"HDefine a constant instead of duplicating this literal "balance" 5 times.(­éŠ‚8ğÆÔ’/
+q
+java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+j
+java:S1192Œ"GDefine a constant instead of duplicating this literal "status" 5 times.(°ÌĞùÿÿÿÿ8’´ì–’/
 i
-java:S1192r"GDefine a constant instead of duplicating this literal "status" 4 times.(°ÌĞùÿÿÿÿ8¾Šíã‘/
+java:S1192Š"KDefine a constant instead of duplicating this literal "account_id" 4 times.(îşÄÉ8ğÆÔ’/
+r
+java:S2095î"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+Y	java:S125Í"<This block of commented-out lines of code should be removed.(ù®»ê8’´ì–’/
+r
+java:S2095×"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
 q
-java:S2095I"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Úİšã‘/
-Y	java:S125’"<This block of commented-out lines of code should be removed.(ù®»ê8¯šòã‘/
-e
-java:S1192i"HDefine a constant instead of duplicating this literal "user_id" 3 times.(™„”ì8Üÿë‘/
-e
-java:S1192q"HDefine a constant instead of duplicating this literal "balance" 4 times.(­éŠ‚8º·ã‘/
-r
-java:S2095¦"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8º·ã‘/
-h
-java:S1192o"KDefine a constant instead of duplicating this literal "account_id" 3 times.(îşÄÉ8¬ôñê‘/
-r
-java:S2095¨"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Úİšã‘/
-r
-java:S2095µ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Úİšã‘/
-q
-java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8Úİšã‘/
-r
-java:S2095—"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8öı¢æ‘/
+java:S2095L"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¹§Í†’/
+
+java:S1192|"eDefine a constant instead of duplicating this literal "FROM shivacorp_schema.accounts as a " 3 times.(Ç»Ò$8’´ì–’/
 k
-java:S1192O"IDefine a constant instead of duplicating this literal "username" 4 times.(Ô§¨’úÿÿÿÿ8Úİšã‘/
+java:S1192j"IDefine a constant instead of duplicating this literal "username" 5 times.(Ô§¨’úÿÿÿÿ8’´ì–’/
 k
-java:S1192Q"IDefine a constant instead of duplicating this literal "fullname" 4 times.(İÊèùÿÿÿÿ8º·ã‘/
-Y	java:S125"<This block of commented-out lines of code should be removed.(²µôŒ8Øªêã‘/
+java:S1192m"IDefine a constant instead of duplicating this literal "usertype" 5 times.(‡û¿•ùÿÿÿÿ8’´ì–’/
 r
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’í‘/
-]	java:S125p"<This block of commented-out lines of code should be removed.(Ã”„ëüÿÿÿÿ8Úİšã‘/
+java:S2095¡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
 l
-java:S2095."OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8”ê»ß‘/
+java:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8”ê»ß‘/
 r
-java:S2095‡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8¥Äã‘/
+java:S2095£"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+r
+java:S2095á"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+k
+java:S1192l"IDefine a constant instead of duplicating this literal "fullname" 5 times.(İÊèùÿÿÿÿ8ğÆÔ’/
+f
+java:S1192„"HDefine a constant instead of duplicating this literal "user_id" 4 times.(™„”ì8’´ì–’/
+r
+java:S2095Œ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
+Y	java:S125É"<This block of commented-out lines of code should be removed.(²µôŒ8’´ì–’/
+r
+java:S2095Â"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8’´ì–’/
 l
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8ò‚ïú/
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8ò‚ïú/
