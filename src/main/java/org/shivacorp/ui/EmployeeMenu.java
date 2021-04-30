@@ -83,7 +83,7 @@ public class EmployeeMenu extends Menu {
                 return;
 
             // Update account and log the change
-            account = shivacorpService.approveOrRejectAccount(account, status);
+            account = shivacorpService.updateStatus(account, status);
             log.info("Account "+account.getStatus());
         } catch (BusinessException e) {
             log.info(e.getMessage());

@@ -8499,3 +8499,238 @@ Main menu
 [2021-04-30 02:54:41,321] Enter choice:
 [2021-04-30 02:54:43,333] Thank you for using ShivaCorp Banking app
 [2021-04-30 02:54:43,334] Goodbye
+[2021-04-30 05:33:03,179] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-30 05:33:03,190] 
+Main menu
+[2021-04-30 05:33:03,190] 1..Login
+[2021-04-30 05:33:03,191] 2..Register
+[2021-04-30 05:33:03,191] 3..Quit
+[2021-04-30 05:33:03,191] Enter choice:
+[2021-04-30 05:33:09,844] 
+Main menu > Register
+[2021-04-30 05:33:09,844] Username:
+[2021-04-30 05:33:15,910] Password:
+[2021-04-30 05:33:23,999] Confirm password:
+[2021-04-30 05:33:25,009] Full name:
+[2021-04-30 05:33:29,342] New user account created for noaccount
+[2021-04-30 05:33:29,342] 
+Customer menu
+[2021-04-30 05:33:29,342] 1..Apply for new account
+[2021-04-30 05:33:29,342] 2..View account balance
+[2021-04-30 05:33:29,342] 3..Withdraw funds
+[2021-04-30 05:33:29,342] 4..Deposit funds
+[2021-04-30 05:33:29,343] 5..Transfer funds
+[2021-04-30 05:33:29,343] 6..Logout
+[2021-04-30 05:33:29,343] [noaccount] Enter choice:
+[2021-04-30 05:33:34,115] Logging out
+[2021-04-30 05:33:34,116] 
+Main menu
+[2021-04-30 05:33:34,116] 1..Login
+[2021-04-30 05:33:34,116] 2..Register
+[2021-04-30 05:33:34,116] 3..Quit
+[2021-04-30 05:33:34,116] Enter choice:
+[2021-04-30 05:33:35,126] 
+Main menu > Login
+[2021-04-30 05:33:35,126] Username:
+[2021-04-30 05:36:08,893] Password:
+[2021-04-30 05:36:09,902] Logging in 1
+[2021-04-30 05:36:09,953] Username '1' does not exist
+[2021-04-30 05:36:09,953] 
+Main menu
+[2021-04-30 05:36:09,953] 1..Login
+[2021-04-30 05:36:09,953] 2..Register
+[2021-04-30 05:36:09,953] 3..Quit
+[2021-04-30 05:36:09,953] Enter choice:
+[2021-04-30 05:37:19,575] 
+Main menu > Register
+[2021-04-30 05:37:19,575] Username:
+[2021-04-30 05:37:29,670] Password:
+[2021-04-30 05:37:31,692] Confirm password:
+[2021-04-30 05:37:33,713] Full name:
+[2021-04-30 05:37:42,004] New user account created for zerobalance
+[2021-04-30 05:37:42,004] 
+Customer menu
+[2021-04-30 05:37:42,005] 1..Apply for new account
+[2021-04-30 05:37:42,005] 2..View account balance
+[2021-04-30 05:37:42,005] 3..Withdraw funds
+[2021-04-30 05:37:42,005] 4..Deposit funds
+[2021-04-30 05:37:42,005] 5..Transfer funds
+[2021-04-30 05:37:42,005] 6..Logout
+[2021-04-30 05:37:42,005] [zerobalance] Enter choice:
+[2021-04-30 05:37:45,834] 
+Customer menu > Apply for new account
+[2021-04-30 05:37:46,058] Your new account is pending approval.
+[2021-04-30 05:37:46,058] 
+Customer menu
+[2021-04-30 05:37:46,058] 1..Apply for new account
+[2021-04-30 05:37:46,058] 2..View account balance
+[2021-04-30 05:37:46,058] 3..Withdraw funds
+[2021-04-30 05:37:46,058] 4..Deposit funds
+[2021-04-30 05:37:46,058] 5..Transfer funds
+[2021-04-30 05:37:46,058] 6..Logout
+[2021-04-30 05:37:46,058] [zerobalance] Enter choice:
+[2021-04-30 05:37:49,874] Logging out
+[2021-04-30 05:37:49,875] 
+Main menu
+[2021-04-30 05:37:49,875] 1..Login
+[2021-04-30 05:37:49,875] 2..Register
+[2021-04-30 05:37:49,875] 3..Quit
+[2021-04-30 05:37:49,875] Enter choice:
+[2021-04-30 05:37:51,899] 
+Main menu > Login
+[2021-04-30 05:37:51,899] Username:
+[2021-04-30 05:37:53,919] Password:
+[2021-04-30 05:37:55,945] Logging in admin
+[2021-04-30 05:37:55,995] admin authenticated
+[2021-04-30 05:37:55,996] 
+Employee Menu
+[2021-04-30 05:37:55,996] 1..Approve/reject account
+[2021-04-30 05:37:55,996] 2..View customer accounts
+[2021-04-30 05:37:55,996] 3..View users
+[2021-04-30 05:37:55,996] 4..View log of all transactions
+[2021-04-30 05:37:55,996] 5..Logout
+[2021-04-30 05:37:55,996] [admin] Enter choice:
+[2021-04-30 05:37:57,971] 
+Employee Menu > Approve/reject account
+[2021-04-30 05:37:58,030] 
+1 account(s) pending:
+[2021-04-30 05:37:58,030] 0..Cancel
+[2021-04-30 05:37:58,030] 1..Account {id=111113, balance=0.0, status=PENDING, user=User {id=5, username='zerobalance', fullname='zerobalance', usertype=CUSTOMER}}
+[2021-04-30 05:37:58,030] Choose account:
+[2021-04-30 05:37:59,982] 0..Cancel
+[2021-04-30 05:37:59,983] 1..PENDING
+[2021-04-30 05:37:59,983] 2..APPROVED
+[2021-04-30 05:37:59,983] 3..DENIED
+[2021-04-30 05:37:59,983] Choose status:
+[2021-04-30 05:38:02,190] Account APPROVED
+[2021-04-30 05:38:02,190] 
+Employee Menu
+[2021-04-30 05:38:02,190] 1..Approve/reject account
+[2021-04-30 05:38:02,190] 2..View customer accounts
+[2021-04-30 05:38:02,190] 3..View users
+[2021-04-30 05:38:02,190] 4..View log of all transactions
+[2021-04-30 05:38:02,190] 5..Logout
+[2021-04-30 05:38:02,190] [admin] Enter choice:
+[2021-04-30 05:38:07,067] Logging out admin
+[2021-04-30 05:38:07,068] 
+Main menu
+[2021-04-30 05:38:07,068] 1..Login
+[2021-04-30 05:38:07,068] 2..Register
+[2021-04-30 05:38:07,068] 3..Quit
+[2021-04-30 05:38:07,068] Enter choice:
+[2021-04-30 05:38:09,088] 
+Main menu > Login
+[2021-04-30 05:38:09,088] Username:
+[2021-04-30 05:38:13,131] Password:
+[2021-04-30 05:38:14,141] Logging in zerobalance
+[2021-04-30 05:38:14,191] zerobalance authenticated
+[2021-04-30 05:38:14,191] 
+Customer menu
+[2021-04-30 05:38:14,191] 1..Apply for new account
+[2021-04-30 05:38:14,191] 2..View account balance
+[2021-04-30 05:38:14,191] 3..Withdraw funds
+[2021-04-30 05:38:14,191] 4..Deposit funds
+[2021-04-30 05:38:14,191] 5..Transfer funds
+[2021-04-30 05:38:14,191] 6..Logout
+[2021-04-30 05:38:14,192] [zerobalance] Enter choice:
+[2021-04-30 05:38:19,194] 
+Customer menu > View account balance
+[2021-04-30 05:38:19,247] Account {id=111113, balance=0.0, status=APPROVED, user=User {id=5, username='zerobalance', fullname='zerobalance', usertype=CUSTOMER}}
+[2021-04-30 05:38:19,248] 
+Customer menu
+[2021-04-30 05:38:19,248] 1..Apply for new account
+[2021-04-30 05:38:19,248] 2..View account balance
+[2021-04-30 05:38:19,249] 3..Withdraw funds
+[2021-04-30 05:38:19,249] 4..Deposit funds
+[2021-04-30 05:38:19,249] 5..Transfer funds
+[2021-04-30 05:38:19,249] 6..Logout
+[2021-04-30 05:38:19,250] [zerobalance] Enter choice:
+[2021-04-30 05:59:22,644] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-30 05:59:22,653] 
+Main menu
+[2021-04-30 05:59:22,653] 1..Login
+[2021-04-30 05:59:22,653] 2..Register
+[2021-04-30 05:59:22,653] 3..Quit
+[2021-04-30 05:59:22,653] Enter choice:
+[2021-04-30 05:59:32,451] 
+Main menu > Login
+[2021-04-30 05:59:32,452] Username:
+[2021-04-30 05:59:35,483] Password:
+[2021-04-30 05:59:37,505] Logging in foo
+[2021-04-30 05:59:37,754] foo authenticated
+[2021-04-30 05:59:37,755] 
+Customer menu
+[2021-04-30 05:59:37,755] 1..Apply for new account
+[2021-04-30 05:59:37,755] 2..View account balance
+[2021-04-30 05:59:37,755] 3..Withdraw funds
+[2021-04-30 05:59:37,755] 4..Deposit funds
+[2021-04-30 05:59:37,755] 5..Transfer funds
+[2021-04-30 05:59:37,755] 6..Logout
+[2021-04-30 05:59:37,755] [foo] Enter choice:
+[2021-04-30 05:59:42,560] 
+Customer menu > Transfer funds
+[2021-04-30 05:59:42,616] Enter amount to transfer: (0 to cancel)
+[2021-04-30 05:59:44,581] Transfer to account:
+[2021-04-30 05:59:57,198] $1.0 transferred to account 111112
+[2021-04-30 05:59:57,198] 
+Customer menu
+[2021-04-30 05:59:57,198] 1..Apply for new account
+[2021-04-30 05:59:57,198] 2..View account balance
+[2021-04-30 05:59:57,198] 3..Withdraw funds
+[2021-04-30 05:59:57,198] 4..Deposit funds
+[2021-04-30 05:59:57,199] 5..Transfer funds
+[2021-04-30 05:59:57,199] 6..Logout
+[2021-04-30 05:59:57,199] [foo] Enter choice:
+[2021-04-30 06:00:04,781] Logging out
+[2021-04-30 06:00:04,781] 
+Main menu
+[2021-04-30 06:00:04,781] 1..Login
+[2021-04-30 06:00:04,781] 2..Register
+[2021-04-30 06:00:04,781] 3..Quit
+[2021-04-30 06:00:04,781] Enter choice:
+[2021-04-30 06:00:08,833] 
+Main menu > Login
+[2021-04-30 06:00:08,833] Username:
+[2021-04-30 06:00:10,855] Password:
+[2021-04-30 06:00:12,873] Logging in admin
+[2021-04-30 06:00:12,922] admin authenticated
+[2021-04-30 06:00:12,925] 
+Employee Menu
+[2021-04-30 06:00:12,925] 1..Approve/reject account
+[2021-04-30 06:00:12,925] 2..View customer accounts
+[2021-04-30 06:00:12,925] 3..View users
+[2021-04-30 06:00:12,925] 4..View log of all transactions
+[2021-04-30 06:00:12,925] 5..Logout
+[2021-04-30 06:00:12,925] [admin] Enter choice:
+[2021-04-30 06:00:14,900] 
+Employee Menu > View log of all transactions
+[2021-04-30 06:00:15,064] Transaction{id=0, timestamp=2021-04-30 02:50:48.803, transactionType=ACCOUNT_APPROVED, userId=0, accountId=111111, otherAccountId=0, amount=0.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 02:50:55.848, transactionType=ACCOUNT_APPROVED, userId=0, accountId=111112, otherAccountId=0, amount=0.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 02:51:32.267, transactionType=DEPOSIT, userId=0, accountId=111111, otherAccountId=0, amount=1000.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 02:51:56.688, transactionType=TRANSFER_DEBIT, userId=0, accountId=111111, otherAccountId=0, amount=1000.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 02:51:56.903, transactionType=TRANSFER_CREDIT, userId=0, accountId=111112, otherAccountId=0, amount=1000.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 02:52:59.868, transactionType=TRANSFER_DEBIT, userId=0, accountId=111112, otherAccountId=0, amount=500.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 02:53:00.085, transactionType=TRANSFER_CREDIT, userId=0, accountId=111111, otherAccountId=0, amount=500.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 05:38:02.065, transactionType=ACCOUNT_APPROVED, userId=0, accountId=111113, otherAccountId=0, amount=0.0}
+[2021-04-30 06:00:15,065] Transaction{id=0, timestamp=2021-04-30 05:59:56.97, transactionType=TRANSFER_DEBIT, userId=0, accountId=111111, otherAccountId=0, amount=1.0}
+[2021-04-30 06:00:15,066] Transaction{id=0, timestamp=2021-04-30 05:59:57.147, transactionType=TRANSFER_CREDIT, userId=0, accountId=111112, otherAccountId=0, amount=1.0}
+[2021-04-30 06:00:15,066] 
+Employee Menu
+[2021-04-30 06:00:15,066] 1..Approve/reject account
+[2021-04-30 06:00:15,066] 2..View customer accounts
+[2021-04-30 06:00:15,066] 3..View users
+[2021-04-30 06:00:15,066] 4..View log of all transactions
+[2021-04-30 06:00:15,066] 5..Logout
+[2021-04-30 06:00:15,066] [admin] Enter choice:
+[2021-04-30 06:17:44,982] 
+### Welcome to ShivaCorp Banking App ###
+[2021-04-30 06:17:44,993] 
+Main menu
+[2021-04-30 06:17:44,993] 1..Login
+[2021-04-30 06:17:44,993] 2..Register
+[2021-04-30 06:17:44,993] 3..Quit
+[2021-04-30 06:17:44,993] Enter choice:
+[2021-04-30 06:18:01,877] Thank you for using ShivaCorp Banking app
+[2021-04-30 06:18:01,878] Goodbye

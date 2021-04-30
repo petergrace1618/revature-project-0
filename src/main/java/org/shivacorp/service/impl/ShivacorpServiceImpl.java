@@ -1,7 +1,5 @@
 package org.shivacorp.service.impl;
 
-import java.sql.Timestamp;
-import java.time.LocalDateTime;
 import java.util.List;
 import org.shivacorp.dao.ShivacorpDAO;
 import org.shivacorp.dao.impl.ShivacorpDAOImpl;
@@ -12,7 +10,7 @@ import org.shivacorp.model.User;
 import org.shivacorp.service.ShivacorpService;
 
 public class ShivacorpServiceImpl implements ShivacorpService {
-    private ShivacorpDAO shivacorpDAO = new ShivacorpDAOImpl();
+    private final ShivacorpDAO shivacorpDAO = new ShivacorpDAOImpl();
 
     // CREATE
     @Override
@@ -33,13 +31,6 @@ public class ShivacorpServiceImpl implements ShivacorpService {
 
         Account account = new Account(user, 0, Account.StatusType.PENDING);
         account = shivacorpDAO.addAccount(account);
-//        Transaction transaction = new Transaction.Builder()
-//                .withTimestamp(Timestamp.valueOf(LocalDateTime.now()))
-//                .withTransactionType(Transaction.TransactionType.ACCOUNT_CREATED)
-//                .withAccountId(account.getId())
-//                .withAmount(account.getBalance())
-//                .build();
-//        shivacorpDAO.addTransaction(transaction);
         return account;
     }
 
@@ -53,7 +44,7 @@ public class ShivacorpServiceImpl implements ShivacorpService {
         if (result == null)
             throw new BusinessException("Username '"+user.getUsername()+"' does not exist");
 
-        // username found, failed auth
+        // username found, failed authentication
         if (!user.getPassword().equals(result.getPassword()))
             throw new BusinessException("Authentication failed");
 
@@ -119,10 +110,10 @@ public class ShivacorpServiceImpl implements ShivacorpService {
 
     // UPDATE
     @Override
-    public Account approveOrRejectAccount(Account account, Account.StatusType status) throws BusinessException {
+    public Account updateStatus(Account account, Account.StatusType status) throws BusinessException {
         // update if approved
         if (status == Account.StatusType.APPROVED) {
-            account = shivacorpDAO.updateAccountStatus(account, status);
+            account = shivacorpDAO.updateStatus(account, status);
 
             // add transaction
             Transaction transaction = new Transaction.Builder()
@@ -189,7 +180,7 @@ public class ShivacorpServiceImpl implements ShivacorpService {
     }
 
     @Override
-    public Account transferFunds(User user, int toAccountId, double amount) throws BusinessException {
+    public Account transfer(User user, int toAccountId, double amount) throws BusinessException {
         Account fromAccount = shivacorpDAO.getAccountByUser(user);
 
         // source and destination accounts are the same
@@ -217,7 +208,7 @@ public class ShivacorpServiceImpl implements ShivacorpService {
         // update source account
         fromAccount =  shivacorpDAO.updateBalance(fromAccount, fromAccount.getBalance() - amount);
 
-        // add debit from source account to transaction log
+        // add transaction showing debit from source account
         Transaction transaction = new Transaction.Builder()
                 .withTimestamp()
                 .withTransactionType(Transaction.TransactionType.TRANSFER_DEBIT)
@@ -229,7 +220,7 @@ public class ShivacorpServiceImpl implements ShivacorpService {
         // update destination account
         shivacorpDAO.updateBalance(toAccount, toAccount.getBalance() + amount);
 
-        // add credit to destination account to transaction log
+        // add transaction showing credit to destination account
         transaction = new Transaction.Builder()
                 .withTimestamp()
                 .withTransactionType(Transaction.TransactionType.TRANSFER_CREDIT)

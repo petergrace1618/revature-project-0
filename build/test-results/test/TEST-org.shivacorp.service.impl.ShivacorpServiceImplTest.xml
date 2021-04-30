@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.shivacorp.service.impl.ShivacorpServiceImplTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-30T13:17:34" hostname="IAMYOURUNDEROOS" time="0.593">
+  <properties/>
+  <testcase name="transferNSF()" classname="org.shivacorp.service.impl.ShivacorpServiceImplTest" time="0.233"/>
+  <testcase name="loginAdminBadPassword()" classname="org.shivacorp.service.impl.ShivacorpServiceImplTest" time="0.062"/>
+  <testcase name="loginAdminSuccess()" classname="org.shivacorp.service.impl.ShivacorpServiceImplTest" time="0.166"/>
+  <testcase name="loginBadUsername()" classname="org.shivacorp.service.impl.ShivacorpServiceImplTest" time="0.058"/>
+  <testcase name="withdrawNSF()" classname="org.shivacorp.service.impl.ShivacorpServiceImplTest" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -22,7 +22,7 @@ public interface ShivacorpDAO {
     List<Transaction> getTransactions() throws BusinessException;
 
         // UPDATE
-    Account updateAccountStatus(Account account, Account.StatusType status) throws BusinessException;
+    Account updateStatus(Account account, Account.StatusType status) throws BusinessException;
     Account updateBalance(Account account, double amount) throws BusinessException;
 
         // DELETE

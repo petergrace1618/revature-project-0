@@ -22,10 +22,10 @@ public interface ShivacorpService {
     boolean hasActiveAccount(User user) throws BusinessException;
 
         // UPDATE
-    Account approveOrRejectAccount(Account account, Account.StatusType status) throws BusinessException;
+    Account updateStatus(Account account, Account.StatusType status) throws BusinessException;
     Account withdraw(User user, double amount) throws BusinessException;
     Account deposit(User user, double amount) throws BusinessException;
-    Account transferFunds(User user, int toAccountId, double amount) throws BusinessException;
+    Account transfer(User user, int toAccountId, double amount) throws BusinessException;
 
         // DELETE
 //    void deleteAccount(Account account) throws BusinessException;

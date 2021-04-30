@@ -310,7 +310,7 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
 
     // UPDATE
     @Override
-    public Account updateAccountStatus(Account account, Account.StatusType status) throws BusinessException {
+    public Account updateStatus(Account account, Account.StatusType status) throws BusinessException {
         try (Connection connection = PostgreSQLConnection.getConnection()) {
             String sql =
                     "UPDATE shivacorp_schema.accounts "+

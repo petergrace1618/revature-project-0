@@ -2,7 +2,6 @@ package org.shivacorp.ui;
 
 import org.shivacorp.exception.BusinessException;
 import org.shivacorp.model.Account;
-import org.shivacorp.model.Transaction;
 import org.shivacorp.model.User;
 
 public class CustomerMenu extends Menu {
@@ -123,7 +122,7 @@ public class CustomerMenu extends Menu {
             double amount = Stdin.getCurrency();
             log.info("Transfer to account:");
             int toAccount = Stdin.getInt(1000000);
-            shivacorpService.transferFunds(currentUser, toAccount, amount);
+            shivacorpService.transfer(currentUser, toAccount, amount);
             log.info("$"+amount+" transferred to account "+toAccount);
         } catch (BusinessException e) {
             log.info(e.getMessage());
