@@ -4,6 +4,7 @@ import org.shivacorp.dao.ShivacorpDAO;
 import org.shivacorp.dao.dbutil.PostgreSQLConnection;
 import org.shivacorp.exception.BusinessException;
 import org.shivacorp.model.Account;
+import org.shivacorp.model.Transaction;
 import org.shivacorp.model.User;
 import java.sql.*;
 import java.util.ArrayList;
@@ -62,6 +63,32 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
         return account;
     }
 
+    @Override
+    public Transaction addTransaction(Transaction transaction) throws BusinessException{
+        try (Connection connection = PostgreSQLConnection.getConnection()) {
+            String sql =
+                    "INSERT INTO shivacorp_schema.transactions "+
+                    "(datetime, transactiontype, accountid, amount) VALUES "+
+                    "(?, ?::shivacorp_schema.transaction_type, ?, ?::float8::numeric::money);";
+
+            // Depending on the type of transaction some columns will need to be
+            // left null so that the foreign key constraints are not violated.
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setTimestamp(1, transaction.getTimestamp());
+            preparedStatement.setString(2, transaction.getTransactionType().name());
+            preparedStatement.setInt(3, transaction.getAccountId());
+            preparedStatement.setDouble(4, transaction.getAmount());
+            
+            int rowCount = preparedStatement.executeUpdate();
+            if (rowCount == 0) {
+                throw new BusinessException(className()+".addTransaction: Failed add transaction");
+            }
+        } catch (SQLException e) {
+            throw new BusinessException(className()+".addTransaction: "+e.getMessage());
+        }
+        return null;
+    }
+
     // READ
     @Override
     public User getUserByUsername(String username) throws BusinessException {
@@ -93,10 +120,10 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
         try(Connection connection = PostgreSQLConnection.getConnection()) {
             String sql =
                     "SELECT u.id as user_id, u.username, u.fullname, u.usertype, "+
-                            "a.id as account_id, a.balance::money::numeric::float8, a.status "+
-                            "FROM shivacorp_schema.accounts as a "+
-                            "LEFT JOIN shivacorp_schema.users as u ON u.id = a.userid "+
-                            "WHERE a.status = CAST(? AS shivacorp_schema.status_type);";
+                    "a.id as account_id, a.balance::money::numeric::float8, a.status "+
+                    "FROM shivacorp_schema.accounts as a "+
+                    "LEFT JOIN shivacorp_schema.users as u ON u.id = a.userid "+
+                    "WHERE a.status = CAST(? AS shivacorp_schema.status_type);";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, status.name());
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -109,7 +136,6 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
 
                 Account account = new Account();
                 account.setId(resultSet.getInt("account_id"));
-//                account.setUserId(resultSet.getInt("user_id"));
                 account.setBalance(resultSet.getDouble("balance"));
                 account.setStatus(Account.StatusType.valueOf(resultSet.getString("status")));
 
@@ -120,6 +146,39 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
             throw new BusinessException(className()+".getAccountsByStatus: "+e.getMessage());
         }
         return accountList;
+    }
+
+    @Override
+    public Account getAccountById(int id) throws BusinessException {
+        Account account = null;
+        try(Connection connection = PostgreSQLConnection.getConnection()) {
+            String sql =
+                    "SELECT u.id as user_id, u.username, u.fullname, u.usertype, "+
+                    "a.id as account_id, a.balance::money::numeric::float8, a.status "+
+                    "FROM shivacorp_schema.accounts as a "+
+                    "JOIN shivacorp_schema.users as u ON u.id = a.userid "+
+                    "WHERE a.id = ?;";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, id);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                User user = new User();
+                user.setId(resultSet.getInt("user_id"));
+                user.setUsername(resultSet.getString("username"));
+                user.setFullName(resultSet.getString("fullname"));
+                user.setUsertype(User.Usertype.valueOf(resultSet.getString("usertype")));
+
+                account = new Account();
+                account.setId(resultSet.getInt("account_id"));
+                account.setBalance(resultSet.getDouble("balance"));
+                account.setStatus(Account.StatusType.valueOf(resultSet.getString("status")));
+
+                account.setUser(user);
+            }
+        } catch (SQLException e) {
+            throw new BusinessException(className()+".getAccountsByStatus: "+e.getMessage());
+        }
+        return account;
     }
 
     @Override
@@ -222,6 +281,33 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
         return accounts;
     }
 
+    @Override
+    public List<Transaction> getTransactions() throws BusinessException {
+        List<Transaction> transactions = new ArrayList<>();
+        try (Connection connection = PostgreSQLConnection.getConnection()) {
+            String sql =
+                "SELECT id, datetime, transactiontype, accountid, amount::money::numeric::float8 "+
+                "FROM shivacorp_schema.transactions;";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.executeQuery();
+            ResultSet resultSet = preparedStatement.getResultSet();
+            while(resultSet.next()) {
+                Transaction transaction = new Transaction.Builder()
+                        .withId(resultSet.getInt("id"))
+                        .withTimestamp(resultSet.getTimestamp("datetime"))
+                        .withTransactionType(Transaction.TransactionType.valueOf(
+                                        resultSet.getString("transactiontype")))
+                        .withAccountId(resultSet.getInt("accountid"))
+                        .withAmount(resultSet.getDouble("amount"))
+                        .build();
+                transactions.add(transaction);
+            }
+        } catch (SQLException e) {
+            throw new BusinessException(className()+".getTransactions: "+e.getMessage());
+        }
+        return transactions;
+    }
+
     // UPDATE
     @Override
     public Account updateAccountStatus(Account account, Account.StatusType status) throws BusinessException {
@@ -258,10 +344,11 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
             preparedStatement.setDouble(1, amount);
             preparedStatement.setInt(2, account.getId());
             int rowCount = preparedStatement.executeUpdate();
-            if (rowCount == 0)
+            if (rowCount == 0) {
                 throw new BusinessException(
                         className()+".updateBalance: Failed: update balance id="+account.getId()
                 );
+            }
             account.setBalance(amount);
         } catch (SQLException e) {
             throw new BusinessException(className()+".updateBalance: "+e.getMessage());
@@ -288,7 +375,7 @@ public class ShivacorpDAOImpl implements ShivacorpDAO {
         }
     }
 
-        // Utility methods
+    // Utility methods
     @Override
     public boolean userExists(User user) throws BusinessException {
         try(Connection connection = PostgreSQLConnection.getConnection()) {

@@ -1,43 +1,64 @@
 package org.shivacorp.service.impl;
 
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.util.List;
 import org.shivacorp.dao.ShivacorpDAO;
 import org.shivacorp.dao.impl.ShivacorpDAOImpl;
 import org.shivacorp.exception.BusinessException;
 import org.shivacorp.model.Account;
+import org.shivacorp.model.Transaction;
 import org.shivacorp.model.User;
 import org.shivacorp.service.ShivacorpService;
-import java.util.List;
 
 public class ShivacorpServiceImpl implements ShivacorpService {
     private ShivacorpDAO shivacorpDAO = new ShivacorpDAOImpl();
 
-        // CREATE
+    // CREATE
     @Override
-    public User addUser(User user) throws BusinessException {
+    public User register(User user) throws BusinessException {
         if (shivacorpDAO.userExists(user)) {
             throw new BusinessException("Username '"+user.getUsername()+"' already exists. Please choose another.");
         } else {
-            return shivacorpDAO.addUser(user);
+            user = shivacorpDAO.addUser(user);
+            return user;
         }
     }
 
     @Override
-    public Account addAccount(Account account) throws BusinessException {
-        if (shivacorpDAO.hasAccount(account.getUser()))
-            throw new BusinessException("Account for "+account.getUser().getUsername()+" already exists");
-        if (account.getBalance() < 500.0) {
-            throw new BusinessException("Requires a starting balance of $500 or more.");
-        }
-        return shivacorpDAO.addAccount(account);
+    public Account addAccount(User user) throws BusinessException {
+        // account already exists
+        if (shivacorpDAO.hasAccount(user))
+            throw new BusinessException("Account for "+user.getUsername()+" already exists");
+
+        Account account = new Account(user, 0, Account.StatusType.PENDING);
+        account = shivacorpDAO.addAccount(account);
+//        Transaction transaction = new Transaction.Builder()
+//                .withTimestamp(Timestamp.valueOf(LocalDateTime.now()))
+//                .withTransactionType(Transaction.TransactionType.ACCOUNT_CREATED)
+//                .withAccountId(account.getId())
+//                .withAmount(account.getBalance())
+//                .build();
+//        shivacorpDAO.addTransaction(transaction);
+        return account;
     }
 
-        // READ
+    // READ
     @Override
-    public List<Account> getAccounts() throws BusinessException {
-        List<Account> accounts =  shivacorpDAO.getAccounts();
-        if (accounts.isEmpty())
-            throw new BusinessException("No existing accounts");
-        return accounts;
+    public User login(User user) throws BusinessException {
+        // lookup username
+        User result = shivacorpDAO.getUserByUsername(user.getUsername());
+
+        // user not found
+        if (result == null)
+            throw new BusinessException("Username '"+user.getUsername()+"' does not exist");
+
+        // username found, failed auth
+        if (!user.getPassword().equals(result.getPassword()))
+            throw new BusinessException("Authentication failed");
+
+        // user authenticated
+        return result;
     }
 
     @Override
@@ -49,11 +70,11 @@ public class ShivacorpServiceImpl implements ShivacorpService {
     }
 
     @Override
-    public List<Account> getAccountsByStatus(Account.StatusType status) throws BusinessException {
-        List<Account> accountList = shivacorpDAO.getAccountsByStatus(status);
-        if (accountList.isEmpty())
-            throw new BusinessException("No pending accounts");
-        return accountList;
+    public List<Account> getAccounts() throws BusinessException {
+        List<Account> accounts =  shivacorpDAO.getAccounts();
+        if (accounts.isEmpty())
+            throw new BusinessException("No existing accounts");
+        return accounts;
     }
 
     @Override
@@ -72,16 +93,50 @@ public class ShivacorpServiceImpl implements ShivacorpService {
         return account;
     }
 
-        // UPDATE
     @Override
-    public Account updateAccountStatus(Account account, Account.StatusType status) throws BusinessException {
+    public List<Account> getAccountsByStatus(Account.StatusType status) throws BusinessException {
+        List<Account> accountList = shivacorpDAO.getAccountsByStatus(status);
+        if (accountList.isEmpty())
+            throw new BusinessException("No pending accounts");
+        return accountList;
+    }
+
+    @Override
+    public List<Transaction> viewTransactions() throws BusinessException {
+        List<Transaction> transactions = shivacorpDAO.getTransactions();
+        if (transactions.isEmpty())
+            throw new BusinessException("No transactions to view");
+        return transactions;
+    }
+
+    @Override
+    public boolean hasActiveAccount(User user) throws BusinessException {
+        Account account = shivacorpDAO.getAccountByUser(user);
+        if (account == null)
+            throw new BusinessException("N");
+        return (account != null) && (account.getStatus() == Account.StatusType.APPROVED);
+    }
+
+    // UPDATE
+    @Override
+    public Account approveOrRejectAccount(Account account, Account.StatusType status) throws BusinessException {
         // update if approved
-        if (status == Account.StatusType.APPROVED)
+        if (status == Account.StatusType.APPROVED) {
             account = shivacorpDAO.updateAccountStatus(account, status);
+
+            // add transaction
+            Transaction transaction = new Transaction.Builder()
+                    .withTimestamp()
+                    .withTransactionType(Transaction.TransactionType.ACCOUNT_APPROVED)
+                    .withAccountId(account.getId())
+                    .withAmount(account.getBalance())
+                    .build();
+            shivacorpDAO.addTransaction(transaction);
+        }
         // delete if denied
         else if (status == Account.StatusType.DENIED) {
-            shivacorpDAO.deleteAccount(account);
             account.setStatus(status);
+            shivacorpDAO.deleteAccount(account);
         }
         // do nothing if still pending
         return account;
@@ -89,12 +144,22 @@ public class ShivacorpServiceImpl implements ShivacorpService {
 
     @Override
     public Account deposit(User user, double amount) throws BusinessException {
-        // no account and account pending exceptions are checked by getAccountByUser()
+        // exceptions for no account and account pending are checked by getAccountByUser()
         Account account = getAccountByUser(user);
+
         // negative amount
         if (amount <= 0)
             throw new BusinessException("Deposit amount must be greater than zero");
+
+        // make deposit and add to transactions
         account = shivacorpDAO.updateBalance(account, account.getBalance() + amount);
+        Transaction transaction = new Transaction.Builder()
+                .withTimestamp()
+                .withTransactionType(Transaction.TransactionType.DEPOSIT)
+                .withAccountId(account.getId())
+                .withAmount(amount)
+                .build();
+        shivacorpDAO.addTransaction(transaction);
         return account;
     }
 
@@ -102,25 +167,77 @@ public class ShivacorpServiceImpl implements ShivacorpService {
     public Account withdraw(User user, double amount) throws BusinessException {
         // no account and account pending exceptions are checked by getAccountByUser()
         Account account = getAccountByUser(user);
+
         // negative amount
         if (amount <= 0)
             throw new BusinessException("Withdrawal amount must be greater than zero");
+
         // insufficient funds
         if (amount > account.getBalance())
             throw new BusinessException("Insufficient funds to make withdrawal");
+
+        // make withdrawal and add to transactions
         account = shivacorpDAO.updateBalance(account, account.getBalance() - amount);
+        Transaction transaction = new Transaction.Builder()
+                .withTimestamp()
+                .withTransactionType(Transaction.TransactionType.WITHDRAWAL)
+                .withAccountId(account.getId())
+                .withAmount(amount)
+                .build();
+        shivacorpDAO.addTransaction(transaction);
         return account;
     }
 
+    @Override
+    public Account transferFunds(User user, int toAccountId, double amount) throws BusinessException {
+        Account fromAccount = shivacorpDAO.getAccountByUser(user);
 
-    // DELETE
-//    @Override
-//    public void deleteAccount(Account account) throws BusinessException { }
+        // source and destination accounts are the same
+        if (fromAccount.getId() == toAccountId)
+            throw new BusinessException("Source and destination accounts can't be the same");
 
-        // Utility methods
-//    @Override
-//    public boolean userExists(User user) throws BusinessException {
-//        return shivacorpDAO.userExists(user);
-//    }
+        // user has no account
+        if (fromAccount == null) {
+            throw new BusinessException("No account for username "+user.getUsername());
+        }
 
+        // user has insufficient funds
+        if (fromAccount.getBalance() < amount)
+            throw new BusinessException("Insufficient funds to cover transfer");
+
+        // other account doesn't exist
+        Account toAccount = shivacorpDAO.getAccountById(toAccountId);
+        if (toAccount == null)
+            throw new BusinessException("Destination account doesn't exist");
+
+        // other account is pending
+        if (toAccount.getStatus() == Account.StatusType.PENDING)
+            throw new BusinessException("Destination account is currently pending approval");
+
+        // update source account
+        fromAccount =  shivacorpDAO.updateBalance(fromAccount, fromAccount.getBalance() - amount);
+
+        // add debit from source account to transaction log
+        Transaction transaction = new Transaction.Builder()
+                .withTimestamp()
+                .withTransactionType(Transaction.TransactionType.TRANSFER_DEBIT)
+                .withAccountId(fromAccount.getId())
+                .withAmount(amount)
+                .build();
+        shivacorpDAO.addTransaction(transaction);
+
+        // update destination account
+        shivacorpDAO.updateBalance(toAccount, toAccount.getBalance() + amount);
+
+        // add credit to destination account to transaction log
+        transaction = new Transaction.Builder()
+                .withTimestamp()
+                .withTransactionType(Transaction.TransactionType.TRANSFER_CREDIT)
+                .withAccountId(toAccount.getId())
+                .withAmount(amount)
+                .build();
+        shivacorpDAO.addTransaction(transaction);
+
+        return fromAccount;
+    }
 }

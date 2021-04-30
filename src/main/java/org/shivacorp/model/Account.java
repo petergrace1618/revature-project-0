@@ -13,7 +13,7 @@ public class Account {
     public Account() {
     }
 
-    public Account(User user, double balance, StatusType status) {
+    public Account(User user, int balance, StatusType status) {
         this.user = user;
         this.balance = balance;
         this.status = status;

@@ -2,6 +2,7 @@ package org.shivacorp.ui;
 
 import org.shivacorp.exception.BusinessException;
 import org.shivacorp.model.Account;
+import org.shivacorp.model.Transaction;
 import org.shivacorp.model.User;
 
 public class CustomerMenu extends Menu {
@@ -52,6 +53,7 @@ public class CustomerMenu extends Menu {
         return nextMenu;
     }
 
+    @Override
     public void displayPrompt() {
         if (currentUser != null) {
             log.info("[" + currentUser.getUsername() + "] " + menuPrompt);
@@ -62,11 +64,8 @@ public class CustomerMenu extends Menu {
 
     private void applyForNewAccount() {
         displaySubmenu();
-        log.info("Please enter a starting balance:");
-        double balance = Stdin.getDouble();
-        Account account = new Account(currentUser, balance, Account.StatusType.PENDING);
         try {
-            shivacorpService.addAccount(account);
+            shivacorpService.addAccount(currentUser);
             log.info("Your new account is pending approval.");
         } catch (BusinessException e) {
             log.info(e.getMessage());
@@ -85,11 +84,13 @@ public class CustomerMenu extends Menu {
 
     private void withdraw() {
         displaySubmenu();
-        log.info("Enter withdrawal amount (0 to cancel):");
-        double amount = Stdin.getDouble();
-        if (amount == 0)
-            return;
         try {
+            // check if active account, if not getAccountByUser throws exception
+            shivacorpService.getAccountByUser(currentUser);
+            log.info("Enter withdrawal amount (0 to cancel):");
+            double amount = Stdin.getCurrency();
+            if (amount == 0)
+                return;
             Account account = shivacorpService.withdraw(currentUser, amount);
             log.info(account);
         } catch (BusinessException e) {
@@ -99,16 +100,34 @@ public class CustomerMenu extends Menu {
 
     private void deposit() {
         displaySubmenu();
-        log.info("Enter deposit amount (0 to cancel):");
-        double amount = Stdin.getDouble();
-        if (amount == 0)
-            return;
-//        Account account = shivacorpService;
+        try {
+            // check if active account, if not getAccountByUser throws exception
+            shivacorpService.getAccountByUser(currentUser);
+            log.info("Enter deposit amount (0 to cancel):");
+            double amount = Stdin.getCurrency();
+            if (amount == 0.0)
+                return;
+            Account account = shivacorpService.deposit(currentUser, amount);
+            log.info(account);
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
+        }
     }
 
     private void transfer() {
-        serviceUnavailable();
-//        displaySubmenu();
+        displaySubmenu();
+        try {
+            // check if active account, if not getAccountByUser throws exception
+            shivacorpService.getAccountByUser(currentUser);
+            log.info("Enter amount to transfer: (0 to cancel)");
+            double amount = Stdin.getCurrency();
+            log.info("Transfer to account:");
+            int toAccount = Stdin.getInt(1000000);
+            shivacorpService.transferFunds(currentUser, toAccount, amount);
+            log.info("$"+amount+" transferred to account "+toAccount);
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
+        }
     }
 
     private void logout() {

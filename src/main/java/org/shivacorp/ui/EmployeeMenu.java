@@ -2,6 +2,7 @@ package org.shivacorp.ui;
 
 import org.shivacorp.exception.BusinessException;
 import org.shivacorp.model.Account;
+import org.shivacorp.model.Transaction;
 import org.shivacorp.model.User;
 import java.util.ArrayList;
 import java.util.List;
@@ -51,6 +52,7 @@ public class EmployeeMenu extends Menu {
         return nextMenu;
     }
 
+    @Override
     public void displayPrompt() {
         if (currentUser != null) {
             log.info("[" + currentUser.getUsername() + "] " + menuPrompt);
@@ -81,7 +83,7 @@ public class EmployeeMenu extends Menu {
                 return;
 
             // Update account and log the change
-            account = shivacorpService.updateAccountStatus(account, status);
+            account = shivacorpService.approveOrRejectAccount(account, status);
             log.info("Account "+account.getStatus());
         } catch (BusinessException e) {
             log.info(e.getMessage());
@@ -113,8 +115,14 @@ public class EmployeeMenu extends Menu {
     }
 
     public void viewTransactions() {
-        serviceUnavailable();
-//        displaySubmenu();
+        displaySubmenu();
+        try {
+            List<Transaction> transactions = shivacorpService.viewTransactions();
+            for (Transaction transaction: transactions)
+                log.info(transaction);
+        } catch (BusinessException e) {
+            log.info(e.getMessage());
+        }
     }
 
     private void logout() {

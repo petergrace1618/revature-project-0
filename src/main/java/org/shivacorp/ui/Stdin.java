@@ -2,7 +2,6 @@ package org.shivacorp.ui;
 
 import org.apache.log4j.Logger;
 import java.math.BigDecimal;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Stdin {
@@ -54,7 +53,7 @@ public class Stdin {
         return BigDecimal.valueOf(d);
     }
 
-    public static double getDouble() {
+    public static double getCurrency() {
         double d = 0.0;
         boolean valid = false;
         String curr = "";
@@ -64,8 +63,10 @@ public class Stdin {
                 d = Double.parseDouble(curr);
                 if (d < 0)
                     throw new NumberFormatException();
-                if (d >= 0)
+                if (d >= 0) {
+                    d = Math.round(d*100)/100.0;
                     valid = true;
+                }
             } catch (NumberFormatException e) {
                 log.info("Please enter a non-negative decimal number");
             }
