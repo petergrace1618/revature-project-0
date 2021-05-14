@@ -1,3 +1,3 @@
-# Project 0 & 1 - ShivaCorp
+# Project 0 - ShivaCorp Banking App
 
-### A Java console app
+### A Java console app to emulate a banking experience
